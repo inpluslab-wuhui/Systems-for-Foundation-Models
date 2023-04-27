@@ -22,7 +22,7 @@ A curated big model related academic papers. All papers are sorted based on the 
 ## Table of Listed Journals
 - [Very Large Data Bases Conference (VLDB)](#VLDB)
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
-- [ACM Computing Surveys](#ACM Computing Surveys)
+- [ACMComputingSurveys](#ACMComputingSurveys)
 
 Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (Off-chain, Payment Networks, Sidechain, Crosschain), Network, Smart Contracts, Application (Trasactions), Cryptograph, Storage (light client); Contents: privacy, security, economics (incentive).
 
@@ -136,7 +136,7 @@ Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (
 
 [Parallel Training of Pre-Trained Models via Chunk-Based Dynamic Memory Management](https://arxiv.org/pdf/2108.05818.pdf). Jiarui Fang, Zilin Zhu, Shenggui Li, Hui Su, Yang Yu, Jie Zhou, Yang You. IEEE Transactions on Parallel and Distributed Systems'23
 
-## ACM Computing Surveys
+## ACMComputingSurveys
 
 [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys. 23
 
