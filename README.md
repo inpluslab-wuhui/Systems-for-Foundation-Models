@@ -4,25 +4,25 @@ A curated big model related academic papers. All papers are sorted based on the 
 
 ## Table of Listed Conferences
 
-|     Security & Privacy & Crypto     |               Networking & Database               | Software Engineering & Programming Language | System Architecture  |
-| :---------------------------------: | :-----------------------------------------------: | :-----------------------------------------: | :------------------: |
-|          [CRYPTO](##dddd)           | [SIGMETRICS & Performance](#sigmetricperformance) |                [ICSE](#icse)                | [EuroSys](#eurosys)  |
-|       [EUROCRYPT](#eurocrypt)       |                   [ICDE](#icde)                   |            [ESEC/FSE](#esecfse)             |  [ACM SOSP](#sosp)   |
-| [USENIX Security](#usenix-security) |                   [VLDB](#vldb)                   |                 [ASE](#ase)                 |  [EuroS&P](#eurosp)  |
-|           [IEEE S&P](#sp)           |               [ACM SIGMOD](#sigmod)               |              [ACM PLDI](#pldi)              |    [SRDS](#srds)     |
-|            [NDSS](#ndss)            |             [IEEE INFOCOM](#infocom)              |            [ACM OOPSLA](#oopsla)            |  [ACM PODC](#podc)   |
-|           [ACM CCS](#ccs)           |                   [NSDI](#nsdi)                   |                [ACM EC](#ec)                | [IEEE IPDPS](#ipdps) |
-|          [IEEE DSN](#dsn)           |               [ACM CoNEXT](#conext)               |               [ISSTA](#issta)               | [IEEE ICDCS](#icdcs) |
-|              [FC](#fc)              |              [ACM MobiHoc](#mobihoc)              |              [ACM POPL](#popl)              |  [ACM SOCC](#socc)   |
-|             [IMC](#imc)             |                                                   |                                             |                      |
+- [Conference on Neural Information Processing Systems (NeurIPS)](#NIPS)
+- [International Conference for High Performance Computing, Networking, Storage and Analysis (SC)](#SC)
+- [USENIX Annual Technical Conference (USENIX ATC)](#ATC)
+- [International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)](#ASPLOS)
+- [North American Chapter of the Association for Computational Linguistics (NAACL)](#NAACL-HLT)
+- [International Conference on Machine Learning (ICML)](#ICML)
+- [European Conference on Computer Systems (EuroSys)](#EUROSYS)
+- [ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)](#KDD)
+- [USENIX Symposium on Operating Systems Design and Implementation (OSDI)](#OSDI)
+- [Symposium on Operating Systems Principles (SOSP)](#SOSP)
+- [International Conference on Parallel Processing (ICPP)](#ICPP)
+- [Conference on Empirical Methods in Natural Language Processing (EMNLP)](#EMNLP)
+- [Annual Meeting of the Association for Computational Linguistics (ACL)](#ACL)
 
 
 ## Table of Listed Journals
-- [IEEE Transaction on Knowledger and Data Engineering(TKDE)](#tkde)
-- [ACM Computing Surveys (ACM CSUR)](#acmcsur)
-- [ACM Distributed Ledger Technologies: Research and Practice (ACM DLT)](#acmdlt)
-- [IEEE Journal on Selected Areas in Communications](#jsac)
-- [IEEE Transactions on Network Science and Engineering](#tnse)
+- [Very Large Data Bases Conference (VLDB)](#VLDB)
+- [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
+- [ACM Computing Surveys](#ACM Computing Surveys)
 
 Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (Off-chain, Payment Networks, Sidechain, Crosschain), Network, Smart Contracts, Application (Trasactions), Cryptograph, Storage (light client); Contents: privacy, security, economics (incentive).
 
@@ -132,7 +132,7 @@ Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (
 
 [Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism](https://arxiv.org/abs/2211.13878). Xupeng Miao, Yujie Wang, Youhe Jiang, Chunan Shi, Xiaonan Nie, Hailin Zhang, Bin Cui. VLDB'22
 
-## IEEE Transactions on Parallel and Distributed Systems
+## TPDS
 
 [Parallel Training of Pre-Trained Models via Chunk-Based Dynamic Memory Management](https://arxiv.org/pdf/2108.05818.pdf). Jiarui Fang, Zilin Zhu, Shenggui Li, Hui Su, Yang Yu, Jie Zhou, Yang You. IEEE Transactions on Parallel and Distributed Systems'23
 
