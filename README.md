@@ -24,8 +24,6 @@ A curated big model related academic papers. All papers are sorted based on the 
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
 
-Key Words: Topics: System Architecture, Consensus(Proof-of-X and BFT), Layer 2 (Off-chain, Payment Networks, Sidechain, Crosschain), Network, Smart Contracts, Application (Trasactions), Cryptograph, Storage (light client); Contents: privacy, security, economics (incentive).
-
 ## Conferences
 
 ## NIPS
