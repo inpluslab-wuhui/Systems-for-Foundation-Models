@@ -270,30 +270,6 @@ Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum,
 
 [fine-tuning] [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys. 23
 
-## CoRR
-
-[model parallelism] [Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism](https://arxiv.org/pdf/1909.08053.pdf). Mohammad Shoeybi, Mostofa Patwary, Raul Puri, Patrick LeGresley, Jared Casper, Bryan Catanzaro. CoRR'19
-
-[execution algorithm] [Training Large Neural Networks with Constant Memory using a New Execution Algorithm](https://arxiv.org/pdf/2002.05645.pdf). Bharadwaj Pudipeddi, Maral Mesmakhosroshahi, Jinwen Xi, Sujeeth Bharadwaj. CoRR'20
-
-[model parallelism] [An Efficient 2D Method for Training Super-Large Deep Learning Models](https://arxiv.org/pdf/2104.05343.pdf). Qifan Xu, Shenggui Li, Chaoyu Gong, Yang You. CoRR'21
-
-[model parallelism] [Maximizing Parallelism in Distributed Training for Huge Neural Networks](https://arxiv.org/pdf/2105.14450.pdf). Zhengda Bian, Qifan Xu, Boxiang Wang, Yang You. CoRR'21
-
-[fine-tuning] [GPT Understands, Too](https://arxiv.org/pdf/2103.10385). Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang. CoRR'21
-
-[foundation models] [On the Opportunities and Risks of Foundation Models](https://arxiv.org/pdf/2108.07258.pdf). Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora, Sydney von Arx, Michael S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon, Niladri Chatterji, Annie Chen, Kathleen Creel, Jared Quincy Davis, Dora Demszky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John Etchemendy, Kawin Ethayarajh et al. CoRR'21
-
-[decentralized training] [Decentralized Training of Foundation Models in Heterogeneous Environments](https://arxiv.org/pdf/2206.01288.pdf). Binhang Yuan, Yongjun He, Jared Quincy Davis, Tianyi Zhang, Tri Dao, Beidi Chen, Percy Liang, Christopher Re, Ce Zhang. CoRR'22
-
-[large scale neural network Training] [Survey on Large Scale Neural Network Training](https://arxiv.org/pdf/2202.10435.pdf). Julia Gusak, Daria Cherniuk, Alena Shilova, Alexander Katrutsa, Daniel Bershatsky, Xunyi Zhao, Lionel Eyraud-Dubois, Oleg Shlyazhko, Denis Dimitrov, Ivan Oseledets, Olivier Beaumont. CoRR'22
-
-[network architecture] [Transformer models: an introduction and catalog](https://arxiv.org/pdf/2302.07730.pdf). Xavier Amatriain. CoRR'23
-
-## Research
-
-[pre-training] [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf). Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever. https://openai.com/research/language-unsupervised. 18
-
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
