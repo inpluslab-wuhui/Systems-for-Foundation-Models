@@ -43,7 +43,7 @@ Key Words: foundation model, large-scale models, model training, model inference
 - [Very Large Data Bases Conference (VLDB)](#VLDB)
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
-- [Journal of Cloud Computing](#Journal of Cloud Computing)
+- [JournalofCloudComputing](#JournalofCloudComputing)
 - [Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS)](#POMACS)
 
 ## Conferences
@@ -296,7 +296,7 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 ## Journals
 
-## Journal of Cloud Computing
+## JournalofCloudComputing
 
 [pipeline parallel training] [A bidirectional DNN partition mechanism for efficient pipeline parallel training in cloud](https://journalofcloudcomputing.springeropen.com/counter/pdf/10.1186/s13677-022-00382-7.pdf). Lingyun Cui, Zhihao Qu, Guomin Zhang, Bin Tang, Baoliu Ye. Journal of Cloud Computing'23
 
