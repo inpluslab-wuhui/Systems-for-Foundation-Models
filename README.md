@@ -1,30 +1,56 @@
-# Big Model paper
+# Systems for Foundation Models
 
-A curated big model related academic papers. All papers are sorted based on the conference/journal name and published year. Welcome developers or researchers to add more published paper to this list. 
+A curated collection of academic papers related to foundation models. All papers in this collection are sorted based on the conference/journal name and the year of publication. Developers and researchers are welcome to contribute by adding more published papers to this list.
+
+Key Words: foundation model, large-scale models, model training, model inference, pipeline parallelism, model parallelism, tensor parallelism, data parallelism, pre-training, fine-tuning, zero-shot, model compression, data compression, gradient compression, memory footprint reduction, batching, heterogeneous system, distributed system,  network architecture
 
 ## Table of Listed Conferences
 
+- [ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming (PPoPP)](#PPoPP)
+
 - [Conference on Neural Information Processing Systems (NeurIPS)](#NIPS)
+
 - [International Conference for High Performance Computing, Networking, Storage and Analysis (SC)](#SC)
+
 - [USENIX Annual Technical Conference (USENIX ATC)](#ATC)
+
 - [International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)](#ASPLOS)
+
 - [North American Chapter of the Association for Computational Linguistics (NAACL)](#NAACL-HLT)
+
 - [International Conference on Machine Learning (ICML)](#ICML)
+
 - [European Conference on Computer Systems (EuroSys)](#EUROSYS)
+
 - [ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)](#KDD)
+
 - [USENIX Symposium on Operating Systems Design and Implementation (OSDI)](#OSDI)
+
 - [Symposium on Operating Systems Principles (SOSP)](#SOSP)
+
 - [International Conference on Parallel Processing (ICPP)](#ICPP)
+
 - [Conference on Empirical Methods in Natural Language Processing (EMNLP)](#EMNLP)
+
 - [Annual Meeting of the Association for Computational Linguistics (ACL)](#ACL)
+
+- [International Conference on Learning Representations (ICLR)](#ICLR)
+
+   
 
 
 ## Table of Listed Journals
 - [Very Large Data Bases Conference (VLDB)](#VLDB)
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
+- [Journal of Cloud Computing](#Journal of Cloud Computing)
+- [Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS)](#POMACS)
 
 ## Conferences
+
+## PPoPP
+
+[pipeline parallelism] [Elastic Averaging for Efficient Pipelined DNN Training](https://doi.org/10.1145/3572848.3577484). Zihao Chen, Chen Xu, Weining Qian, Aoying Zhou. PPoPP'23
 
 ## NIPS
 
@@ -36,7 +62,21 @@ A curated big model related academic papers. All papers are sorted based on the 
 
 [fine-tuning] [COMPACTER:Efficient Low-Rank Hypercomplex Adapter Layers](https://arxiv.org/pdf/2106.04647.pdf). Rabeeh Karimi Mahabadi, James Henderson, Sebastian Ruder. NIPS'21
 
+[reinforcement learning] [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345). 	Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Michael Laskin, Pieter Abbeel, Aravind Srinivas, Igor Mordatch. NIPS'21
+
+[length generalization] [Exploring Length Generalization in Large Language Models](https://arxiv.org/pdf/2207.04901). Cem Anil, Yuhuai Wu, Anders Andreassen, Aitor Lewkowycz, Vedant Misra, Vinay V. Ramasesh, Ambrose Slone, Guy Gur-Ari, Ethan Dyer, Behnam Neyshabur. NIPS'22
+
+[model compression] [XTC: Extreme Compression for Pre-trained Transformers Made Simple and Efficient](https://arxiv.org/pdf/2206.01859). Xiaoxia Wu, Zhewei Yao, Minjia Zhang, Conglong Li, Yuxiong He. NIPS'22
+
+[zero-shot] [Generating Training Data with Language Models: Towards Zero-Shot Language Understanding](https://arxiv.org/pdf/2202.04538). Yu Meng, Jiaxin Huang, Yu Zhang, Jiawei Han. NIPS'22
+
+[memory footprint reduction] [Tempo: Accelerating Transformer-Based Model Training through Memory Footprint Reduction](https://arxiv.org/pdf/2210.10246). Muralidhar Andoorveedu, Zhanda Zhu, Bojian Zheng, Gennady Pekhimenko. NIPS'22
+
+[model compression] [ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers](https://arxiv.org/pdf/2206.01861). 	Zhewei Yao, Reza Yazdani Aminabadi, Minjia Zhang, Xiaoxia Wu, Conglong Li, Yuxiong He. NIPS'22
+
 ## SC
+
+[adaptive batching] [BATCH: Machine Learning Inference Serving on Serverless Platforms with Adaptive Batching](https://www.cse.unr.edu/~fyan/Paper/Feng-SC20-BATCH.pdf). Ahsan Ali, Riccardo Pinciroli, Feng Yan, Evgenia Smirni. SC'20
 
 [memory optimizations] [ZeRO: Memory Optimizations Toward Training Trillion Parameter Models](https://arxiv.org/pdf/1910.02054.pdf). Samyam Rajbhandari, Jeff Rasley, Olatunji Ruwase, Yuxiong He. SC'20
 
@@ -50,25 +90,25 @@ A curated big model related academic papers. All papers are sorted based on the 
 
 [GNN training] [CoGNN: Efficient Scheduling for Concurrent GNN Training on GPUs](https://dl.acm.org/doi/pdf/10.5555/3571885.3571936). Qingxiao Sun, Yi Liu, Hailong Yang, Ruizhe Zhang, Ming Dun, Mingzhen Li, Xiaoyan Liu, Wencong Xiaoy, Yong Liy, Zhongzhi Luan, Depei Qian. SC'22
 
-[transformer model inference] [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/pdf/10.5555/3571885.3571946). Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan, Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, Yuxiong He, Microsoft Corporation. SC'22
+[model inference] [DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale](https://dl.acm.org/doi/pdf/10.5555/3571885.3571946). Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan, Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, Yuxiong He, Microsoft Corporation. SC'22
 
 [large-scale recommendation model training] [EL-Rec: Efficient Large-Scale Recommendation Model Training via Tensor-Train Embedding Table](https://dl.acm.org/doi/pdf/10.5555/3571885.3571978). Zheng Wang, Yuke Wang, Boyuan Feng, Dheevatsa Mudigere, Bharath Muthiah, Yufei Ding. SC'22
 
 [network topology] [HammingMesh: A Network Topology for Large-Scale Deep Learning](https://dl.acm.org/doi/pdf/10.5555/3571885.3571899). Torsten Hoeflery, Tommaso Bonato, Daniele De Sensi, Salvatore Di Girolamo, Shigang Li, Marco Heddesy, Jon Belky, Deepak Goely, Miguel Castroy, and Steve Scotty. SC'22
 
-[accelerate training for a general family of Transformer models on GPUs] [LightSeq2: Accelerated Training for Transformer-Based Models on GPUs](https://dl.acm.org/doi/pdf/10.5555/3571885.3571935). Xiaohui Wang, Yang Wei, Ying Xiong, Guyue Huang, Xian Qian, Yufei Ding, Mingxuan Wang, Lei Li. SC'22
+[accelerate training] [LightSeq2: Accelerated Training for Transformer-Based Models on GPUs](https://dl.acm.org/doi/pdf/10.5555/3571885.3571935). Xiaohui Wang, Yang Wei, Ying Xiong, Guyue Huang, Xian Qian, Yufei Ding, Mingxuan Wang, Lei Li. SC'22
 
-[variability in large-scale, accelerator-rich systems] [Not All GPUs Are Created Equal: Characterizing Variability in Large-Scale, Accelerator-Rich Systems](https://dl.acm.org/doi/pdf/10.5555/3571885.3571971). Prasoon Sinha, Akhil Guliani, Rutwik Jain, Brandon Tran, Matthew D. Sinclair and Shivaram Venkataraman. SC'22
+[variability in accelerator-rich systems] [Not All GPUs Are Created Equal: Characterizing Variability in Large-Scale, Accelerator-Rich Systems](https://dl.acm.org/doi/pdf/10.5555/3571885.3571971). Prasoon Sinha, Akhil Guliani, Rutwik Jain, Brandon Tran, Matthew D. Sinclair and Shivaram Venkataraman. SC'22
 
-[large DNN model training] [STRONGHOLD: Fast and Affordable Billion-Scale Deep Learning Model Training](https://dlnext.acm.org/doi/pdf/10.5555/3571885.3571979). Xiaoyang Sun, Wei Wang, Shenghao Qiu, Renyu Yang, Songfang Huang, Jie Xu, Zheng Wang. SC'22
+[DNN model training] [STRONGHOLD: Fast and Affordable Billion-Scale Deep Learning Model Training](https://dlnext.acm.org/doi/pdf/10.5555/3571885.3571979). Xiaoyang Sun, Wei Wang, Shenghao Qiu, Renyu Yang, Songfang Huang, Jie Xu, Zheng Wang. SC'22
 
-[training graph neural network framework] [WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture](https://dl.acm.org/doi/pdf/10.5555/3571885.3571956). Dongxu Yang, Junhong Liu,  Jiaxing Qi,  Junjie Lai. SC'22
+[GNN training] [WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture](https://dl.acm.org/doi/pdf/10.5555/3571885.3571956). Dongxu Yang, Junhong Liu,  Jiaxing Qi,  Junjie Lai. SC'22
 
 ## ATC
 
-[model freeze+fine tuning] [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf). Shizhen Xu, Carnegie Mellon University, Tsinghua University; Hao Zhang, Graham Neubig, and Wei Dai, Carnegie Mellon University, Petuum Inc.; Jin Kyu Kim, Carnegie Mellon University; Zhijie Deng, Tsinghua University; Qirong Ho, Petuum Inc.; Guangwen Yang, Tsinghua University; Eric P. Xing, Petuum Inc. ATC'18
+[fine tuning] [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf). Shizhen Xu, Carnegie Mellon University, Tsinghua University; Hao Zhang, Graham Neubig, and Wei Dai, Carnegie Mellon University, Petuum Inc.; Jin Kyu Kim, Carnegie Mellon University; Zhijie Deng, Tsinghua University; Qirong Ho, Petuum Inc.; Guangwen Yang, Tsinghua University; Eric P. Xing, Petuum Inc. ATC'18
 
-[cpu resource usage+cpu speedup] [DeepCPU: Serving RNN-based Deep Learning Models 10x Faster](https://www.usenix.org/system/files/conference/atc18/atc18-zhang-minjia.pdf). Minjia Zhang, Samyam Rajbhandari, Wenhan Wang Yuxiong He. ATC'18
+[cpu speedup] [DeepCPU: Serving RNN-based Deep Learning Models 10x Faster](https://www.usenix.org/system/files/conference/atc18/atc18-zhang-minjia.pdf). Minjia Zhang, Samyam Rajbhandari, Wenhan Wang Yuxiong He. ATC'18
 
 [network resource share] [DynaMix: Dynamic Mobile Device Integration for Efficient Cross-device Resource Sharing](https://www.usenix.org/system/files/conference/atc18/atc18-chae.pdf). Dongju Chae, POSTECH;Joonsung Kim and Gwangmu Lee, Seoul National University; Hanjun Kim, POSTECH; Kyung-Ah Chang and Hyogun Lee, Samsung Electronics;Jangwoo
 Kim, Seoul National University. ATC'18
@@ -78,13 +118,13 @@ Kim, Seoul National University. ATC'18
 [ML distributed inference] [Litz: Elastic Framework for High-Performance Distributed Machine Learning](https://www.usenix.org/system/files/conference/atc18/atc18-qiao.pdf). Aurick Qiao, Petuum, Inc. and Carnegie Mellon University; Abutalib Aghayev, Carnegie Mellon University; Weiren Yu, Petuum, Inc. and Beihang University; Haoyang Chen and Qirong Ho, Petuum, Inc.; Garth A. Gibson, Carnegie Mellon 
 University and Vector Institute; Eric P. Xing, Petuum, Inc. and Carnegie Mellon University. ATC'18
 
-[finetuning+model freeze] [Mainstream: Dynamic Stem-Sharing for Multi-Tenant Video Processing](https://www.usenix.org/system/files/conference/atc18/atc18-jiang.pdf). Angela H. Jiang, Daniel L.K. Wong, Christopher Canel, Lilia Tang, and Ishan Misra, Carnegie Mellon University; Michael Kaminsky, Michael A. Kozuch, and Padmanabhan Pillai, Intel Labs; David G. Andersen and Gregory R. Ganger, Carnegie Mellon University. ATC'18
+[finetuning] [Mainstream: Dynamic Stem-Sharing for Multi-Tenant Video Processing](https://www.usenix.org/system/files/conference/atc18/atc18-jiang.pdf). Angela H. Jiang, Daniel L.K. Wong, Christopher Canel, Lilia Tang, and Ishan Misra, Carnegie Mellon University; Michael Kaminsky, Michael A. Kozuch, and Padmanabhan Pillai, Intel Labs; David G. Andersen and Gregory R. Ganger, Carnegie Mellon University. ATC'18
 
 [instance placement] [Placement of Virtual Containers on NUMA systems: A Practical and Comprehensive Model](https://www.usenix.org/system/files/conference/atc18/atc18-funston.pdf). Justin Funston, Maxime Lorrillere, and Alexandra Fedorova, University of British Columbia; Baptiste Lepers, EPFL; David Vengerov and Jean-Pierre Lozi, Oracle Labs; Vivien Quéma, IMAG. ATC'18
 
-[sparse matrix operation on GPU-GPU resource usage] [Locality-Aware Software Throttling for Sparse Matrix Operation on GPUs](https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_chen.pdf). Yanhao Chen and Ari B. Hayes, Rutgers University; Chi Zhang, University of Pittsburgh; Timothy Salmon and Eddy Z. Zhang, Rutgers University. ATC'18
+[sparse matrix operation] [Locality-Aware Software Throttling for Sparse Matrix Operation on GPUs](https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_chen.pdf). Yanhao Chen and Ari B. Hayes, Rutgers University; Chi Zhang, University of Pittsburgh; Timothy Salmon and Eddy Z. Zhang, Rutgers University. ATC'18
 
-[data compress] [TerseCades: Efficient Data Compression in Stream Processing](https://www.usenix.org/system/files/conference/atc18/atc18-pekhimenko.pdf). Gennady Pekhimenko, University of Toronto; Chuanxiong Guo, Bytedance Inc.; Myeongjae Jeon, Microsoft Research; Peng Huang, Johns Hopkins University; Lidong Zhou, Microsoft Research. ATC'18
+[data compression] [TerseCades: Efficient Data Compression in Stream Processing](https://www.usenix.org/system/files/conference/atc18/atc18-pekhimenko.pdf). Gennady Pekhimenko, University of Toronto; Chuanxiong Guo, Bytedance Inc.; Myeongjae Jeon, Microsoft Research; Peng Huang, Johns Hopkins University; Lidong Zhou, Microsoft Research. ATC'18
 
 [spot resource usage] [Tributary: spot-dancing for elastic services with latency SLOs](https://www.usenix.org/system/files/conference/atc18/atc18-harlap.pdf). Aaron Harlap and Andrew Chung, Carnegie Mellon University; Alexey Tumanov, 
 UC Berkeley; Gregory R. Ganger and Phillip B. Gibbons, Carnegie Mellon University. ATC'18
@@ -92,8 +132,6 @@ UC Berkeley; Gregory R. Ganger and Phillip B. Gibbons, Carnegie Mellon Universit
 [load balancing] [The Battle of the Schedulers: FreeBSD ULE vs. Linux CFS](https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_bouron.pdf).  Justinien Bouron, Sebastien Chevalley, Baptiste Lepers, and Willy Zwaenepoel, EPFL; Redha Gouicem, Julia Lawall, Gilles Muller, and Julien Sopena, Sorbonne University/Inria/LIP6. ATC'18
 
 [GPU analysis] [Analysis of Large-Scale Multi-Tenant GPU Clusters for DNN Training Workloads](https://www.usenix.org/system/files/atc19-jeon.pdf). Myeongjae Jeon, UNIST and Microsoft Research; Shivaram Venkataraman, University of Wisconsin and Microsoft Research; Amar Phanishayee and Junjie Qian, Microsoft Research; Wencong Xiao, Beihang University and Microsoft Research; Fan Yang, Microsoft Research. ATC'19
-
-[batch+positive predice+serverless] [MArk: Exploiting Cloud Services for Cost-Effective, SLO-Aware Machine Learning Inference Serving](https://www.usenix.org/system/files/atc19-zhang-chengliang.pdf). Chengliang Zhang, Minchen Yu, and Wei Wang, Hong Kong University of Science and Technology; Feng Yan, University of Nevada, Reno. ATC'19
 
 [model inference] [Optimizing CNN Model Inference on CPUs](https://www.usenix.org/system/files/atc19-liu-yizhi.pdf). Yizhi Liu, Yao Wang, Ruofei Yu, Mu Li, Vin Sharma, and Yida Wang, Amazon. ATC'19
 
@@ -105,11 +143,11 @@ UC Berkeley; Gregory R. Ganger and Phillip B. Gibbons, Carnegie Mellon Universit
 
 [DNN running time predict] [Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training](https://www.usenix.org/system/files/atc20-zhu-hongyu.pdf). Hongyu Zhu, University of Toronto & Vector Institute; Amar Phanishayee, Microsoft Research; Gennady Pekhimenko, University of Toronto & Vector Institute. ATC'20
 
-[large DNN traning in GPU] [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/system/files/atc20-paper1132-slides-park.pdf). Jay H. Park, Gyeongchan Yun, Chang M. Yi, Nguyen T. Nguyen, and Seungmin Lee, UNIST; Jaesik Choi, KAIST; Sam H. Noh and Young-ri Choi, UNIST. ATC'20
+[DNN traning in GPU] [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/system/files/atc20-paper1132-slides-park.pdf). Jay H. Park, Gyeongchan Yun, Chang M. Yi, Nguyen T. Nguyen, and Seungmin Lee, UNIST; Jaesik Choi, KAIST; Sam H. Noh and Young-ri Choi, UNIST. ATC'20
 
 [multi DNN deployment platform] [NeuOS: A Latency-Predictable Multi-Dimensional Optimization Framework for DNN-driven Autonomous Systems](https://www.usenix.org/system/files/atc20-bateni.pdf). Soroush Bateni and Cong Liu, University of Texas at Dallas. ATC'20
 
-[giant networks training by pipeline model parallelism] [Fine-tuning giant neural networks on commodity  hardware with automatic pipeline model parallelism](https://www.usenix.org/system/files/atc21-eliad.pdf). Saar Eliad, Ido Hakimi, and Alon De Jagger, Department of Computer Science, Technion - Israel Institute of Technology; Mark Silberstein, Department of Computer 
+[pipeline model parallelism] [Fine-tuning giant neural networks on commodity  hardware with automatic pipeline model parallelism](https://www.usenix.org/system/files/atc21-eliad.pdf). Saar Eliad, Ido Hakimi, and Alon De Jagger, Department of Computer Science, Technion - Israel Institute of Technology; Mark Silberstein, Department of Computer 
 Science and Department of Electrical Engineering, Technion - Israel Institute of Technology; Assaf Schuster, Department of Computer Science, Technion - Israel Institute of Technology. ATC'21
 
 [model-less inference serving] [INFaaS: Automated Model-less Inference Serving](https://www.usenix.org/system/files/atc21-romero.pdf). Francisco Romero, Qian Li, Neeraja J. Yadwadkar, and Christos Kozyrakis, Stanford University. ATC'21
@@ -128,16 +166,13 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [DNN in GPU with batch] [DVABatch: Diversity-aware Multi-Entry Multi-Exit Batching for Efficient Processing of DNN Services on GPUs](https://www.usenix.org/system/files/atc22-cui.pdf). Weihao Cui, Han Zhao, Quan Chen, Hao Wei, and Zirui Li, Shanghai Jiao Tong University; Deze Zeng, China University of Geosciences; Chao Li and Minyi Guo, Shanghai Jiao Tong University. ATC'22
 
-[transformer in GPU] [Faith: An Efficient Framework for Transformer Verification on GPUs](https://www.usenix.org/system/files/atc22-feng.pdf). Boyuan Feng, Tianqi Tang, Yuke Wang, Zhaodong Chen, Zheng Wang, Shu Yang, 
-Yuan Xie, and Yufei Ding, University of California, Santa Barbara. ATC'22
+[transformer in GPU] [Faith: An Efficient Framework for Transformer Verification on GPUs](https://www.usenix.org/system/files/atc22-feng.pdf). Boyuan Feng, Tianqi Tang, Yuke Wang, Zhaodong Chen, Zheng Wang, Shu Yang, Yuan Xie, and Yufei Ding, University of California, Santa Barbara. ATC'22
 
-[transformer inference with multi job] [PetS: A Unified Framework for Parameter-Efficient Transformers Serving](PetS: A Unified Framework for Parameter-Efficient Transformers Serving). Zhe Zhou, Peking University; Xuechao Wei, Peking University and Alibaba Group; Jiejing Zhang, Alibaba Group; Guangyu Sun, Peking University. ATC'22
+[transformer inference] [PetS: A Unified Framework for Parameter-Efficient Transformers Serving](PetS: A Unified Framework for Parameter-Efficient Transformers Serving). Zhe Zhou, Peking University; Xuechao Wei, Peking University and Alibaba Group; Jiejing Zhang, Alibaba Group; Guangyu Sun, Peking University. ATC'22
 
 [GPU share] [PilotFish: Harvesting Free Cycles of Cloud Gaming with Deep Learning Training](https://www.usenix.org/system/files/atc22-zhang-wei.pdf). Wei Zhang and Binghao Chen, Shanghai Jiao Tong University; Zhenhua Han, Microsoft Research Asia; Quan Chen, Shanghai Jiao Tong University; Peng Cheng, Fan Yang, Ran Shu, and Yuqing Yang, Microsoft Research; Minyi Guo, Shanghai Jiao Tong University. ATC'22
 
 [temporal sharing-GPU share with SLO] [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing](https://www.usenix.org/system/files/atc22-choi-seungbeom.pdf). Seungbeom Choi, Sunho Lee, Yeonjae Kim, Jongse Park, Youngjin Kwon, and Jaehyuk Huh, KAIST. ATC'22
-
-[serverless for ML inference+tensor share] [Tetris: Memory-efficient Serverless Inference through Tensor Sharing](https://www.usenix.org/system/files/atc22-li-jie.pdf). Jie Li, Laiping Zhao, and Yanan Yang, College of Intelligence & Computing (CIC), Tianjin University, and Tianjin Key Lab of Advanced Networking (TANKLAB); Kunlin Zhan, 58.com; Keqiu Li, College of Intelligence & Computing (CIC), Tianjin University, and Tianjin Key Lab of Advanced Networking (TANKLAB). ATC'22
 
 ## ASPLOS
 
@@ -163,12 +198,13 @@ Yuan Xie, and Yufei Ding, University of California, Santa Barbara. ATC'22
 
 [fine-tuning] [Parameter-Efficient Transfer Learning for NLP](https://arxiv.org/pdf/1902.00751.pdf). Neil Houlsby, Andrei Giurgiu, Stanislaw Jastrzebski, Bruna Morrone, Quentin de Laroussilhe, Andrea Gesmundo, Mona Attariyan, Sylvain Gelly. ICML'19
 
+[pipeline-parallel] [Memory-Efficient Pipeline-Parallel DNN Training](http://proceedings.mlr.press/v139/narayanan21a/narayanan21a.pdf). Deepak Narayanan, Amar Phanishayee, Kaiyu Shi, Xie Chen, Matei Zaharia. ICML'21
+
 [MoE training and inference solution] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf). Samyam Rajbhandari, Conglong Li, Zhewei Yao, Minjia Zhang, Reza Yazdani Aminabadi, Ammar Ahmad Awan, Jeff Rasley, Yuxiong He.  ICML'22
 
 ## EUROSYS
 
-[system designed to effectively perform graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine
-Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
+[graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
 
 [distributed, fair share scheduler] [Balancing Efficiency and Fairness in Heterogeneous GPU Clusters for Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3342195.3387555). Shubham Chaudhary, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Nipun Kwatra. EUROSYS'21
 
@@ -206,13 +242,11 @@ Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhina
 
 [distributed system for training GNNs] [Dorylus: Affordable, Scalable, and Accurate GNN Training with Distributed CPU Servers and Serverless Threads](https://cs.stanford.edu/~zhihao/papers/Dorylus_OSDI21.pdf). John Thorpe, Yifan Qiao, Jonathan Eyolfson, and Shen Teng, UCLA; Guanzhou Hu, UCLA and University of Wisconsin, Madison; Zhihao Jia, CMU; Jinliang Wei, Google Brain; Keval Vora, Simon Fraser; Ravi Netravali, Princeton University; Miryung Kim and Guoqing Harry Xu, UCLA. osdi'21
 
-[runtime system for GNN acceleration on GPUs] [GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs](https://www.usenix.org/system/files/osdi21-wang-yuke.pdf). Yuke Wang, Boyuan Feng, Gushu Li, Shuangchen Li, Lei Deng, Yuan Xie, and Yufei Ding, University of California, Santa Barbara. osdi'21
+[GNN acceleration] [GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs](https://www.usenix.org/system/files/osdi21-wang-yuke.pdf). Yuke Wang, Boyuan Feng, Gushu Li, Shuangchen Li, Lei Deng, Yuan Xie, and Yufei Ding, University of California, Santa Barbara. osdi'21
 
-[compute the embeddings of large-scale graphs] [Marius: Learning Massive Graph Embeddings on a Single Machine](https://www.usenix.org/system/files/osdi21-mohoney.pdf). Jason Mohoney and Roger Waleffe, University of Wisconsin-Madison; Henry Xu, University of Maryland, College Park; Theodoros Rekatsinas and Shivaram Venkataraman, University of Wisconsin-Madison. osdi'21
+[embeddings of large-scale graphs] [Marius: Learning Massive Graph Embeddings on a Single Machine](https://www.usenix.org/system/files/osdi21-mohoney.pdf). Jason Mohoney and Roger Waleffe, University of Wisconsin-Madison; Henry Xu, University of Maryland, College Park; Theodoros Rekatsinas and Shivaram Venkataraman, University of Wisconsin-Madison. osdi'21
 
-[improves scheduling performance in deep learning
-(DL) clusters] [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf). Aurick Qiao, Petuum, Inc. and Carnegie Mellon University; Sang Keun Choe and 
-Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum, Inc. and Carnegie Mellon University; Qirong Ho, Petuum, Inc.; Hao Zhang, Petuum, Inc. and UC Berkeley; Gregory R. Ganger, Carnegie Mellon University; Eric P. Xing, MBZUAI, Petuum, Inc., and Carnegie Mellon University. osdi'21
+[schedulingin deep learning clusters] [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf). Aurick Qiao, Petuum, Inc. and Carnegie Mellon University; Sang Keun Choe and Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum, Inc. and Carnegie Mellon University; Qirong Ho, Petuum, Inc.; Hao Zhang, Petuum, Inc. and UC Berkeley; Gregory R. Ganger, Carnegie Mellon University; Eric P. Xing, MBZUAI, Petuum, Inc., and Carnegie Mellon University. osdi'21
 
 [model-parallel] [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf). Lianmin Zheng, Zhuohan Li, Hao Zhang, Yonghao Zhuang, Zhifeng Chen, Yanping Huang, Yida Wang, Yuanzhong Xu, Danyang Zhuo, Eric P. Xing, Joseph E. Gonzalez, Ion Stoica. osdi'22
 
@@ -224,13 +258,15 @@ Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum,
 
 [distributed DNN training] [Unity: Accelerating DNN Training Through Joint Optimization of Algebraic Transformations and Parallelization](https://www.usenix.org/system/files/osdi22-unger.pdf). Colin Unger, Stanford University; Zhihao Jia, Carnegie Mellon University and Meta; Wei Wu, Los Alamos National Laboratory and NVIDIA; Sina Lin, Microsoft; Mandeep Baines, Carlos Efrain Quintero Narvaez, Vinay Ramakrishnaiah, Nirmal Prajapati, Pat McCormick, Jamaludin Mohd-Yusof, Xi Luo, Dheevatsa Mudigere, Jongsoo Park, Misha Smelyanskiy, Alex Aiken. osdi'22
 
-[GPU-accelerated DNN inference serving system] [Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences](https://www.usenix.org/system/files/osdi22-han.pdf). Mingcong Han, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Shanghai AI Laboratory; Hanze Zhang, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University, China; Rong Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Shanghai AI Laboratory; Haibo Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, China. osdi'22
+[DNN inference] [Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences](https://www.usenix.org/system/files/osdi22-han.pdf). Mingcong Han, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Shanghai AI Laboratory; Hanze Zhang, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University, China; Rong Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Shanghai AI Laboratory; Haibo Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, China. osdi'22
 
 [device-cloud collaborative machine learning] [Walle: An End-to-End, General-Purpose, and Large-Scale Production System for Device-Cloud Collaborative Machine Learning](https://www.usenix.org/system/files/osdi22-lv.pdf). Chengfei Lv, Zhejiang University and Alibaba Group; Chaoyue Niu, Shanghai Jiao Tong University and Alibaba Group; Renjie Gu, Xiaotang Jiang, Zhaode Wang, Bin Liu, Ziqi Wu, Qiulin Yao, Congyu Huang, Panos Huang, Tao Huang, Hui Shu, Jinde Song, Bin Zou, Peng Lan, and Guohuan Xu, Alibaba Group; Fei Wu, Zhejiang University; Shaojie Tang, University of Texas at Dallas; Fan Wu and Guihai Chen, Shanghai Jiao Tong University. osdi'22
 
 ## SOSP
 
 [pipeline parallelism] [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/pdf/10.1145/3341301.3359646). Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur, Gregory R. Ganger, Phillip B. Gibbons, Matei Zaharia. SOSP'19
+
+[gradient compression] [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). Youhui Bai, Cheng Li, Quan Zhou, Jun Yi, Ping Gong, Feng Yan, Ruichuan Chen, Yinlong Xu. SOSP'21
 
 ## ICPP
 
@@ -254,11 +290,19 @@ Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum,
 
 [fine-tuning] [Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification](https://arxiv.org/pdf/2108.02035.pdf). Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Jingang Wang, Juanzi Li, Wei Wu, Maosong Sun. ACL'22
 
+## ICLR
+
+[large mini-batches] [LARGE BATCH OPTIMIZATION FOR DEEP LEARNING: TRAINING BERT IN 76 MINUTES](https://openreview.net/pdf?id=Syx4wnEtvH). Yang You, Jing Li, Sashank J. Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, Cho-Jui Hsieh. ICLR'20
+
 ## Journals
+
+## Journal of Cloud Computing
+
+[pipeline parallel training] [A bidirectional DNN partition mechanism for efficient pipeline parallel training in cloud](https://journalofcloudcomputing.springeropen.com/counter/pdf/10.1186/s13677-022-00382-7.pdf). Lingyun Cui, Zhihao Qu, Guomin Zhang, Bin Tang, Baoliu Ye. Journal of Cloud Computing'23
 
 ## VLDB
 
-[data parallel] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
+[data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
 
 [automatic parallelism] [Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism](https://arxiv.org/pdf/2211.13878.pdf). Xupeng Miao, Yujie Wang, Youhe Jiang, Chunan Shi, Xiaonan Nie, Hailin Zhang, Bin Cui. VLDB'22
 
@@ -266,9 +310,15 @@ Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum,
 
 [parallel training] [PatrickStar: Parallel Training of Pre-Trained Models via Chunk-Based Dynamic Memory Management](https://arxiv.org/pdf/2108.05818.pdf). Jiarui Fang, Zilin Zhu, Shenggui Li, Hui Su, Yang Yu, Jie Zhou, Yang You. TPDS'23
 
+[3D parallel] [Merak: An Efficient Distributed DNN Training Framework With Automated 3D Parallelism for Giant Foundation Models](https://arxiv.org/pdf/2206.04959). Zhiquan Lai, Shengwei Li, Xudong Tang, Keshi Ge, Weijie Liu, Yabo Duan, Linbo Qiao, Dongsheng Li. TPDS'23
+
 ## ACMComputingSurveys
 
-[fine-tuning] [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys. 23
+[fine-tuning] [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys'23
+
+## POMACS
+
+[pipelined training] [FuncPipe: A Pipelined Serverless Framework for Fast and Cost-Efficient Training of Deep Learning Models](https://arxiv.org/pdf/2204.13561). FuncPipe: A Pipelined Serverless Framework for Fast and Cost-Efficient Training of Deep Learning Models. POMAS'21
 
 ## License
 
