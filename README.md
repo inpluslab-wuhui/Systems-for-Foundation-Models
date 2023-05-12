@@ -36,15 +36,14 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [International Conference on Learning Representations (ICLR)](#ICLR)
 
+- [Very Large Data Bases Conference (VLDB)](#VLDB)
+
    
 
 
 ## Table of Listed Journals
-- [Very Large Data Bases Conference (VLDB)](#VLDB)
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
-- [JournalofCloudComputing](#JournalofCloudComputing)
-- [Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS)](#POMACS)
 
 ## Conferences
 
@@ -294,17 +293,13 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [large mini-batches] [LARGE BATCH OPTIMIZATION FOR DEEP LEARNING: TRAINING BERT IN 76 MINUTES](https://openreview.net/pdf?id=Syx4wnEtvH). Yang You, Jing Li, Sashank J. Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, Cho-Jui Hsieh. ICLR'20
 
-## Journals
-
-## JournalofCloudComputing
-
-[pipeline parallel training] [A bidirectional DNN partition mechanism for efficient pipeline parallel training in cloud](https://journalofcloudcomputing.springeropen.com/counter/pdf/10.1186/s13677-022-00382-7.pdf). Lingyun Cui, Zhihao Qu, Guomin Zhang, Bin Tang, Baoliu Ye. Journal of Cloud Computing'23
-
 ## VLDB
 
 [data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
 
 [automatic parallelism] [Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism](https://arxiv.org/pdf/2211.13878.pdf). Xupeng Miao, Yujie Wang, Youhe Jiang, Chunan Shi, Xiaonan Nie, Hailin Zhang, Bin Cui. VLDB'22
+
+## Journals
 
 ## TPDS
 
@@ -315,10 +310,6 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## ACMComputingSurveys
 
 [fine-tuning] [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys'23
-
-## POMACS
-
-[pipelined training] [FuncPipe: A Pipelined Serverless Framework for Fast and Cost-Efficient Training of Deep Learning Models](https://arxiv.org/pdf/2204.13561). FuncPipe: A Pipelined Serverless Framework for Fast and Cost-Efficient Training of Deep Learning Models. POMAS'21
 
 ## License
 
