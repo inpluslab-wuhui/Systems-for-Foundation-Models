@@ -56,7 +56,7 @@ Key Words: foundation model, large-scale models, model training, model inference
 ## Table of Listed Journals
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
-- [Journal of Machine Learning Research](#Journal of Machine Learning Research)
+- [JournalofMachineLearningResearch](#JournalofMachineLearningResearch)
 
 ## Conferences
 
@@ -386,7 +386,7 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [fine-tuning] [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys'23
 
-## Journal of Machine Learning Research
+## JournalofMachineLearningResearch
 
 [training with lower precision] [Switch Transformers Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://dl.acm.org/doi/pdf/10.5555/3586589.3586709). William Fedus, Barret Zoph, Noam Shazeer. Journal of Machine Learning Research'22
 
