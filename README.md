@@ -38,16 +38,35 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [Very Large Data Bases Conference (VLDB)](#VLDB)
 
+- [Symposium on Network System Design and Implementation(NSDI)](#NSDI)
+
+- [Association for the Advancement of Artificial Intelligence(AAAI)](#AAAI)
+
+- [IEEE International Conference on Computer Vision(ICCV)](#ICCV)
+
+- [Conference on File and Storage Technologies(FAST)](#FAST)
+
+- [International Symposium on Computer Architecture(ISCA)](#ISCA)
+
+- [High Performance Computer Architecture(HPCA)](#HPCA)
+
    
 
 
 ## Table of Listed Journals
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
+- [Journal of Machine Learning Research](#Journal of Machine Learning Research)
 
 ## Conferences
 
 ## PPoPP
+
+[dynamic GPU memory scheduling] [Superneurons: dynamic GPU memory management for training deep neural networks](https://dl.acm.org/doi/pdf/10.1145/3200691.3178491). Linnan Wang, Jinmian Ye, Yiyang Zhao, Wei Wu, Ang Li, Shuaiwen Leon Song, Zenglin Xu, Tim Kraska. PPoPP'18
+
+[training on supercomputer] [BaGuaLu: Targeting Brain Scale Pretrained Models with over 37 Million Cores](https://pacman.cs.tsinghua.edu.cn/~zjd/publication/ppopp22-bagualu/ppopp22-bagualu.pdf). Zixuan Ma1 , Jiaao He1 , Jiezhong Qiu1,4, Huanqi Cao1 , Yuanwei Wang1 , Zhenbo Sun1 , Liyan Zheng1 , Haojie Wang1 , Shizhi Tang1 , Tianyu Zheng3 , Junyang Lin2 , Guanyu Feng1 , Zeqiang Huang3 , Jie Gao3 , Aohan Zeng1,4, Jianwei Zhang2 , Runxin Zhong1 , Tianhui Shi1 , Sha Liu3 , Weimin Zheng1 , Jie Tang1,4, Hongxia Yang2 , Xin Liu3 , Jidong Zhai1 , Wenguang Chen1. PPoPP'22
+
+[distributed MoE model training] [FasterMoE: modeling and optimizing training of large-scale dynamic pre-trained models](https://pacman.cs.tsinghua.edu.cn/~zjd/publication/ppopp22-fastermoe/ppopp22-fastermoe.pdf). Jiaao He, Jidong Zhai, Tiago Antunes, Haojie Wang, Fuwen Luo, Shangfeng Shi, Qin Li. PPoPP'22
 
 [pipeline parallelism] [Elastic Averaging for Efficient Pipelined DNN Training](https://doi.org/10.1145/3572848.3577484). Zihao Chen, Chen Xu, Weining Qian, Aoying Zhou. PPoPP'23
 
@@ -175,17 +194,23 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 ## ASPLOS
 
+[GPU memory management] [Capuchin: Tensor-based GPU Memory Management for Deep Learning](http://alchem.usc.edu/portal/static/download/capuchin.pdf). Xuan Peng, Xuanhua Shi, Hulin Dai, Hai Jin, Weiliang Ma, Qian Xiong, Fan Yang,  Xuehai Qian. ASPLOS'20
+
+[swapping between GPU and CPU memory] [SwapAdvisor: Pushing Deep Learning Beyond the GPU Memory Limit via Smart Swapping](https://dl.acm.org/doi/pdf/10.1145/3373376.3378530). Chien-Chin Huang, Gu Jin, Jinyang Li. ASPLOS'20
+
 [distributed supernet training system] [NASPipe: High Performance and Reproducible Pipeline Parallel Supernet Training via Causal Synchronous Parallelism](https://dl.acm.org/doi/pdf/10.1145/3503222.3507735). Shixiong Zhao, Fanxin Li, Xusheng Chen, Tianxiang Shen, Li Chen, Sen Wang, Nicholas Zhang, Cheng Li, Heming Cui. ASPLOS'22
 
 [deep learning workload scheduler] [Lucid: A Non-intrusive, Scalable and Interpretable Scheduler for Deep Learning Training Jobs](https://dl.acm.org/doi/pdf/10.1145/3575693.3575705). Qinghao Hu, Meng Zhang, Peng Sun, Yonggang Wen, Tianwei Zhang. ASPLOS'23
 
 [distributed training framework] [Optimus-CC: Efficient Large NLP Model Training with 3D Parallelism Aware Communication Compression](https://dl.acm.org/doi/pdf/10.1145/3575693.3575712). Jaeyong Song, Jinkyu Yim, Jaewon Jung, Hongsun Jang, Hyung-Jin Kim, Youngsok Kim, Jinho Lee. ASPLOS'23
 
-[communication hiding] [Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models](https://dl.acm.org/doi/pdf/10.1145/3567955.3567959). Shibo Wang, Jinliang Wei, Jinliang Wei, Andy Davis, Berkin Ilbeyi, Blake Hechtman, Dehao Chen, Karthik Srinivasa Murthy, Karthik Srinivasa Murthy, Qiao Zhang, Sameer Kumar, Tongfei Guo, Yuanzhong Xu, Yuanzhong Xu. ASPLOS'23
-
 [fine Tuning] [Mobius: Fine Tuning Large-Scale Models on Commodity GPU Servers](https://dl.acm.org/doi/pdf/10.1145/3575693.3575703). Yangyang Feng, Minhui Xie, Zijie Tian, Shuo Wang, Youyou Lu, Jiwu Shu. ASPLOS'23  
 
 [GNN training] [Betty: Enabling Large-Scale GNN Training with Batch-Level Graph Partitioning](https://dl.acm.org/doi/pdf/10.1145/3575693.3575725). Shuangyan Yang, Minjia Zhang, Wenqian Dong, Dong Li. ASPLOS'23 
+
+[overlap communication with computation] [Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models](https://dl.acm.org/doi/pdf/10.1145/3567955.3567959). ASPLOS'23 
+
+[tensor management] [DeepUM: Tensor Migration and Prefetching in Unified Memory](https://dl.acm.org/doi/pdf/10.1145/3575693.3575736). Jaehoon Jung, Jinpyo Kim, Jaejin Lee. ASPLOS'23 
 
 ## NAACL-HLT
 
@@ -201,13 +226,25 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [MoE training and inference solution] [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf). Samyam Rajbhandari, Conglong Li, Zhewei Yao, Minjia Zhang, Reza Yazdani Aminabadi, Ammar Ahmad Awan, Jeff Rasley, Yuxiong He.  ICML'22
 
+[scale language models with MoE] [GLaM: Efficient Scaling of Language Models with Mixture-of-Experts](https://proceedings.mlr.press/v162/du22c/du22c.pdf). Nan Du, Yanping Huang, Andrew M. Dai, Simon Tong, Dmitry Lepikhin, Yuanzhong Xu, Maxim Krikun, Yanqi Zhou, Adams Wei Yu, Orhan Firat, Barret Zoph, Liam Fedus, Maarten Bosma, Zongwei Zhou, Tao Wang, Yu Emma Wang, Kellie Webster, Marie Pellat, Kevin Robinson, Kathleen Meier-Hellstern, Toju Duke, Lucas Dixon, Kun Zhang, Quoc V Le, Yonghui Wu, Zhifeng Chen, Claire Cui. ICML'22
+
+[MoE training and inference] [DeepSpeed-MoE Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://proceedings.mlr.press/v162/rajbhandari22a/rajbhandari22a.pdf). Samyam Rajbhandari, Conglong Li, Zhewei Yao, Minjia Zhang, Reza Yazdani Aminabadi. ICML'22
+
+[robustness to attack] [Deploying Convolutional Networks on Untrusted Platforms Using 2D Holographic Reduced Representations](https://proceedings.mlr.press/v162/alam22a/alam22a.pdf). Mohammad Mahmudul Alam, Edward Raff, Tim Oates, James Holt. ICML'22
+
+[transfer learning] [Optimistic Linear Support and Successor Features as a Basis for Optimal Policy Transfer](https://proceedings.mlr.press/v162/alegre22a/alegre22a.pdf). Lucas N. Alegre, Ana L. C. Bazzan, Bruno C. da Silva. ICML'22
+
+[explainable ai] [XAI for Transformers: Better Explanations through Conservative Propagation](https://proceedings.mlr.press/v162/ali22a/ali22a.pdf). Ameen Ali, Thomas Schnake, Oliver Eberle, Gregoire Montavon, Klaus Robert Muller, Lior Wolf. ICML'22
+
+[LLM serving system] [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/pdf/2211.17192.pdf). Yaniv Leviathan, Matan Kalman, Yossi Matias. ICML'23
+
 ## EUROSYS
 
 [graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
 
 [distributed, fair share scheduler] [Balancing Efficiency and Fairness in Heterogeneous GPU Clusters for Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3342195.3387555). Shubham Chaudhary, Ramachandran Ramjee, Muthian Sivathanu, Nipun Kwatra, Nipun Kwatra. EUROSYS'21
 
-[distributed framework for GNN training] [FlexGraph: A Flexible and Efficient Distributed Framework for GNN Training](https://dl.acm.org/doi/pdf/10.1145/3447786.3456229). Lei Wang, Qiang Yin, Chao Tian, Jianbang Yang, Rong Chen, Wenyuan Yu, Zihang Yao, Jingren Zhou. EUROSYS'21
+[distributed framework for GNN training] [FlexGraph: A Flexible and Efficient Distributed Framework for GNN Training](https://ipads.se.sjtu.edu.cn/_media/publications/flexgraph-eurosys21.pdf). Lei Wang, Qiang Yin, Chao Tian, Jianbang Yang, Rong Chen, Wenyuan Yu, Zihang Yao, Jingren Zhou. EUROSYS'21
 
 [giant model training in cluster] [Varuna: scalable, low-cost training of massive deep learning models](https://dl.acm.org/doi/pdf/10.1145/3492321.3519584). Sanjith Athlur, Nitika Saran, Muthian Sivathanu, Ramachandran Ramjee, Nipun Kwatra. EUROSYS'22
 
@@ -247,8 +284,6 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [schedulingin deep learning clusters] [Pollux: Co-adaptive Cluster Scheduling for Goodput-Optimized Deep Learning](https://www.usenix.org/system/files/osdi21-qiao.pdf). Aurick Qiao, Petuum, Inc. and Carnegie Mellon University; Sang Keun Choe and Suhas Jayaram Subramanya, Carnegie Mellon University; Willie Neiswanger, Petuum, Inc. and Carnegie Mellon University; Qirong Ho, Petuum, Inc.; Hao Zhang, Petuum, Inc. and UC Berkeley; Gregory R. Ganger, Carnegie Mellon University; Eric P. Xing, MBZUAI, Petuum, Inc., and Carnegie Mellon University. osdi'21
 
-[model-parallel] [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf). Lianmin Zheng, Zhuohan Li, Hao Zhang, Yonghao Zhuang, Zhifeng Chen, Yanping Huang, Yida Wang, Yuanzhong Xu, Danyang Zhuo, Eric P. Xing, Joseph E. Gonzalez, Ion Stoica. osdi'22
-
 [distributed serving system] [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf). Gyeong-In Yu and Joo Seong Jeong, Seoul National University; Geon-Woo Kim, FriendliAI and Seoul National University; Soojeong Kim, FriendliAI; Byung-Gon Chun, FriendliAI and Seoul National University. osdi'22
 
 [recommender system] [Ekko: A Large-Scale Deep Learning Recommender System with Low-Latency Model Update](https://www.usenix.org/system/files/osdi22-sima.pdf). Chijun Sima, Tencent; Yao Fu and Man-Kit Sit, The University of Edinburgh; Liyi Guo, Xuri Gong, Feng Lin, Junyu Wu, Yongsheng Li, and Haidong Rong, Tencent; Pierre-Louis Aublin, IIJ research laboratory; Luo Mai, The University of Edinburgh. osdi'22
@@ -260,6 +295,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [DNN inference] [Microsecond-scale Preemption for Concurrent GPU-accelerated DNN Inferences](https://www.usenix.org/system/files/osdi22-han.pdf). Mingcong Han, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Shanghai AI Laboratory; Hanze Zhang, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University, China; Rong Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Shanghai AI Laboratory; Haibo Chen, Institute of Parallel and Distributed Systems, SEIEE, Shanghai Jiao Tong University; Engineering Research Center for Domain-specific Operating Systems, Ministry of Education, China. osdi'22
 
 [device-cloud collaborative machine learning] [Walle: An End-to-End, General-Purpose, and Large-Scale Production System for Device-Cloud Collaborative Machine Learning](https://www.usenix.org/system/files/osdi22-lv.pdf). Chengfei Lv, Zhejiang University and Alibaba Group; Chaoyue Niu, Shanghai Jiao Tong University and Alibaba Group; Renjie Gu, Xiaotang Jiang, Zhaode Wang, Bin Liu, Ziqi Wu, Qiulin Yao, Congyu Huang, Panos Huang, Tao Huang, Hui Shu, Jinde Song, Bin Zou, Peng Lan, and Guohuan Xu, Alibaba Group; Fei Wu, Zhejiang University; Shaojie Tang, University of Texas at Dallas; Fan Wu and Guihai Chen, Shanghai Jiao Tong University. osdi'22
+
+[automating parallelism] [Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning](https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf). Lianmin Zheng, Zhuohan Li, and Hao Zhang, UC Berkeley; Yonghao Zhuang, Shanghai Jiao Tong University; Zhifeng Chen and Yanping Huang, Google; Yida Wang, Amazon Web Services; Yuanzhong Xu, Google; Danyang Zhuo, Duke University; Eric P. Xing, MBZUAI and Carnegie Mellon University; Joseph E. Gonzalez and Ion Stoica, UC Berkeley. osdi'22
+
+[model parallelism] [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf). Zhuohan Li and Lianmin Zheng, UC Berkeley; Yinmin Zhong, Peking University; Vincent Liu, University of Pennsylvania; Ying Sheng, Stanford University; Xin Jin, Peking University; Yanping Huang and Zhifeng Chen, Google; Hao Zhang, UC San Diego; Joseph E. Gonzalez and Ion Stoica, UC Berkeley. osdi'23
 
 ## SOSP
 
@@ -289,15 +328,51 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [fine-tuning] [Knowledgeable Prompt-tuning: Incorporating Knowledge into Prompt Verbalizer for Text Classification](https://arxiv.org/pdf/2108.02035.pdf). Shengding Hu, Ning Ding, Huadong Wang, Zhiyuan Liu, Jingang Wang, Juanzi Li, Wei Wu, Maosong Sun. ACL'22
 
+[routing strategy for MoE] [StableMoE: Stable Routing Strategy for Mixture of Experts](https://aclanthology.org/2022.acl-long.489.pdf). Damai Dai, Li Dong, Shuming Ma, Bo Zheng, Zhifang Sui, Baobao Chang, Furu Wei. ACL'22 
+
+[large language model] [What Language Model to Train if You Have One Million GPU Hours?](https://aclanthology.org/2022.findings-emnlp.54.pdf). Teven Le Scao, Thomas Wang, Daniel Hesslow, Stas Bekman, M Saiful Bari, Stella Biderman, Hady Elsahar, Niklas Muennighoff, Jason Phang, Ofir Press, Colin Raffel, Victor Sanh, Sheng Shen, Lintang Sutawika, Jaesung Tae, Zheng Xin Yong, Julien Launay, Iz Beltagy. ACL'22
+
 ## ICLR
 
 [large mini-batches] [LARGE BATCH OPTIMIZATION FOR DEEP LEARNING: TRAINING BERT IN 76 MINUTES](https://openreview.net/pdf?id=Syx4wnEtvH). Yang You, Jing Li, Sashank J. Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, Cho-Jui Hsieh. ICLR'20
+
+[scaling giant models] [Gshard: Scaling Giant Models with Conditional Computation and Automatic Sharding](https://openreview.net/pdf?id=qrwe7XHTmYb). Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam Shazeer, Zhifeng Chen. ICLR'21
+
+[transformer for image recognition] [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://openreview.net/pdf?id=YicbFdNTTy). Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, Neil Houlsby. ICLR'21
+
+[expert-based model] [Taming Sparsely Activated Transformer with Stochastic Experts](https://openreview.net/pdf?id=B72HXs80q4). Simiao Zuo, Xiaodong Liu, Jian Jiao, Young Jin Kim, Hany Hassan, Ruofei Zhang, Tuo Zhao, Jianfeng Gao. ICLR'22
+
+[large language model] [GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL](https://openreview.net/pdf?id=-Aw0rrrPUF). Aohan Zeng, Xiao Liu, Zhengxiao Du, Zihan Wang, Hanyu Lai, Ming Ding, Zhuoyi Yang, Yifan Xu, Wendi Zheng, Xiao Xia, Weng Lam Tam, Zixuan Ma, Yufei Xue, Jidong Zhai, Wenguang Chen, Zhiyuan Liu, Peng Zhang, Yuxiao Dong, Jie Tang. ICLR'23
 
 ## VLDB
 
 [data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
 
 [automatic parallelism] [Galvatron: Efficient Transformer Training over Multiple GPUs Using Automatic Parallelism](https://arxiv.org/pdf/2211.13878.pdf). Xupeng Miao, Yujie Wang, Youhe Jiang, Chunan Shi, Xiaonan Nie, Hailin Zhang, Bin Cui. VLDB'22
+
+## NSDI
+
+[workload analysis and scheduling] [MLaaS: in the Wild Workload Analysis and Scheduling in Large-Scale Heterogeneous](https://www.usenix.org/system/files/nsdi22-paper-weng.pdf). Qizhen Weng, Hong Kong University of Science and Technology and Alibaba Group; Wencong Xiao, Alibaba Group; Yinghao Yu, Alibaba Group and Hong Kong University of Science and Technology; Wei Wang, Hong Kong University of Science and Technology; Cheng Wang, Jian He, Yong Li, Liping Zhang, Wei Lin, and Yu Ding, Alibaba Group. nsdi'22
+
+## AAAI
+
+[model framework] [Go Wider Instead of Deeper](https://cdn.aaai.org/ojs/20858/20858-13-24871-1-2-20220628.pdf). Fuzhao Xue, Ziji Shi, Futao Wei, Yuxuan Lou, Yong Liu, Yang You. AAAI'22
+
+## ICCV
+
+[vision transformer] [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf). Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo. ICCV'21
+
+## FAST
+
+[offloading data to SSD] [FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks](https://www.usenix.org/system/files/fast21-bae.pdf). Jonghyun Bae, Seoul National University; Jongsung Lee, Seoul National University and Samsung Electronics; Yunho Jin and Sam Son, Seoul National University; Shine Kim, Seoul National University and Samsung Electronics; Hakbeom Jang, Samsung Electronics; Tae Jun Ham and Jae W. Lee, Seoul National University. FAST'21
+
+## ISCA
+
+[GPU memory expansion] [Buddy Compression: Enabling Larger Memory for Deep Learning and HPC Workloads on GPUs](https://research.nvidia.com/sites/default/files/pubs/2020-06_Buddy-Compression%3A-Enabling/chouske.isca2020.pdf). Esha Choukse, Michael B. Sullivan, Mike O’Connor, Mattan Erez, Jeff Pool, David Nellans, Stephen W. Keckler. ISCA'20
+
+## HPCA
+
+[tensor management] [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](http://www.pasalabs.org/papers/2021/hpca21_sentinel.pdf). Jie Ren,  Jiaolin Luo, Kai Wu, Minjia Zhang,  Hyeran Jeon, Dong Li. HPCA'21
 
 ## Journals
 
@@ -310,6 +385,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## ACMComputingSurveys
 
 [fine-tuning] [Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing](https://dl.acm.org/doi/pdf/10.1145/3560815). Pengfei Liu, Weizhe Yuan, Jinlan Fu, Zhengbao Jiang, Hiroaki Hayashi, Graham Neubig. ACM Computing Surveys'23
+
+## Journal of Machine Learning Research
+
+[training with lower precision] [Switch Transformers Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://dl.acm.org/doi/pdf/10.5555/3586589.3586709). William Fedus, Barret Zoph, Noam Shazeer. Journal of Machine Learning Research'22
 
 ## License
 
