@@ -50,6 +50,10 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [High Performance Computer Architecture(HPCA)](#HPCA)
 
+- [IEEE International Conference on Computer Communications(INFOCOM)](#INFOCOM)
+
+- [IEEE International Parallel & Distributed Processing Symposium(IPDPS)](#IPDPS)
+
    
 
 
@@ -212,6 +216,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [tensor management] [DeepUM: Tensor Migration and Prefetching in Unified Memory](https://dl.acm.org/doi/pdf/10.1145/3575693.3575736). Jaehoon Jung, Jinpyo Kim, Jaejin Lee. ASPLOS'23 
 
+
+
 ## NAACL-HLT
 
 [language representation model] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf). Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. NAACL-HLT'19
@@ -332,6 +338,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [large language model] [What Language Model to Train if You Have One Million GPU Hours?](https://aclanthology.org/2022.findings-emnlp.54.pdf). Teven Le Scao, Thomas Wang, Daniel Hesslow, Stas Bekman, M Saiful Bari, Stella Biderman, Hady Elsahar, Niklas Muennighoff, Jason Phang, Ofir Press, Colin Raffel, Victor Sanh, Sheng Shen, Lintang Sutawika, Jaesung Tae, Zheng Xin Yong, Julien Launay, Iz Beltagy. ACL'22
 
+[accelerate MoE] [Accelerating Distributed MoE Training and Inference with Lina](https://www.usenix.org/system/files/atc23-li-jiamin.pdf). Jiamin Li, Yimin Jiang, Yibo Zhu, Cong Wang, Hong Xu. ACL'23
+
+[automatical  parallelism] [SMARTMOE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization](https://www.usenix.org/system/files/atc23-zhai.pdf). Mingshu Zhai, Jiaao He, Zixuan Ma, Zan Zong, Runqing Zhang, Jidong Zhai. ACL'23
+
 ## ICLR
 
 [large mini-batches] [LARGE BATCH OPTIMIZATION FOR DEEP LEARNING: TRAINING BERT IN 76 MINUTES](https://openreview.net/pdf?id=Syx4wnEtvH). Yang You, Jing Li, Sashank J. Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, Cho-Jui Hsieh. ICLR'20
@@ -373,6 +383,18 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## HPCA
 
 [tensor management] [Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning](http://www.pasalabs.org/papers/2021/hpca21_sentinel.pdf). Jie Ren,  Jiaolin Luo, Kai Wu, Minjia Zhang,  Hyeran Jeon, Dong Li. HPCA'21
+
+[memory-saving]  [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism](https://ieeexplore.ieee.org/document/10071077). Quan Zhou, Haiquan Wang, Xiaoyan Yu, Cheng Li, Youhui Bai, Feng Yan, Yinlong. HPCA'23
+
+[alleviate PCIe channel contention] [Tensor Movement Orchestration in Multi-GPU Training Systems](https://ieeexplore.ieee.org/document/10071043). Shao-Fu Lin, Yi-Jung Chen, Hsiang-Yun Cheng, Chia-Lin Yang. HPCA'23
+
+## INFOCOM
+
+[hide the communication] [PipeMoE: Accelerating Mixture-of-Experts through Adaptive Pipelining](https://ieeexplore.ieee.org/document/10228874). Shaohuai Shi, Xinglin Pan, Xiaowen Chu, Bo Li. INFOCOM'23
+
+## IPDPS
+
+[accelerate MoE training] [MPipeMoE: Memory Efficient MoE for Pre-trained Models with Adaptive Pipeline Parallelism](https://liamding.cc/slides/MPipeMoE_IPDPS23.pdf). Zheng Zhang, Donglin Yang, Yaqi Xia, Liang Ding, Dacheng Tao, Xiaobo Zhou, Dazhao Cheng. IPDPS'23
 
 ## Journals
 
