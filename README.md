@@ -260,6 +260,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [training DNN in GPU] [Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3492321.3519563). Hyungjun Oh, Junyeol Lee, Hyeongju Kim, Jiwon Seo. EUROSYS'22
 
+[inference system] Tabi: An Efficient Multi-Level Inference System for Large Language Models(https://yidingwang.xyz/public/files/tabi_eurosys23.pdf). Yiding Wang, Kai Chen, Haisheng Tan, Kun Guo. EUROSYS'23
+
 ## KDD
 
 [large model training] [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters](https://dl.acm.org/doi/pdf/10.1145/3394486.3406703). Jeff Rasley, Samyam Rajbhandari, Olatunji Ruwase, Yuxiong He. KDD'20
