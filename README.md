@@ -196,6 +196,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [temporal sharing-GPU share with SLO] [Serving Heterogeneous Machine Learning Models on Multi-GPU Servers with Spatio-Temporal Sharing](https://www.usenix.org/system/files/atc22-choi-seungbeom.pdf). Seungbeom Choi, Sunho Lee, Yeonjae Kim, Jongse Park, Youngjin Kwon, and Jaehyuk Huh, KAIST. ATC'22
 
+[accelerate moe] [Accelerating Distributed MoE Training and Inference with Lina](https://www.usenix.org/system/files/atc23-li-jiamin.pdf). Jiamin Li, City University of Hong Kong; Yimin Jiang, ByteDance Inc.; Yibo Zhu, unaffiliated; Cong Wang, City University of Hong Kong;Hong Xu, The Chinese University of Hong Kong. ATC'23
+
+[accelerating billion-scale GNN training] [Legion Automatically Pushing the Envelope of Multi-GPU System for Billion-Scale GNN Training](https://www.usenix.org/system/files/atc23-sun.pdf). Jie Sun, Collaborative Innovation Center of Artificial Intelligence, Zhejiang University, China; Li Su, Alibaba Group; Zuocheng Shi, Collaborative Innovation Center of Artificial Intelligence,  Zhejiang University, China; Wenting Shen, Alibaba Group; Zeke Wang, Collaborative Innovation  Center of Artificial Intelligence, Zhejiang University, China; Lei Wang, Alibaba Group; Jie Zhang,  Collaborative Innovation Center of Artificial Intelligence, Zhejiang University, China; Yong Li,  Wenyuan Yu, and Jingren Zhou, Alibaba Group; Fei Wu, Collaborative Innovation Center of  Artificial Intelligence, Zhejiang University, China and Shanghai Institute for Advanced Study of  Zhejiang University, China. ATC'23 
+
+[auto-parallelization in moe] [SMARTMOE Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization](https://www.usenix.org/system/files/atc23-zhai.pdf). Mingshu Zhai, Jiaao He, Zixuan Ma, Zan Zong, Runqing Zhang, Jidong Zhai. ATC'23 
+
 ## ASPLOS
 
 [GPU memory management] [Capuchin: Tensor-based GPU Memory Management for Deep Learning](http://alchem.usc.edu/portal/static/download/capuchin.pdf). Xuan Peng, Xuanhua Shi, Hulin Dai, Hai Jin, Weiliang Ma, Qian Xiong, Fan Yang,  Xuehai Qian. ASPLOS'20
@@ -215,6 +221,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [overlap communication with computation] [Overlap Communication with Dependent Computation via Decomposition in Large Deep Learning Models](https://dl.acm.org/doi/pdf/10.1145/3567955.3567959). ASPLOS'23 
 
 [tensor management] [DeepUM: Tensor Migration and Prefetching in Unified Memory](https://dl.acm.org/doi/pdf/10.1145/3575693.3575736). Jaehoon Jung, Jinpyo Kim, Jaejin Lee. ASPLOS'23 
+
+[Tensor Fusion] [FLAT: An Optimized Dataflow forMitigating Attention Bottlenecks](https://dl.acm.org/doi/pdf/10.1145/3575693.3575747). Sheng-Chun Kao, Suvinay Subramanian, Gaurav Agrawal, Amir Yazdanbakhsh, Tushar Krishna. ASPLOS'23
 
 
 
@@ -260,7 +268,11 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [training DNN in GPU] [Out-Of-Order BackProp: An Effective Scheduling Technique for Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3492321.3519563). Hyungjun Oh, Junyeol Lee, Hyeongju Kim, Jiwon Seo. EUROSYS'22
 
-[inference system] Tabi: An Efficient Multi-Level Inference System for Large Language Models(https://yidingwang.xyz/public/files/tabi_eurosys23.pdf). Yiding Wang, Kai Chen, Haisheng Tan, Kun Guo. EUROSYS'23
+[inference system] [Tabi: An Efficient Multi-Level Inference System for Large Language Models](https://yidingwang.xyz/public/files/tabi_eurosys23.pdf). Yiding Wang, Kai Chen, Haisheng Tan, Kun Guo. EUROSYS'23
+
+[serving with direct-host-access] [Fast and Efficient Model Serving Using Multi-GPUs  with Direct-Host-Access](https://dl.acm.org/doi/pdf/10.1145/3552326.3567508). Jinwoo Jeong, Seungsu Baek, Jeongseob Ahn. EUROSYS'23
+
+[gradient compression] [Hi-Speed DNN Training with Espresso Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://dl.acm.org/doi/pdf/10.1145/3552326.3567505). Zhuang Wang, Haibin Lin, Yibo Zhu, T. S. Eugene Ng. EUROSYS'23
 
 ## KDD
 
@@ -308,11 +320,15 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [model parallelism] [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf). Zhuohan Li and Lianmin Zheng, UC Berkeley; Yinmin Zhong, Peking University; Vincent Liu, University of Pennsylvania; Ying Sheng, Stanford University; Xin Jin, Peking University; Yanping Huang and Zhifeng Chen, Google; Hao Zhang, UC San Diego; Joseph E. Gonzalez and Ion Stoica, UC Berkeley. osdi'23
 
+[deep learning compiler] [Welder Scheduling Deep Learning Memory Access via Tile-graph](https://www.usenix.org/system/files/osdi23-shi.pdf). Yining Shi, Zhi Yang, Jilong Xue, Lingxiao Ma, Yuqing Xia, Ziming Miao, Yuxiao Guo, Fan Yang, Lidong Zhou. osdi'23
+
 ## SOSP
 
 [pipeline parallelism] [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/pdf/10.1145/3341301.3359646). Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur, Gregory R. Ganger, Phillip B. Gibbons, Matei Zaharia. SOSP'19
 
 [gradient compression] [Gradient Compression Supercharged High-Performance Data Parallel DNN Training](https://dl.acm.org/doi/10.1145/3477132.3483553). Youhui Bai, Cheng Li, Quan Zhou, Jun Yi, Ping Gong, Feng Yan, Ruichuan Chen, Yinlong Xu. SOSP'21
+
+[sharing of KV cache] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, Ion Stoica. SOSP'23
 
 ## ICPP
 
@@ -356,6 +372,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [large language model] [GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL](https://openreview.net/pdf?id=-Aw0rrrPUF). Aohan Zeng, Xiao Liu, Zhengxiao Du, Zihan Wang, Hanyu Lai, Ming Ding, Zhuoyi Yang, Yifan Xu, Wendi Zheng, Xiao Xia, Weng Lam Tam, Zixuan Ma, Yufei Xue, Jidong Zhai, Wenguang Chen, Zhiyuan Liu, Peng Zhang, Yuxiao Dong, Jie Tang. ICLR'23
 
+[transformer block] [Brainformers Trading Simplicity for Efficiency](https://openreview.net/pdf?id=w5q6tHO1dl1). Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David So, Andrew Dai, Yifeng Lu, Zhifeng Chen, Quoc Le, Claire Cui, James Laundon, Jeff Dean. ICLR'23 
+
+[offload in inference] [FlexGen High-Throughput Generative Inference of Large Language Models with a Single GPU](https://openreview.net/pdf?id=RRntzKrBTp). Ying Sheng, Lianmin Zheng, Binhang Yuan, Zhuohan Li, Max Ryabinin, Daniel Y. Fu, Zhiqiang Xie, Beidi Chen, Clark Barrett, Joseph E. Gonzalez, Percy Liang, Christopher ReIon Stoica, Ce Zhang. ICLR'23
+
+[KV cache eviction policy] [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://openreview.net/pdf?id=ctPizehA9D). Zhenyu Zhang, Ying Sheng, Tianyi Zhou, Tianlong Chen, Lianmin Zheng, Ruisi Cai, Zhao Song, Yuandong Tian, Christopher Ré, Clark Barrett, Zhangyang Wang, Beidi Chen. ICLR'23
+
 ## VLDB
 
 [data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
@@ -389,6 +411,14 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [memory-saving]  [MPress: Democratizing Billion-Scale Model Training on Multi-GPU Servers via Memory-Saving Inter-Operator Parallelism](https://ieeexplore.ieee.org/document/10071077). Quan Zhou, Haiquan Wang, Xiaoyan Yu, Cheng Li, Youhui Bai, Feng Yan, Yinlong. HPCA'23
 
 [alleviate PCIe channel contention] [Tensor Movement Orchestration in Multi-GPU Training Systems](https://ieeexplore.ieee.org/document/10071043). Shao-Fu Lin, Yi-Jung Chen, Hsiang-Yun Cheng, Chia-Lin Yang. HPCA'23
+
+[operators fusion] [Chimera An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10071018). Size Zheng, Siyuan Chen, Peidi Song, Renze Chen,  Xiuhong Li, Shengen Yan, Dahua Lin, Jingwen Leng, Yun Liang. HPCA'23
+
+[reducing computation complexity in attention] [CTA Hardware-Software Co-design for Compressed Token Attention Mechanism](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10070997). Haoran Wang, Haobo Xu, Ying Wang, Yinhe Han. HPCA'23
+
+[unified virtual memory] [Trans-FW Short Circuiting Page Table Walk in Multi-GPU Systems via Remote Forwarding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10071054) Bingyao Li, Jieming Yin, Anup Holey, Youtao Zhang, Jun Yang, Xulong Tang. HPCA'23
+
+[boosting the inference efficiency of ViTs] [ViTALiTy Unifying Low-rank and Sparse Approximation for Vision Transformer Acceleration with a Linear Taylor Attention](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10071081). Jyotikrishna Dass, Shang Wu, Huihong Shi, Chaojian Li, Zhifan Ye, Zhongfeng Wang, Yingyan Lin. HPCA'23
 
 ## INFOCOM
 
