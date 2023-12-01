@@ -54,6 +54,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [IEEE International Parallel & Distributed Processing Symposium(IPDPS)](#IPDPS)
 
+- [International Conference on Parallel Processing(ICPP)](#ICPP)
+
    
 
 
@@ -427,6 +429,18 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## IPDPS
 
 [accelerate MoE training] [MPipeMoE: Memory Efficient MoE for Pre-trained Models with Adaptive Pipeline Parallelism](https://liamding.cc/slides/MPipeMoE_IPDPS23.pdf). Zheng Zhang, Donglin Yang, Yaqi Xia, Liang Ding, Dacheng Tao, Xiaobo Zhou, Dazhao Cheng. IPDPS'23
+
+## ICPP
+
+[multiple inference tasks sharing single GPU] [SPLIT: QoS-Aware DNN Inference on Shared GPU via Evenly-Sized Model Splitting](https://dl.acm.org/doi/pdf/10.1145/3605573.3605627). Diaohan Luo, Tian Yu, Yuewen Wu, Heng Wu, Tao Wang, Wenbo Zhang. ICPP'23
+
+[efficient all-reduce] [Wrht: Efficient All-reduce for Distributed DNN Training in Optical Interconnect Systems](https://dl.acm.org/doi/pdf/10.1145/3605573.3605624). Fei Dai, Yawen Chen, Zhiyi Huang, Haibo Zhang. ICPP'23
+
+[cpu offload] [CoTrain: Efficient Scheduling for Large-Model Training upon GPU and CPU in Parallel](https://dl.acm.org/doi/pdf/10.1145/3605573.3605647). Zhenxing Li, Qiang Cao, Yajie Chen, Wenrui Yan. ICPP'23
+
+[efficient communication in ddl] [OSP: Boosting Distributed Model Training with 2-stage Synchronization](https://dl.acm.org/doi/pdf/10.1145/3605573.3605650). Zixuan Chen, Lei Shi, Xuandong Liu, Jiahui Li, Sen Liu, Yang Xu. ICPP'23
+
+[automatic parallelization] [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://dl.acm.org/doi/pdf/10.1145/3605573.3605613). Shenggui Li, Hongxin Liu, Zhengda Bian, Jiarui Fang, Haichen Huang, Yuliang Liu, Boxiang Wang, Yang You. ICPP'23
 
 ## Journals
 
