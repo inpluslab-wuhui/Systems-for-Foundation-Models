@@ -54,6 +54,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [IEEE International Parallel & Distributed Processing Symposium(IPDPS)](#IPDPS)
 
+- [Machine Learning and Systems(MLSys)](#MLSys)
+
    
 
 
@@ -437,6 +439,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## IPDPS
 
 [accelerate MoE training] [MPipeMoE: Memory Efficient MoE for Pre-trained Models with Adaptive Pipeline Parallelism](https://liamding.cc/slides/MPipeMoE_IPDPS23.pdf). Zheng Zhang, Donglin Yang, Yaqi Xia, Liang Ding, Dacheng Tao, Xiaobo Zhou, Dazhao Cheng. IPDPS'23
+
+## MLSys
+
+[memory reuse] [SAFE OPTIMIZED STATIC MEMORY ALLOCATION FOR PARALLEL DEEP LEARNING](https://proceedings.mlsys.org/paper_files/paper/2023/file/0c8abcf158ed12d0dd94480681186fda-Paper-mlsys2023.pdf). Ioannis Lamprou, Zhen Zhang, Javier de Juan, Hang Yang, Yongqiang Lai, Etienne Filhol, Cedric Bastoul. MLSys'23
 
 ## Journals
 
