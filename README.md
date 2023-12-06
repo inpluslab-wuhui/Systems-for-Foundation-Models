@@ -76,6 +76,10 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 [pipeline parallelism] [Elastic Averaging for Efficient Pipelined DNN Training](https://doi.org/10.1145/3572848.3577484). Zihao Chen, Chen Xu, Weining Qian, Aoying Zhou. PPoPP'23
 
+[sparse attention] [Dynamic N M Fine-grained Structured Sparse Attention Mechanism](https://dl.acm.org/doi/pdf/10.1145/3572848.3577500). Zhaodong Chen, Zheng Qu, Yuying Quan, Liu Liu, Yufei Ding, Yuan Xie. PPoPP'23
+
+[failure recovery] [POSTER Swift Expedited Failure Recovery for Large-scale DNN Training](https://arxiv.org/pdf/2302.06173.pdf). Yuchen Zhong, Guangming Sheng, Juncheng Liu, Jinhui Yuan, and Chuan Wu. PPoPP'23
+
 ## NIPS
 
 [network architecture] [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf). Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin. NIPS'17
@@ -127,6 +131,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 [DNN model training] [STRONGHOLD: Fast and Affordable Billion-Scale Deep Learning Model Training](https://dlnext.acm.org/doi/pdf/10.5555/3571885.3571979). Xiaoyang Sun, Wei Wang, Shenghao Qiu, Renyu Yang, Songfang Huang, Jie Xu, Zheng Wang. SC'22
 
 [GNN training] [WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture](https://dl.acm.org/doi/pdf/10.5555/3571885.3571956). Dongxu Yang, Junhong Liu,  Jiaxing Qi,  Junjie Lai. SC'22
+
+[pipeline parallelism] [Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency](https://dl.acm.org/doi/pdf/10.1145/3581784.3607073). Ziming Liu, Shenggan Cheng, Haotian Zhou, Yang You. SC'23
 
 ## ATC
 
@@ -204,6 +210,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [auto-parallelization in moe] [SMARTMOE Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization](https://www.usenix.org/system/files/atc23-zhai.pdf). Mingshu Zhai, Jiaao He, Zixuan Ma, Zan Zong, Runqing Zhang, Jidong Zhai. ATC'23 
 
+[accelerate MoE] [Accelerating Distributed MoE Training and Inference with Lina](https://www.usenix.org/system/files/atc23-li-jiamin.pdf). Jiamin Li, Yimin Jiang, Yibo Zhu, Cong Wang, Hong Xu. ATC'23
+
 ## ASPLOS
 
 [GPU memory management] [Capuchin: Tensor-based GPU Memory Management for Deep Learning](http://alchem.usc.edu/portal/static/download/capuchin.pdf). Xuan Peng, Xuanhua Shi, Hulin Dai, Hai Jin, Weiliang Ma, Qian Xiong, Fan Yang,  Xuehai Qian. ASPLOS'20
@@ -253,6 +261,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [explainable ai] [XAI for Transformers: Better Explanations through Conservative Propagation](https://proceedings.mlr.press/v162/ali22a/ali22a.pdf). Ameen Ali, Thomas Schnake, Oliver Eberle, Gregoire Montavon, Klaus Robert Muller, Lior Wolf. ICML'22
 
 [LLM serving system] [Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/pdf/2211.17192.pdf). Yaniv Leviathan, Matan Kalman, Yossi Matias. ICML'23
+
+[offload in inference] [FlexGen High-Throughput Generative Inference of Large Language Models with a Single GPU](https://openreview.net/pdf?id=RRntzKrBTp). Ying Sheng, Lianmin Zheng, Binhang Yuan, Zhuohan Li, Max Ryabinin, Daniel Y. Fu, Zhiqiang Xie, Beidi Chen, Clark Barrett, Joseph E. Gonzalez, Percy Liang, Christopher ReIon Stoica, Ce Zhang. ICML'23
+
+[KV cache eviction policy] [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://openreview.net/pdf?id=ctPizehA9D). Zhenyu Zhang, Ying Sheng, Tianyi Zhou, Tianlong Chen, Lianmin Zheng, Ruisi Cai, Zhao Song, Yuandong Tian, Christopher Ré, Clark Barrett, Zhangyang Wang, Beidi Chen. ICML'23
 
 ## EUROSYS
 
@@ -368,10 +380,6 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [large language model] [What Language Model to Train if You Have One Million GPU Hours?](https://aclanthology.org/2022.findings-emnlp.54.pdf). Teven Le Scao, Thomas Wang, Daniel Hesslow, Stas Bekman, M Saiful Bari, Stella Biderman, Hady Elsahar, Niklas Muennighoff, Jason Phang, Ofir Press, Colin Raffel, Victor Sanh, Sheng Shen, Lintang Sutawika, Jaesung Tae, Zheng Xin Yong, Julien Launay, Iz Beltagy. ACL'22
 
-[accelerate MoE] [Accelerating Distributed MoE Training and Inference with Lina](https://www.usenix.org/system/files/atc23-li-jiamin.pdf). Jiamin Li, Yimin Jiang, Yibo Zhu, Cong Wang, Hong Xu. ACL'23
-
-[automatical  parallelism] [SMARTMOE: Efficiently Training Sparsely-Activated Models through Combining Offline and Online Parallelization](https://www.usenix.org/system/files/atc23-zhai.pdf). Mingshu Zhai, Jiaao He, Zixuan Ma, Zan Zong, Runqing Zhang, Jidong Zhai. ACL'23
-
 ## ICLR
 
 [large mini-batches] [LARGE BATCH OPTIMIZATION FOR DEEP LEARNING: TRAINING BERT IN 76 MINUTES](https://openreview.net/pdf?id=Syx4wnEtvH). Yang You, Jing Li, Sashank J. Reddi, Jonathan Hseu, Sanjiv Kumar, Srinadh Bhojanapalli, Xiaodan Song, James Demmel, Kurt Keutzer, Cho-Jui Hsieh. ICLR'20
@@ -385,10 +393,6 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [large language model] [GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL](https://openreview.net/pdf?id=-Aw0rrrPUF). Aohan Zeng, Xiao Liu, Zhengxiao Du, Zihan Wang, Hanyu Lai, Ming Ding, Zhuoyi Yang, Yifan Xu, Wendi Zheng, Xiao Xia, Weng Lam Tam, Zixuan Ma, Yufei Xue, Jidong Zhai, Wenguang Chen, Zhiyuan Liu, Peng Zhang, Yuxiao Dong, Jie Tang. ICLR'23
 
 [transformer block] [Brainformers Trading Simplicity for Efficiency](https://openreview.net/pdf?id=w5q6tHO1dl1). Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David So, Andrew Dai, Yifeng Lu, Zhifeng Chen, Quoc Le, Claire Cui, James Laundon, Jeff Dean. ICLR'23 
-
-[offload in inference] [FlexGen High-Throughput Generative Inference of Large Language Models with a Single GPU](https://openreview.net/pdf?id=RRntzKrBTp). Ying Sheng, Lianmin Zheng, Binhang Yuan, Zhuohan Li, Max Ryabinin, Daniel Y. Fu, Zhiqiang Xie, Beidi Chen, Clark Barrett, Joseph E. Gonzalez, Percy Liang, Christopher ReIon Stoica, Ce Zhang. ICLR'23
-
-[KV cache eviction policy] [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://openreview.net/pdf?id=ctPizehA9D). Zhenyu Zhang, Ying Sheng, Tianyi Zhou, Tianlong Chen, Lianmin Zheng, Ruisi Cai, Zhao Song, Yuandong Tian, Christopher Ré, Clark Barrett, Zhangyang Wang, Beidi Chen. ICLR'23
 
 ## VLDB
 
