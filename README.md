@@ -266,6 +266,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [KV cache eviction policy] [H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models](https://openreview.net/pdf?id=ctPizehA9D). Zhenyu Zhang, Ying Sheng, Tianyi Zhou, Tianlong Chen, Lianmin Zheng, Ruisi Cai, Zhao Song, Yuandong Tian, Christopher Ré, Clark Barrett, Zhangyang Wang, Beidi Chen. ICML'23
 
+[pipeline parallelism] [BPIPE: Memory-Balanced Pipeline Parallelism for Training Large Language Models](https://proceedings.mlr.press/v202/kim23l/kim23l.pdf). Taebum Kim, Hyoungjoo Kim,Gyeong-In Yu, Byung-Gon Chun. ICML'23
+
 ## EUROSYS
 
 [graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
