@@ -63,6 +63,7 @@ Key Words: foundation model, large-scale models, model training, model inference
 - [IEEE Transactions on Parallel and Distributed Systems (TPDS)](#TPDS)
 - [ACMComputingSurveys](#ACMComputingSurveys)
 - [JournalofMachineLearningResearch](#JournalofMachineLearningResearch)
+- [Transactions on Machine Learning Research(TMLR)](#TMLR)
 
 ## Conferences
 
@@ -84,6 +85,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 [network architecture] [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf). Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin. NIPS'17
 
+[parallel decoding] [Blockwise Parallel Decoding for Deep Autoregressive Models](https://proceedings.neurips.cc/paper_files/paper/2018/file/c4127b9194fe8562c64dc0f5bf2c93bc-Paper.pdf). Mitchell Stern, Noam Shazeer, Jakob Uszkoreit. NIPS'18
+
 [pipeline parallelism] [GPipe: efficient training of giant neural networks using pipeline parallelism](https://dl.acm.org/doi/pdf/10.5555/3454287.3454297). Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Firat, Mia Xu Chen, Dehao Chen, HyoukJoong Lee, Jiquan Ngiam, Quoc V. Le, Yonghui Wu, Zhifeng Chen. NIPS'19
 
 [pre-training] [Language Models are Few-Shot Learners](https://dl.acm.org/doi/pdf/10.5555/3495724.3495883). Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, Dario Amodei. NIPS'20
@@ -101,6 +104,10 @@ Key Words: foundation model, large-scale models, model training, model inference
 [memory footprint reduction] [Tempo: Accelerating Transformer-Based Model Training through Memory Footprint Reduction](https://arxiv.org/pdf/2210.10246). Muralidhar Andoorveedu, Zhanda Zhu, Bojian Zheng, Gennady Pekhimenko. NIPS'22
 
 [model compression] [ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers](https://arxiv.org/pdf/2206.01861). 	Zhewei Yao, Reza Yazdani Aminabadi, Minjia Zhang, Xiaoxia Wu, Conglong Li, Yuxiong He. NIPS'22
+
+[rlhf] [Fine-Grained Human Feedback Gives Better Rewards for Language Model Training](https://arxiv.org/pdf/2306.01693.pdf). Zeqiu Wu, Yushi Hu, Weijia Shi, Nouha Dziri, Alane Suhr, Prithviraj Ammanabrolu, Noah A. Smith, Mari Ostendorf, Hannaneh Hajishirzi. NIPS'23
+
+[rlhf] [RRHF: Rank Responses to Align Language Models with Human Feedback without tears](https://arxiv.org/pdf/2304.05302.pdf). Zheng Yuan, Hongyi Yuan, Chuanqi Tan, Wei Wang, Songfang Huang, Fei Huang. NIPS'23
 
 ## SC
 
@@ -396,6 +403,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [transformer block] [Brainformers Trading Simplicity for Efficiency](https://openreview.net/pdf?id=w5q6tHO1dl1). Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David So, Andrew Dai, Yifeng Lu, Zhifeng Chen, Quoc Le, Claire Cui, James Laundon, Jeff Dean. ICLR'23 
 
+[rlhf] [SAFE RLHF: SAFE REINFORCEMENT LEARNING FROM HUMAN FEEDBACK](https://openreview.net/pdf?id=TyFrPOKYXw). Josef Dai, Xuehai Pan, Ruiyang Sun, Jiaming Ji, Xinbo Xu, Mickel Liu, Yizhou Wang, Yaodong Yang. ICLR'24
+
 ## VLDB
 
 [data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
@@ -465,6 +474,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## JournalofMachineLearningResearch
 
 [training with lower precision] [Switch Transformers Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://dl.acm.org/doi/pdf/10.5555/3586589.3586709). William Fedus, Barret Zoph, Noam Shazeer. Journal of Machine Learning Research'22
+
+# TMLR
+
+[rlhf] [RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment](https://arxiv.org/pdf/2304.06767.pdf). Hanze Dong, Wei Xiong, Deepanshu Goyal, Yihan Zhang, Winnie Chow, Rui Pan, Shizhe Diao, Jipeng Zhang, Kashun Shum, Tong Zhang. TMLR'23
 
 ## License
 
