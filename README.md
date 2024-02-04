@@ -371,8 +371,6 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [automatic parallelization] [Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training](https://dl.acm.org/doi/pdf/10.1145/3605573.3605613). Shenggui Li, Hongxin Liu, Zhengda Bian, Jiarui Fang, Haichen Huang, Yuliang Liu, Boxiang Wang, Yang You. ICPP'23
 
-[training upon GPU and CPU] [CoTrain: Efficient Scheduling for Large-Model Training upon GPU and CPU in Parallel](https://dl.acm.org/doi/pdf/10.1145/3605573.3605647). Zhenxing Li, Qiang Cao, Yajie Chen, Wenrui Yan. ICPP'23
-
 ## EMNLP
 
 [fine-tuning] [AdapterHub: A Framework for Adapting Transformers](https://arxiv.org/pdf/2007.07779.pdf). Jonas Pfeiffer, Andreas Rücklé, Clifton Poth, Aishwarya Kamath, Ivan Vulić, Sebastian Ruder, Kyunghyun Cho, Iryna Gurevych. EMNLP'20
