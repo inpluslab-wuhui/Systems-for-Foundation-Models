@@ -56,6 +56,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [Machine Learning and Systems(MLSys)](#MLSys)
 
+- [ACM Special Interest Group on Data Communication(SIGCOMM)](#SIGCOMM)
+
    
 
 
@@ -94,6 +96,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 [fine-tuning] [COMPACTER:Efficient Low-Rank Hypercomplex Adapter Layers](https://arxiv.org/pdf/2106.04647.pdf). Rabeeh Karimi Mahabadi, James Henderson, Sebastian Ruder. NIPS'21
 
 [reinforcement learning] [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345). 	Lili Chen, Kevin Lu, Aravind Rajeswaran, Kimin Lee, Aditya Grover, Michael Laskin, Pieter Abbeel, Aravind Srinivas, Igor Mordatch. NIPS'21
+
+[vision moe model] [Scaling Vision with Sparse Mixture of Experts](https://proceedings.neurips.cc/paper/2021/file/48237d9f2dea8c74c2a72126cf63d933-Paper.pdf). Carlos Riquelme, Puigcerver, Basil Mustafa, Maxim Neumann, Rodolphe Jenatton, André Susano Pinto, Daniel Keysers, Neil Houlsby. NIPS'22
 
 [length generalization] [Exploring Length Generalization in Large Language Models](https://arxiv.org/pdf/2207.04901). Cem Anil, Yuhuai Wu, Anders Andreassen, Aitor Lewkowycz, Vedant Misra, Vinay V. Ramasesh, Ambrose Slone, Guy Gur-Ari, Ethan Dyer, Behnam Neyshabur. NIPS'22
 
@@ -459,6 +463,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [memory reuse] [SAFE OPTIMIZED STATIC MEMORY ALLOCATION FOR PARALLEL DEEP LEARNING](https://proceedings.mlsys.org/paper_files/paper/2023/file/0c8abcf158ed12d0dd94480681186fda-Paper-mlsys2023.pdf). Ioannis Lamprou, Zhen Zhang, Javier de Juan, Hang Yang, Yongqiang Lai, Etienne Filhol, Cedric Bastoul. MLSys'23
 
+[moe kernel] [MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS](https://proceedings.mlsys.org/paper_files/paper/2023/file/f9f4f0db4894f77240a95bde9df818e0-Paper-mlsys2023.pdf). Trevor Gale, Deepak Narayanan, Cliff Young, Matei Zaharia. MLSys'23
+
+## SIGCOMM
+
+[moe all2all] [Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models](https://dl.acm.org/doi/pdf/10.1145/3603269.3604869). Juncai Liu, Jessie Hui Wang, Yimin Jiang. SIGCOMM'23
+
 ## Journals
 
 ## TPDS
@@ -475,7 +485,7 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [training with lower precision] [Switch Transformers Scaling to Trillion Parameter Models with Simple and Efficient Sparsity](https://dl.acm.org/doi/pdf/10.5555/3586589.3586709). William Fedus, Barret Zoph, Noam Shazeer. Journal of Machine Learning Research'22
 
-# TMLR
+## TMLR
 
 [rlhf] [RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment](https://arxiv.org/pdf/2304.06767.pdf). Hanze Dong, Wei Xiong, Deepanshu Goyal, Yihan Zhang, Winnie Chow, Rui Pan, Shizhe Diao, Jipeng Zhang, Kashun Shum, Tong Zhang. TMLR'23
 
