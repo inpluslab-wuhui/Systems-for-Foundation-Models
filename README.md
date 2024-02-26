@@ -359,6 +359,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [sharing of KV cache] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, Ion Stoica. SOSP'23
 
+[checkpoint] [GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints](https://dl.acm.org/doi/pdf/10.1145/3600006.3613145). Zhuang Wang, Zhen Jia, Shuai Zheng, Zhen Zhang, Xinwei Fu, T. S. Eugene Ng, Yida Wang. SOSP'23
+
 ## ICPP
 
 [tensor parallelism] [Tesseract: Parallelize the Tensor Parallelism Efficiently](https://arxiv.org/pdf/2105.14500.pdf). Boxiang Wang, Qifan Xu, Zhengda Bian, Yang You. ICPP'22
@@ -421,6 +423,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [workload analysis and scheduling] [MLaaS: in the Wild Workload Analysis and Scheduling in Large-Scale Heterogeneous](https://www.usenix.org/system/files/nsdi22-paper-weng.pdf). Qizhen Weng, Hong Kong University of Science and Technology and Alibaba Group; Wencong Xiao, Alibaba Group; Yinghao Yu, Alibaba Group and Hong Kong University of Science and Technology; Wei Wang, Hong Kong University of Science and Technology; Cheng Wang, Jian He, Yong Li, Liping Zhang, Wei Lin, and Yu Ding, Alibaba Group. nsdi'22
 
+[checkpoint] [Check-N-Run: a Checkpointing System for Training Deep Learning Recommendation Models](https://www.usenix.org/system/files/nsdi22-paper-eisenman.pdf). Assaf Eisenman, Kiran Kumar Matam, Steven Ingram, Dheevatsa Mudigere, Raghuraman Krishnamoorthi, Krishnakumar Nair, and Misha Smelyanskiy, Facebook; Murali Annavaram, Facebook and USC. nsdi'22
+
+[checkpoint] [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://www.usenix.org/system/files/nsdi23-thorpe.pdf). John Thorpe, Pengzhan Zhao, Jonathan Eyolfson, and Yifan Qiao, UCLA; Zhihao Jia, CMU; Minjia Zhang, Microsoft Research; Ravi Netravali, Princeton University; Guoqing Harry Xu, UCLA. nsdi'23
+
 ## AAAI
 
 [model framework] [Go Wider Instead of Deeper](https://cdn.aaai.org/ojs/20858/20858-13-24871-1-2-20220628.pdf). Fuzhao Xue, Ziji Shi, Futao Wei, Yuxuan Lou, Yong Liu, Yang You. AAAI'22
@@ -432,6 +438,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 ## FAST
 
 [offloading data to SSD] [FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks](https://www.usenix.org/system/files/fast21-bae.pdf). Jonghyun Bae, Seoul National University; Jongsung Lee, Seoul National University and Samsung Electronics; Yunho Jin and Sam Son, Seoul National University; Shine Kim, Seoul National University and Samsung Electronics; Hakbeom Jang, Samsung Electronics; Tae Jun Ham and Jae W. Lee, Seoul National University. FAST'21
+
+[checkpoint] [CheckFreq: Frequent, Fine-Grained DNN Checkpointing](https://www.usenix.org/system/files/fast21-mohan.pdf). Jayashree Mohan, UT Austin; Amar Phanishayee, Microsoft Research; Vijay Chidambaram, UT Austin and VMware research. FAST'21 
 
 ## ISCA
 
@@ -493,6 +501,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 ## arxiv
 
+[checkpoint] [On Efficient Constructions of Checkpoints](https://arxiv.org/pdf/2009.13003.pdf). Yu Chen, Zhenming Liu, Bin Ren, Xin Jin. 20
+
+[checkpoint] [A Study of Checkpointing in Large Scale Training of Deep Neural Networks](https://arxiv.org/pdf/2012.00825.pdf). Elvis Rojas, Albert Njoroge Kahira, Esteban Meneses, Leonardo Bautista Gomez, Rosa M Badia. 20
+
+[checkpoint] [ECRM: Efficient Fault Tolerance for Recommendation Model Training via Erasure Coding](https://arxiv.org/pdf/2104.01981.pdf). Kaige Liu, Jack Kosaian, K. V. Rashmi. 21
+
 [kv cache management] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, Ion Stoica. 23
 
 [automatic KV cache reuse] [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf). Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Jeff Huang, Chuyue Sun, Cody Hao Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph E. Gonzalez, Clark Barrett, Ying Sheng. 23
@@ -502,6 +516,28 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [reducing GPU memory] [PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU](https://arxiv.org/pdf/2312.12456.pdf). Yixin Song, Zeyu Mi, Haotong Xie, Haibo Chen. 23
 
 [reducing communication volume] [ZeRO++: Extremely Efficient Collective Communication for Giant Model Training](https://arxiv.org/pdf/2306.10209.pdf). Guanhua Wang, Heyang Qin, Sam Ade Jacobs, Connor Holmes, Samyam Rajbhandari, Olatunji Ruwase, Feng Yan, Lei Yang, Yuxiong He. 23
+
+[efficient generative llm inference] [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677.pdf). Pratyush Patel, Esha Choukse, Chaojie Zhang, Íñigo Goiri, Aashaka Shah, Saeed Maleki, Ricardo Bianchini. 23
+
+[efficient generative llm inference] [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369.pdf). Amey Agrawal, Ashish Panwar, Jayashree Mohan, Nipun Kwatra, Bhargav S. Gulavani, Ramachandran Ramjee. 23
+
+[efficient generative llm inference] [SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference](https://arxiv.org/pdf/2307.02628.pdf). Luciano Del Corro, Allie Del Giorno, Sahaj Agarwal, Bin Yu, Ahmed Awadallah, Subhabrata Mukherjee. 23
+
+[efficient generative llm inference] [Inference without Interference: Disaggregate LLM Inference for Mixed Downstream Workloads](https://arxiv.org/pdf/2401.11181.pdf). Cunchen Hu, Heyang Huang, Liangliang Xu, Xusheng Chen, Jiang Xu, Shuang Chen, Hao Feng, Chenxi Wang, Sa Wang, Yungang Bao, Ninghui Sun, Yizhou Shan. 23
+
+[model pruning] [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity](https://arxiv.org/pdf/2309.10285.pdf). Haojun Xia, Zhen Zheng, Yuchao Li, Donglin Zhuang, Zhongzhu Zhou, Xiafei Qiu, Yong Li, Wei Lin, Shuaiwen Leon Song. 23
+
+[model pruning] [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/pdf/2305.11627.pdf). Xinyin Ma, Gongfan Fang, Xinchao Wang. 23
+
+[model pruning] [ZipLM: Inference-Aware Structured Pruning of Language Models](https://arxiv.org/pdf/2302.04089.pdf). Eldar Kurtic, Elias Frantar, Dan Alistarh. 23
+
+[model pruning] [Everybody Prune Now: Structured Pruning of LLMs with only Forward Passes](https://arxiv.org/pdf/2402.05406.pdf). Lucio Dery, Steven Kolawole, Jean-François Kagy, Virginia Smith, Graham Neubig, Ameet Talwalkar. 23
+
+[contextual sparsity] [Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time](https://arxiv.org/pdf/2310.17157.pdf). Zichang Liu, Jue Wang, Tri Dao, Tianyi Zhou, Binhang Yuan, Zhao Song, Anshumali Shrivastava, Ce Zhang, Yuandong Tian, Christopher Re, Beidi Chen. 23
+
+[checkpoint] [SWIFT: Expedited Failure Recovery for Large-scale DNN Training](https://arxiv.org/pdf/2302.06173.pdf). Yuchen Zhong, Guangming Sheng, Juncheng Liu, Jinhui Yuan, Chuan Wu. 23
+
+[checkpoint] [Oobleck: Resilient Distributed Training of Large Models Using Pipeline Templates](https://arxiv.org/pdf/2309.08125.pdf). Insu Jang, Zhenning Yang, Zhen Zhang, Xin Jin, Mosharaf Chowdhury. 23
 
 [speculative decoding] [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/pdf/2401.10774.pdf). Tianle Cai, Yuhong Li, Zhengyang Geng, Hongwu Peng, Jason D. Lee, Deming Chen, Tri Dao. 24
 
