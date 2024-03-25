@@ -523,6 +523,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [moe training and inference] [SE-MoE: A Scalable and Efficient Mixture-of-Experts Distributed Training and Inference System](https://arxiv.org/pdf/2205.10034.pdf). Liang Shen, Zhihua Wu, WeiBao Gong, Hongxiang Hao, Yangfan Bai, HuaChao Wu, Xinxuan Wu, Jiang Bian, Haoyi Xiong, Dianhai Yu, Yanjun Ma. 22
 
+[diffusion transformer] [Scalable Diffusion Models with Transformers](https://arxiv.org/pdf/2212.09748). William Peebles, Saining Xie. 22
+
+[long context] [FlashAttention Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf). Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré. 22
+
 [kv cache management] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, Ion Stoica. 23
 
 [automatic KV cache reuse] [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf). Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Jeff Huang, Chuyue Sun, Cody Hao Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph E. Gonzalez, Clark Barrett, Ying Sheng. 23
@@ -567,6 +571,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [multi-modality] [ImageBind-LLM: Multi-modality Instruction Tuning](https://arxiv.org/pdf/2309.03905.pdf). Jiaming Han, Renrui Zhang, Wenqi Shao, Peng Gao, Peng Xu, Han Xiao, Kaipeng Zhang, Chris Liu, Song Wen, Ziyu Guo, Xudong Lu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Xiangyu Yue, Hongsheng Li, Yu Qiao. 23
 
+[diffusion transformer] [Photorealistic Video Generation with Diffusion Models](https://arxiv.org/pdf/2312.06662). Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Li Fei-Fei, Irfan Essa, Lu Jiang, José Lezama. 23
+
+[long context] [Blockwise Parallel Transformer for Large Context Models](https://arxiv.org/pdf/2305.19370). Hao Liu, Pieter Abbeel. 23
+
 [speculative decoding] [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/pdf/2401.10774.pdf). Tianle Cai, Yuhong Li, Zhengyang Geng, Hongwu Peng, Jason D. Lee, Deming Chen, Tri Dao. 24
 
 [speculative decoding] [SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781.pdf). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. 24
@@ -574,6 +582,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [moe model] [Mixtral of Experts](https://arxiv.org/pdf/2401.04088.pdf). Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed.  24 
 
 [distributed kv cache] [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/pdf/2401.02669.pdf). Bin Lin, Tao Peng, Chen Zhang, Minmin Sun, Lanbo Li, Hanyu Zhao, Wencong Xiao, Qi Xu, Xiafei Qiu, Shen Li, Zhigang Ji, Yong Li, Wei Lin. 24
+
+[fast moe inference with cpu] [FIDDLER: CPU-GPU ORCHESTRATION FOR FAST INFERENCE OF MIXTURE-OF-EXPERTS MODELS](https://arxiv.org/pdf/2402.07033). Keisuke Kamahori, Yile Gu, Kan Zhu, Baris Kasikci.24
+
+[fast moe inference with cpu] [MOE-INFINITY: Activation-Aware Expert Offloading for Efficient MoE Serving](https://arxiv.org/pdf/2401.14361). Leyang Xue, Yao Fu, Zhan Lu, Luo Mai, Mahesh Marina. 24
 
 ## License
 
