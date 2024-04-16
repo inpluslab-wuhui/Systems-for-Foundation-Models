@@ -251,9 +251,17 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [tensor management] [DeepUM: Tensor Migration and Prefetching in Unified Memory](https://dl.acm.org/doi/pdf/10.1145/3575693.3575736). Jaehoon Jung, Jinpyo Kim, Jaejin Lee. ASPLOS'23 
 
-[Tensor Fusion] [FLAT: An Optimized Dataflow forMitigating Attention Bottlenecks](https://dl.acm.org/doi/pdf/10.1145/3575693.3575747). Sheng-Chun Kao, Suvinay Subramanian, Gaurav Agrawal, Amir Yazdanbakhsh, Tushar Krishna. ASPLOS'23
+[tensor fusion] [FLAT: An Optimized Dataflow forMitigating Attention Bottlenecks](https://dl.acm.org/doi/pdf/10.1145/3575693.3575747). Sheng-Chun Kao, Suvinay Subramanian, Gaurav Agrawal, Amir Yazdanbakhsh, Tushar Krishna. ASPLOS'23
 
+[communication overlap] [T3: Transparent Tracking & Triggering for Fine-grained Overlap of Compute & Collectives](https://arxiv.org/pdf/2401.16677). Suchita Pati, Shaizeen Aga, Mahzabeen Islam, Nuwan Jayasena, Matthew D. Sinclair. ASPLOS'24
 
+[speculative inference] [SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. ASPLOS'24
+
+[inference system] [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://arxiv.org/pdf/2404.07947). Hyungjun Oh, Kihong Kim, Jaemin Kim, Sungkyun Kim, Junyeol Lee, Du-seong Chang, Jiwon Seo. ASPLOS'24
+
+[inference system] [Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling](https://guanh01.github.io/files/2024proteus.pdf). Sohaib Ahmad, Hui Guan, Brian D. Friedman, Nokia Bell Labs, Nokia Bell Labs, Ramesh K. Sitaraman, Thomas Woo. ASPLOS'24
+
+[preemptible inference system] [SpotServe: Serving Generative Large Language Models on Preemptible Instances](https://arxiv.org/pdf/2311.15566). Xupeng Miao, Chunan Shi, Jiangfei Duan, Xiaoli Xi, Dahua Lin, Bin Cui, Zhihao Jia. ASPLOS'24
 
 ## NAACL-HLT
 
@@ -356,6 +364,14 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [deep learning compiler] [Welder Scheduling Deep Learning Memory Access via Tile-graph](https://www.usenix.org/system/files/osdi23-shi.pdf). Yining Shi, Zhi Yang, Jilong Xue, Lingxiao Ma, Yuqing Xia, Ziming Miao, Yuxiao Guo, Fan Yang, Lidong Zhou. osdi'23
 
 [scheduling DNN computational graphs] [Effectively Scheduling Computational Graphs of Deep Neural Networks toward Their Domain-Specific Accelerators](https://www.usenix.org/system/files/osdi23-zhao.pdf). Jie Zhao, Siyuan Feng, Xiaoqiang Dan, Fei Liu, Chengke Wang, Sheng Yuan, Wenyuan Lv, and Qikai Xie. osdi'23
+
+[inference latency] [ServerlessLLM: Locality-Enhanced Serverless Inference for Large Language Models](https://arxiv.org/pdf/2401.14351). Yao Fu, Leyang Xue, Yeqi Huang, Andrei-Octavian Brabete, Dmitrii Ustiugov, Yuvraj Patel, Luo Mai. osdi'24
+
+[inference latency] [DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://arxiv.org/pdf/2401.09670.pdf). Yinmin Zhong, Shengyu Liu, Junda Chen, Jianbo Hu, Yibo Zhu, Xuanzhe Liu, Xin Jin, Hao Zhang. osdi'24
+
+[inference latency] [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310). Amey Agrawal, Nitin Kedia, Ashish Panwar, Jayashree Mohan, Nipun Kwatra, Bhargav S. Gulavani, Alexey Tumanov, Ramachandran Ramjee. osdi'24
+
+[fair inference] [Fairness in Serving Large Language Models](https://arxiv.org/pdf/2401.00588). Ying Sheng, Shiyi Cao, Dacheng Li, Banghua Zhu, Zhuohan Li, Danyang Zhuo, Joseph E. Gonzalez, Ion Stoica. osdi'24
 
 ## SOSP
 
@@ -511,6 +527,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 ## arxiv
 
+[inference on edge device] [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791). Han Cai, Chuang Gan, Tianzhe Wang, Zhekai Zhang, Song Han. 19
+
 [checkpoint] [On Efficient Constructions of Checkpoints](https://arxiv.org/pdf/2009.13003.pdf). Yu Chen, Zhenming Liu, Bin Ren, Xin Jin. 20
 
 [checkpoint] [A Study of Checkpointing in Large Scale Training of Deep Neural Networks](https://arxiv.org/pdf/2012.00825.pdf). Elvis Rojas, Albert Njoroge Kahira, Esteban Meneses, Leonardo Bautista Gomez, Rosa M Badia. 20
@@ -538,6 +556,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [reducing communication volume] [ZeRO++: Extremely Efficient Collective Communication for Giant Model Training](https://arxiv.org/pdf/2306.10209.pdf). Guanhua Wang, Heyang Qin, Sam Ade Jacobs, Connor Holmes, Samyam Rajbhandari, Olatunji Ruwase, Feng Yan, Lei Yang, Yuxiong He. 23
 
 [efficient generative llm inference] [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677.pdf). Pratyush Patel, Esha Choukse, Chaojie Zhang, Íñigo Goiri, Aashaka Shah, Saeed Maleki, Ricardo Bianchini. 23
+
+[inference in flash] [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/pdf/2312.11514). Keivan Alizadeh, Iman Mirzadeh, Dmitry Belenko, Karen Khatamifard, Minsik Cho, Carlo C Del Mundo, Mohammad Rastegari, Mehrdad Farajtabar. 23
 
 [efficient generative llm inference] [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369.pdf). Amey Agrawal, Ashish Panwar, Jayashree Mohan, Nipun Kwatra, Bhargav S. Gulavani, Ramachandran Ramjee. 23
 
@@ -575,6 +595,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [long context] [Blockwise Parallel Transformer for Large Context Models](https://arxiv.org/pdf/2305.19370). Hao Liu, Pieter Abbeel. 23
 
+[inference serving system] [SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads](https://arxiv.org/pdf/2312.16733). Alind Khare, Dhruv Garg, Sukrit Kalra, Snigdha Grandhi, Ion Stoica, Alexey Tumanov. 23
+
+[inference serving system] [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920). Bingyang Wu, Yinmin Zhong, Zili Zhang, Gang Huang, Xuanzhe Liu, Xin Jin. 23                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+
 [speculative decoding] [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/pdf/2401.10774.pdf). Tianle Cai, Yuhong Li, Zhengyang Geng, Hongwu Peng, Jason D. Lee, Deming Chen, Tri Dao. 24
 
 [speculative decoding] [SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781.pdf). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. 24
@@ -586,6 +610,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [fast moe inference with cpu] [FIDDLER: CPU-GPU ORCHESTRATION FOR FAST INFERENCE OF MIXTURE-OF-EXPERTS MODELS](https://arxiv.org/pdf/2402.07033). Keisuke Kamahori, Yile Gu, Kan Zhu, Baris Kasikci.24
 
 [fast moe inference with cpu] [MOE-INFINITY: Activation-Aware Expert Offloading for Efficient MoE Serving](https://arxiv.org/pdf/2401.14361). Leyang Xue, Yao Fu, Zhan Lu, Luo Mai, Mahesh Marina. 24
+
+[lora serving system] [CaraServe: CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference](https://arxiv.org/pdf/2401.11240). Suyi Li, Hanfeng Lu, Tianyuan Wu, Minchen Yu, Qizhen Weng, Xusheng Chen, Yizhou Shan, Binhang Yuan, Wei Wang. 24
+
+[llm on mobile device] [LLM as a System Service on Mobile Devices](https://arxiv.org/pdf/2403.11805). Wangsong Yin, Mengwei Xu, Yuanchun Li, Xuanzhe Liu. 24
+
+[inference serving system] [MuxServe: Flexible Multiplexing for Efficient Multiple LLM Serving](https://arxiv.org/pdf/2404.02015). Jiangfei Duan, Runyu Lu, Haojie Duanmu, Xiuhong Li, Xingcheng Zhang, Dahua Lin, Ion Stoica, Hao Zhang. 24
 
 ## License
 
