@@ -545,9 +545,13 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [long context] [FlashAttention Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf). Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré. 22
 
+[moe] [Mixture-of-Experts with Expert Choice Routing](https://arxiv.org/pdf/2202.09368). Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew Dai, Zhifeng Chen, Quoc Le, James Laudon. 22
+
 [kv cache management] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, Ion Stoica. 23
 
 [automatic KV cache reuse] [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf). Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Jeff Huang, Chuyue Sun, Cody Hao Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph E. Gonzalez, Clark Barrett, Ying Sheng. 23
+
+[moe] [Mixture of Experts with Uncertainty Voting for Imbalanced Deep Regression Problems](https://arxiv.org/pdf/2305.15178). Yuchang Jiang, Vivien Sainte Fare Garnot, Konrad Schindler, Jan Dirk Wegner. 23
 
 [batching LoRA inference] [S-LoRA: Serving Thousands of Concurrent LoRA Adapters](https://arxiv.org/pdf/2311.03285.pdf). Ying Sheng, Shiyi Cao, Dacheng Li, Coleman Hooper, Nicholas Lee, Shuo Yang, Christopher Chou, Banghua Zhu, Lianmin Zheng, Kurt Keutzer, Joseph E. Gonzalez, Ion Stoica. 23
 
@@ -566,6 +570,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [efficient generative llm inference] [Inference without Interference: Disaggregate LLM Inference for Mixed Downstream Workloads](https://arxiv.org/pdf/2401.11181.pdf). Cunchen Hu, Heyang Huang, Liangliang Xu, Xusheng Chen, Jiang Xu, Shuang Chen, Hao Feng, Chenxi Wang, Sa Wang, Yungang Bao, Ninghui Sun, Yizhou Shan. 23
 
 [model pruning] [Flash-LLM: Enabling Cost-Effective and Highly-Efficient Large Generative Model Inference with Unstructured Sparsity](https://arxiv.org/pdf/2309.10285.pdf). Haojun Xia, Zhen Zheng, Yuchao Li, Donglin Zhuang, Zhongzhu Zhou, Xiafei Qiu, Yong Li, Wei Lin, Shuaiwen Leon Song. 23
+
+[kv cache] [Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs](https://arxiv.org/pdf/2310.01801). Suyu Ge, Yunan Zhang, Liyuan Liu, Minjia Zhang, Jiawei Han, Jianfeng Gao. 23
 
 [model pruning] [LLM-Pruner: On the Structural Pruning of Large Language Models](https://arxiv.org/pdf/2305.11627.pdf). Xinyin Ma, Gongfan Fang, Xinchao Wang. 23
 
@@ -591,13 +597,27 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [multi-modality] [ImageBind-LLM: Multi-modality Instruction Tuning](https://arxiv.org/pdf/2309.03905.pdf). Jiaming Han, Renrui Zhang, Wenqi Shao, Peng Gao, Peng Xu, Han Xiao, Kaipeng Zhang, Chris Liu, Song Wen, Ziyu Guo, Xudong Lu, Shuai Ren, Yafei Wen, Xiaoxin Chen, Xiangyu Yue, Hongsheng Li, Yu Qiao. 23
 
+[moe] [Merge, Then Compress: Demystify Efficient SMoE with Hints from Its Routing Policy](https://arxiv.org/pdf/2310.01334). Pingzhi Li, Zhenyu Zhang, Prateek Yadav, Yi-Lin Sung, Yu Cheng, Mohit Bansal, Tianlong Chen. 23
+
+[moe on edge] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/pdf/2308.14352). Rongjie Yi, Liwei Guo, Shiyun Wei, Ao Zhou, Shangguang Wang, Mengwei Xu. 23
+
 [diffusion transformer] [Photorealistic Video Generation with Diffusion Models](https://arxiv.org/pdf/2312.06662). Agrim Gupta, Lijun Yu, Kihyuk Sohn, Xiuye Gu, Meera Hahn, Li Fei-Fei, Irfan Essa, Lu Jiang, José Lezama. 23
 
 [long context] [Blockwise Parallel Transformer for Large Context Models](https://arxiv.org/pdf/2305.19370). Hao Liu, Pieter Abbeel. 23
 
 [inference serving system] [SuperServe: Fine-Grained Inference Serving for Unpredictable Workloads](https://arxiv.org/pdf/2312.16733). Alind Khare, Dhruv Garg, Sukrit Kalra, Snigdha Grandhi, Ion Stoica, Alexey Tumanov. 23
 
-[inference serving system] [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920). Bingyang Wu, Yinmin Zhong, Zili Zhang, Gang Huang, Xuanzhe Liu, Xin Jin. 23                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+[kv cache] [Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time](https://arxiv.org/pdf/2305.17118). Zichang Liu, Aditya Desai, Fangshuo Liao, Weitao Wang, Victor Xie, Zhaozhuo Xu, Anastasios Kyrillidis, Anshumali Shrivastava. 23
+
+[inference serving system] [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920). Bingyang Wu, Yinmin Zhong, Zili Zhang, Gang Huang, Xuanzhe Liu, Xin Jin. 23                                              
+
+[sparsity] [LoSparse: Structured Compression of Large Language Models based on Low-Rank and Sparse Approximation](https://arxiv.org/pdf/2306.11222). Yixiao Li, Yifan Yu, Qingru Zhang, Chen Liang, Pengcheng He, Weizhu Chen, Tuo Zhao. 23     
+
+[sparsity] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean. 24  
+
+[kv cache] [DéjàVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876). Foteini Strati, Sara Mcallister, Amar Phanishayee, Jakub Tarnawski, Ana Klimovic. 24       
+
+[moe] [OpenMoE: An Early Effort on Open Mixture-of-Experts Language Models](https://arxiv.org/pdf/2402.01739). Fuzhao Xue, Zian Zheng, Yao Fu, Jinjie Ni, Zangwei Zheng, Wangchunshu Zhou, Yang You. 24                                                                                                                                                                                                                                                                                                                                                                                                                 
 
 [speculative decoding] [Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://arxiv.org/pdf/2401.10774.pdf). Tianle Cai, Yuhong Li, Zhengyang Geng, Hongwu Peng, Jason D. Lee, Deming Chen, Tri Dao. 24
 
@@ -611,11 +631,17 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [fast moe inference with cpu] [MOE-INFINITY: Activation-Aware Expert Offloading for Efficient MoE Serving](https://arxiv.org/pdf/2401.14361). Leyang Xue, Yao Fu, Zhan Lu, Luo Mai, Mahesh Marina. 24
 
+[kv cache] [FastDecode: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines](https://arxiv.org/pdf/2403.11421). Jiaao He, Jidong Zhai. 24
+
+[kv cache] [Get More with LESS: Synthesizing Recurrence with KV Cache Compression for Efficient LLM Inference](https://arxiv.org/pdf/2402.09398). Harry Dong, Xinyu Yang, Zhenyu Zhang, Zhangyang Wang, Yuejie Chi, Beidi Chen. 24
+
 [lora serving system] [CaraServe: CPU-Assisted and Rank-Aware LoRA Serving for Generative LLM Inference](https://arxiv.org/pdf/2401.11240). Suyi Li, Hanfeng Lu, Tianyuan Wu, Minchen Yu, Qizhen Weng, Xusheng Chen, Yizhou Shan, Binhang Yuan, Wei Wang. 24
 
 [llm on mobile device] [LLM as a System Service on Mobile Devices](https://arxiv.org/pdf/2403.11805). Wangsong Yin, Mengwei Xu, Yuanchun Li, Xuanzhe Liu. 24
 
 [inference serving system] [MuxServe: Flexible Multiplexing for Efficient Multiple LLM Serving](https://arxiv.org/pdf/2404.02015). Jiangfei Duan, Runyu Lu, Haojie Duanmu, Xiuhong Li, Xingcheng Zhang, Dahua Lin, Ion Stoica, Hao Zhang. 24
+
+[kv cache] [Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient Generative Inference](https://arxiv.org/pdf/2403.09054). Muhammad Adnan, Akhil Arunkumar, Gaurav Jain, Prashant J. Nair, Ilya Soloveychik, Purushotham Kamath. 24
 
 ## License
 
