@@ -315,6 +315,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [gradient compression] [Hi-Speed DNN Training with Espresso Unleashing the Full Potential of Gradient Compression with Near-Optimal Usage Strategies](https://dl.acm.org/doi/pdf/10.1145/3552326.3567505). Zhuang Wang, Haibin Lin, Yibo Zhu, T. S. Eugene Ng. EUROSYS'23
 
+[memory-efficient training] [Accordion: Memory-Efficient DNN Training Using Adaptive Local Learning](https://arxiv.org/pdf/2402.14139). Dhananjay Saikumar，Blesson Varghese. EUROSYS'24
+
+[multi-task training] [DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines](https://arxiv.org/pdf/2311.10418). Chenyu Jiang, Zhen Jia, Shuai Zheng, Yida Wang, Chuan Wu. EUROSYS'24
+
 ## KDD
 
 [large model training] [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters](https://dl.acm.org/doi/pdf/10.1145/3394486.3406703). Jeff Rasley, Samyam Rajbhandari, Olatunji Ruwase, Yuxiong He. KDD'20
