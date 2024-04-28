@@ -83,6 +83,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 [failure recovery] [POSTER Swift Expedited Failure Recovery for Large-scale DNN Training](https://arxiv.org/pdf/2302.06173.pdf). Yuchen Zhong, Guangming Sheng, Juncheng Liu, Jinhui Yuan, and Chuan Wu. PPoPP'23
 
+[computation and communication overlap] [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/pdf/10.1145/3627535.3638466). Jiangsu Du, PictureJinhui Wei, PictureJiazhi Jiang, PictureShenggan Cheng, PictureDan Huang, PictureZhiguang Chen, PictureYutong Lu. PPoPP'24
+
 ## NIPS
 
 [network architecture] [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf). Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin. NIPS'17
@@ -152,6 +154,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 [GNN training] [WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture](https://dl.acm.org/doi/pdf/10.5555/3571885.3571956). Dongxu Yang, Junhong Liu,  Jiaxing Qi,  Junjie Lai. SC'22
 
 [pipeline parallelism] [Hanayo: Harnessing Wave-like Pipeline Parallelism for Enhanced Large Model Training Efficiency](https://dl.acm.org/doi/pdf/10.1145/3581784.3607073). Ziming Liu, Shenggan Cheng, Haotian Zhou, Yang You. SC'23
+
+[elastic training system] [EasyScale: Accuracy-consistent Elastic Training for Deep Learning](https://arxiv.org/pdf/2208.14228). Mingzhen Li, Wencong Xiao, Biao Sun, Hanyu Zhao, Hailong Yang, Shiru Ren, Zhongzhi Luan, Xianyan Jia, Yi Liu, Yong Li, Wei Lin, Depei Qian. SC'23
 
 ## ATC
 
@@ -231,6 +235,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [accelerate MoE] [Accelerating Distributed MoE Training and Inference with Lina](https://www.usenix.org/system/files/atc23-li-jiamin.pdf). Jiamin Li, Yimin Jiang, Yibo Zhu, Cong Wang, Hong Xu. ATC'23
 
+[GPU fragmentation] [Beware of Fragmentation: Scheduling GPU-Sharing Workloads with Fragmentation Gradient Descent](https://www.usenix.org/system/files/atc23-weng.pdf). Qizhen Weng and Lingyun Yang, Hong Kong University of Science and Technology; Yinghao Yu, Alibaba Group and Hong Kong University of Science and Technology; Wei Wang, Hong Kong University of Science and Technology; Xiaochuan Tang, Guodong Yang, and Liping Zhang, Alibaba Group. ATC'23
+
+[multiple DNN on device] [Decentralized Application-Level Adaptive Scheduling for Multi-Instance DNNs on Open Mobile Devices](https://www.usenix.org/system/files/atc23-sung.pdf). HH Sung, JA Chen, W Niu, J Guan, B Ren, X Shen. ATC'23
+
 ## ASPLOS
 
 [GPU memory management] [Capuchin: Tensor-based GPU Memory Management for Deep Learning](http://alchem.usc.edu/portal/static/download/capuchin.pdf). Xuan Peng, Xuanhua Shi, Hulin Dai, Hai Jin, Weiliang Ma, Qian Xiong, Fan Yang,  Xuehai Qian. ASPLOS'20
@@ -262,6 +270,16 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [inference system] [Proteus: A High-Throughput Inference-Serving System with Accuracy Scaling](https://guanh01.github.io/files/2024proteus.pdf). Sohaib Ahmad, Hui Guan, Brian D. Friedman, Nokia Bell Labs, Nokia Bell Labs, Ramesh K. Sitaraman, Thomas Woo. ASPLOS'24
 
 [preemptible inference system] [SpotServe: Serving Generative Large Language Models on Preemptible Instances](https://arxiv.org/pdf/2311.15566). Xupeng Miao, Chunan Shi, Jiangfei Duan, Xiaoli Xi, Dahua Lin, Bin Cui, Zhihao Jia. ASPLOS'24
+
+[pipeline parallelism] [AdaPipe: Optimizing Pipeline Parallelism with Adaptive Recomputation and Partitioning](https://dl.acm.org/doi/pdf/10.1145/3620666.3651359). Zhenbo Sun, PictureHuanqi Cao, PictureYuanwei Wang, PictureGuanyu Feng, PictureShengqi Chen, PictureHaojie Wang, PictureWenguang Chen. ASPLOS'24
+
+[memory optimization] [MAGIS: Memory Optimization via Coordinated Graph Transformation and Scheduling for DNN](https://dl.acm.org/doi/pdf/10.1145/3620666.3651330). Renze Chen, PictureZijian Ding, PictureSize Zheng, PictureChengrui Zhang, PictureJingwen Leng, PictureXuanzhe Liu, PictureYun Liang. ASPLOS'24
+
+[tensor partitioning] [PrimePar: Efficient Spatial-temporal Tensor Partitioning for Large Transformer Model Training](https://dl.acm.org/doi/pdf/10.1145/3620666.3651357). Haoran Wang, PictureLei Wang, PictureHaobo Xu, PictureYing Wang, PictureYuming Li, PictureYinhe Han. ASPLOS'24
+
+[layout transformation elimination] [SmartMem: Layout Transformation Elimination and Adaptation for Efficient DNN Execution on Mobile](https://arxiv.org/pdf/2404.13528). Wei Niu, Md Musfiqur Rahman Sanim, Zhihao Shu, Jiexiong Guan, Xipeng Shen, Miao Yin, Gagan Agrawal, Bin Ren. ASPLOS'24
+
+[collective communication library] [TCCL: Discovering Better Communication Paths for PCIe GPU Clusters](https://dl.acm.org/doi/pdf/10.1145/3620666.3651362). Heehoon Kim, PictureJunyeol Ryu, PictureJaejin Lee. ASPLOS'24
 
 ## NAACL-HLT
 
@@ -318,6 +336,10 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [memory-efficient training] [Accordion: Memory-Efficient DNN Training Using Adaptive Local Learning](https://arxiv.org/pdf/2402.14139). Dhananjay Saikumar，Blesson Varghese. EUROSYS'24
 
 [multi-task training] [DynaPipe: Optimizing Multi-task Training through Dynamic Pipelines](https://arxiv.org/pdf/2311.10418). Chenyu Jiang, Zhen Jia, Shuai Zheng, Yida Wang, Chuan Wu. EUROSYS'24
+
+[auto parallelism] [Aceso: Efficient Parallel DNN Training through Iterative Bottleneck Alleviation](https://dl.acm.org/doi/pdf/10.1145/3627703.3629554). Guodong Liu, PictureYoushan Miao, PictureZhiqi Lin, PictureXiaoxiang Shi, PictureSaeed Maleki, PictureFan Yang, PictureYungang Bao, PictureSa Wang. EUROSYS'24
+
+[moe training system] [ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling](https://dl.acm.org/doi/pdf/10.1145/3627703.3650083). Shaohuai Shi, Xinglin Pan, Qiang Wang, Chengjian Liu, Xiaozhe Ren, Zhongzhe Hu, Yu Yang, Bo Li, Xiaowen Chu. EUROSYS'24
 
 ## KDD
 
@@ -504,6 +526,18 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [memory reuse] [SAFE OPTIMIZED STATIC MEMORY ALLOCATION FOR PARALLEL DEEP LEARNING](https://proceedings.mlsys.org/paper_files/paper/2023/file/0c8abcf158ed12d0dd94480681186fda-Paper-mlsys2023.pdf). Ioannis Lamprou, Zhen Zhang, Javier de Juan, Hang Yang, Yongqiang Lai, Etienne Filhol, Cedric Bastoul. MLSys'23
 
 [moe kernel] [MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS](https://proceedings.mlsys.org/paper_files/paper/2023/file/f9f4f0db4894f77240a95bde9df818e0-Paper-mlsys2023.pdf). Trevor Gale, Deepak Narayanan, Cliff Young, Matei Zaharia. MLSys'23
+
+[gpu-cpu memory swap] [μ-TWO: 3× Faster Multi-Model Training with Orchestration and Memory Optimization](https://proceedings.mlsys.org/paper_files/paper/2023/file/a72071d84c001596e97a2c7e1e880559-Paper-mlsys2023.pdf). Sanket Purandare, Abdul Wasay, Stratos Idreos, NameError. MLSys'23
+
+[communication system] [On Optimizing the Communication of Model Parallelism](https://arxiv.org/pdf/2211.05322). Yonghao Zhuang, Hexu Zhao, Lianmin Zheng, Zhuohan Li, Eric P. Xing, Qirong Ho, Joseph E. Gonzalez, Ion Stoica, Hao Zhang. MLSys'23
+
+[parameter partitioning] [Efficiently Scaling Transformer Inference](https://arxiv.org/pdf/2211.05102). Reiner Pope, Sholto Douglas, Aakanksha Chowdhery, Jacob Devlin, James Bradbury, Anselm Levskaya, Jonathan Heek, Kefan Xiao, Shivani Agrawal, Jeff Dean. MLSys'23
+
+[operator fusion] [Transcending runtime-memory tradeoffs in checkpointing by being fusion aware](https://proceedings.mlsys.org/paper_files/paper/2023/file/8a27bb69950c0b46cdb36d10e5514cc8-Paper-mlsys2023.pdf). Horace He, Shangdi Yu. MLSys'23
+
+[pipeline parallelism] [Breadth-First Pipeline Parallelism](https://arxiv.org/pdf/2211.05953). Joel Lamy-Poirier. MLSys'23
+
+[adaptive parallelism and pipelining] [Tutel: Adaptive Mixture-of-Experts at Scale](https://arxiv.org/pdf/2206.03382). Changho Hwang, Wei Cui, Yifan Xiong, Ziyue Yang, Ze Liu, Han Hu, Zilong Wang, Rafael Salas, Jithin Jose, Prabhat Ram, Joe Chau, Peng Cheng, Fan Yang, Mao Yang, Yongqiang Xiong. MLSys'23
 
 ## SIGCOMM
 
