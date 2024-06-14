@@ -58,6 +58,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 - [ACM Special Interest Group on Data Communication(SIGCOMM)](#SIGCOMM)
 
+- [The IEEE / CVF Computer Vision and Pattern Recognition Conference(CVPR)](#CVPR)
+
    
 
 
@@ -124,6 +126,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 [rlhf] [RRHF: Rank Responses to Align Language Models with Human Feedback without tears](https://arxiv.org/pdf/2304.05302.pdf). Zheng Yuan, Hongyi Yuan, Chuanqi Tan, Wei Wang, Songfang Huang, Fei Huang. NIPS'23
 
 [parallel sampling] [Parallel Sampling of Diffusion Models](https://arxiv.org/pdf/2305.16317). Andy Shih, Suneel Belkhale, Stefano Ermon, Dorsa Sadigh, Nima Anari. NIPS'23
+
+[diffusion on mobile] [SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds](https://arxiv.org/pdf/2306.00980). Yanyu Li, Huan Wang, Qing Jin, Ju Hu, Pavlo Chemerys, Yun Fu, Yanzhi Wang, Sergey Tulyakov, Jian Ren. NIPS'23
 
 ## SC
 
@@ -313,6 +317,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [pipeline parallelism] [BPIPE: Memory-Balanced Pipeline Parallelism for Training Large Language Models](https://proceedings.mlr.press/v202/kim23l/kim23l.pdf). Taebum Kim, Hyoungjoo Kim,Gyeong-In Yu, Byung-Gon Chun. ICML'23
 
+[privacy-preserving] [Are Diffusion Models Vulnerable to Membership Inference Attacks?](https://arxiv.org/pdf/2302.01316). Jinhao Duan, Fei Kong, Shiqi Wang, Xiaoshuang Shi, Kaidi Xu. ICML'23
+
 ## EUROSYS
 
 [graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
@@ -487,6 +493,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [model framework] [Go Wider Instead of Deeper](https://cdn.aaai.org/ojs/20858/20858-13-24871-1-2-20220628.pdf). Fuzhao Xue, Ziji Shi, Futao Wei, Yuxuan Lou, Yong Liu, Yang You. AAAI'22
 
+[computation reuse in diffusion] [Accelerating Text-to-Image Editing via Cache-Enabled Sparse Diffusion Inference](https://arxiv.org/pdf/2305.17423). Zihao Yu, Haoyang Li, Fangcheng Fu, Xupeng Miao, Bin Cui. AAAI'24
+
 ## ICCV
 
 [vision transformer] [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Swin_Transformer_Hierarchical_Vision_Transformer_Using_Shifted_Windows_ICCV_2021_paper.pdf). Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, Baining Guo. ICCV'21
@@ -547,6 +555,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [moe all2all] [Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models](https://dl.acm.org/doi/pdf/10.1145/3603269.3604869). Juncai Liu, Jessie Hui Wang, Yimin Jiang. SIGCOMM'23
 
+## CVPR
+
+[diffusion on mobile] [Speed Is All You Need: On-Device Acceleration of Large Diffusion Models via GPU-Aware Optimizations](https://arxiv.org/pdf/2304.11267). Yu-Hui Chen, Raman Sarokin, Juhyun Lee, Jiuqiang Tang, Chuo-Ling Chang, Andrei Kulik, Matthias Grundmann. CVPR'23
+
+[computation reuse in diffusion] [DeepCache: Accelerating Diffusion Models for Free](https://arxiv.org/pdf/2312.00858). Xinyin Ma, Gongfan Fang, Xinchao Wang. CVPR'24
+
 ## Journals
 
 ## TPDS
@@ -571,6 +585,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [inference on edge device] [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791). Han Cai, Chuang Gan, Tianzhe Wang, Zhekai Zhang, Song Han. 19
 
+[privacy-preserving] [DataMix: Efficient Privacy-Preserving Edge-Cloud Inference](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123560562.pdf). Zhijian Liu, Zhanghao Wu, Chuang Gan, Ligeng Zhu, and Song Han. 20
+
 [checkpoint] [On Efficient Constructions of Checkpoints](https://arxiv.org/pdf/2009.13003.pdf). Yu Chen, Zhenming Liu, Bin Ren, Xin Jin. 20
 
 [checkpoint] [A Study of Checkpointing in Large Scale Training of Deep Neural Networks](https://arxiv.org/pdf/2012.00825.pdf). Elvis Rojas, Albert Njoroge Kahira, Esteban Meneses, Leonardo Bautista Gomez, Rosa M Badia. 20
@@ -588,6 +604,9 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [long context] [FlashAttention Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf). Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré. 22
 
 [moe] [Mixture-of-Experts with Expert Choice Routing](https://arxiv.org/pdf/2202.09368). Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew Dai, Zhifeng Chen, Quoc Le, James Laudon. 22
+
+[privacy-preserving] [Model Protection: Real-Time Privacy-Preserving
+Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9609559). Jiahui Hou , Huiqi Liu , Yunxin Liu, Yu Wang, Peng-Jun Wan, and Xiang-Yang Li. 22
 
 [autoregressive diffusion] [Diffusion Probabilistic Modeling for Video Generation](https://arxiv.org/pdf/2203.09481). Ruihan Yang, Prakhar Srivastava, Stephan Mandt. 22
 
@@ -635,6 +654,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [moe model] [Mixture of Experts with Uncertainty Voting for Imbalanced Deep Regression Problems](https://arxiv.org/pdf/2305.15178.pdf). Yuchang Jiang, Vivien Sainte Fare Garnot, Konrad Schindler, Jan Dirk Wegner. 23
 
+[computation reuse in diffusion] [Cache Me if You Can: Accelerating Diffusion Models through Block Caching](https://arxiv.org/pdf/2312.03209). Felix Wimbauer, Bichen Wu, Edgar Schoenfeld, Xiaoliang Dai, Ji Hou, Zijian He, Artsiom Sanakoyeu, Peizhao Zhang, Sam Tsai, Jonas Kohler, Christian Rupprecht, Daniel Cremers, Peter Vajda, Jialiang Wang. 23
+
 [moe fine-tuning] [MOELoRA: An MOE-based Parameter Efficient Fine-Tuning Method for Multi-task Medical Applications](https://arxiv.org/pdf/2310.18339.pdf). Qidong Liu, Xian Wu, Xiangyu Zhao, Yuanshao Zhu, Derong Xu, Feng Tian, Yefeng Zheng. 23
 
 [moe inference] [Towards MoE Deployment: Mitigating Inefficiencies in Mixture-of-Expert (MoE) Inference](https://arxiv.org/pdf/2303.06182.pdf). Haiyang Huang, Newsha Ardalani, Anna Sun, Liu Ke, Hsien-Hsin S. Lee, Anjali Sridhar, Shruti Bhosale, Carole-Jean Wu, Benjamin Lee. 23
@@ -674,6 +695,16 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [distributed kv cache] [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/pdf/2401.02669.pdf). Bin Lin, Tao Peng, Chen Zhang, Minmin Sun, Lanbo Li, Hanyu Zhao, Wencong Xiao, Qi Xu, Xiafei Qiu, Shen Li, Zhigang Ji, Yong Li, Wei Lin. 24
 
 [fast moe inference with cpu] [FIDDLER: CPU-GPU ORCHESTRATION FOR FAST INFERENCE OF MIXTURE-OF-EXPERTS MODELS](https://arxiv.org/pdf/2402.07033). Keisuke Kamahori, Yile Gu, Kan Zhu, Baris Kasikci.24
+
+[computation reuse in diffusion] [DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models](https://arxiv.org/pdf/2402.19481). Muyang Li, Tianle Cai, Jiaxin Cao, Qinsheng Zhang, Han Cai, Junjie Bai, Yangqing Jia, Ming-Yu Liu, Kai Li, Song Han. 24
+
+[computation reuse in diffusion] [Fast Inference Through The Reuse Of Attention Maps In Diffusion Models](https://arxiv.org/pdf/2402.19481). Muyang Li, Tianle Cai, Jiaxin Cao, Qinsheng Zhang, Han Cai, Junjie Bai, Yangqing Jia, Ming-Yu Liu, Kai Li, Song Han. 24
+
+[computation reuse in diffusion] [Training-Free Consistent Text-to-Image Generation](https://arxiv.org/pdf/2402.03286). Yoad Tewel, Omri Kaduri, Rinon Gal, Yoni Kasten, Lior Wolf, Gal Chechik, Yuval Atzmon. 24
+
+[privacy-preserving] [Privacy-Preserving Diffusion Model Using Homomorphic Encryption](https://arxiv.org/pdf/2403.05794). Yaojian Chen, Qiben Yan. 24
+
+[computation reuse in diffusion] [Exploring Collaborative Distributed Diffusion-Based AI-Generated Content (AIGC) in Wireless Networks](https://arxiv.org/pdf/2304.03446). Hongyang Du, Ruichen Zhang, Dusit Niyato, Jiawen Kang, Zehui Xiong, Dong In Kim, Xuemin (Sherman)Shen, H. Vincent Poor. 24
 
 [fast moe inference with cpu] [MOE-INFINITY: Activation-Aware Expert Offloading for Efficient MoE Serving](https://arxiv.org/pdf/2401.14361). Leyang Xue, Yao Fu, Zhan Lu, Luo Mai, Mahesh Marina. 24
 
