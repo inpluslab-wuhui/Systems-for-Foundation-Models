@@ -601,6 +601,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [diffusion transformer] [Scalable Diffusion Models with Transformers](https://arxiv.org/pdf/2212.09748). William Peebles, Saining Xie. 22
 
+[vision-language model pretrain] [BLIP:Bootstrapping Language-Image Pretraining](https://arxiv.org/pdf/2201.12086). Junnan Li, Dongxu Li, Caiming Xiong, Steven Hoi. 22
+
 [long context] [FlashAttention Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135.pdf). Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré. 22
 
 [moe] [Mixture-of-Experts with Expert Choice Routing](https://arxiv.org/pdf/2202.09368). Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew Dai, Zhifeng Chen, Quoc Le, James Laudon. 22
@@ -725,6 +727,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [video diffusion] [Latte: Latent Diffusion Transformer for Video Generation](https://arxiv.org/pdf/2401.03048). Xin Ma, Yaohui Wang, Gengyun Jia, Xinyuan Chen, Ziwei Liu, Yuan-Fang Li, Cunjian Chen, Yu Qiao. 24
 
 [image diffusion] [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206). Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach. 24
+
+[stealing private information] [Teach LLMs to Phish: Stealing Private Information from Language Models](https://arxiv.org/pdf/2403.00871). Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, Prateek Mittal. 24
 
 ## License
 
