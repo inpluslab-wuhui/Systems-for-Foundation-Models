@@ -123,6 +123,8 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 [rlhf] [RRHF: Rank Responses to Align Language Models with Human Feedback without tears](https://arxiv.org/pdf/2304.05302.pdf). Zheng Yuan, Hongyi Yuan, Chuanqi Tan, Wei Wang, Songfang Huang, Fei Huang. NIPS'23
 
+[parallel sampling] [Parallel Sampling of Diffusion Models](https://arxiv.org/pdf/2305.16317). Andy Shih, Suneel Belkhale, Stefano Ermon, Dorsa Sadigh, Nima Anari. NIPS'23
+
 ## SC
 
 [adaptive batching] [BATCH: Machine Learning Inference Serving on Serverless Platforms with Adaptive Batching](https://www.cse.unr.edu/~fyan/Paper/Feng-SC20-BATCH.pdf). Ahsan Ali, Riccardo Pinciroli, Feng Yan, Evgenia Smirni. SC'20
@@ -479,6 +481,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [checkpoint] [Bamboo: Making Preemptible Instances Resilient for Affordable Training of Large DNNs](https://www.usenix.org/system/files/nsdi23-thorpe.pdf). John Thorpe, Pengzhan Zhao, Jonathan Eyolfson, and Yifan Qiao, UCLA; Zhihao Jia, CMU; Minjia Zhang, Microsoft Research; Ravi Netravali, Princeton University; Guoqing Harry Xu, UCLA. nsdi'23
 
+[cache among request] [Approximate Caching for Efficiently Serving Diffusion Models](https://arxiv.org/pdf/2312.04429). Shubham Agarwal, Subrata Mitra, Sarthak Chakraborty, Srikrishna Karanam, Koyel Mukherjee, Shiv Saini. nsdi'24
+
 ## AAAI
 
 [model framework] [Go Wider Instead of Deeper](https://cdn.aaai.org/ojs/20858/20858-13-24871-1-2-20220628.pdf). Fuzhao Xue, Ziji Shi, Futao Wei, Yuxuan Lou, Yong Liu, Yang You. AAAI'22
@@ -585,6 +589,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [moe] [Mixture-of-Experts with Expert Choice Routing](https://arxiv.org/pdf/2202.09368). Yanqi Zhou, Tao Lei, Hanxiao Liu, Nan Du, Yanping Huang, Vincent Zhao, Andrew Dai, Zhifeng Chen, Quoc Le, James Laudon. 22
 
+[autoregressive diffusion] [Diffusion Probabilistic Modeling for Video Generation](https://arxiv.org/pdf/2203.09481). Ruihan Yang, Prakhar Srivastava, Stephan Mandt. 22
+
 [kv cache management] [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph E. Gonzalez, Hao Zhang, Ion Stoica. 23
 
 [automatic KV cache reuse] [Efficiently Programming Large Language Models using SGLang](https://arxiv.org/pdf/2312.07104.pdf). Lianmin Zheng, Liangsheng Yin, Zhiqiang Xie, Jeff Huang, Chuyue Sun, Cody Hao Yu, Shiyi Cao, Christos Kozyrakis, Ion Stoica, Joseph E. Gonzalez, Clark Barrett, Ying Sheng. 23
@@ -651,6 +657,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [sparsity] [LoSparse: Structured Compression of Large Language Models based on Low-Rank and Sparse Approximation](https://arxiv.org/pdf/2306.11222). Yixiao Li, Yifan Yu, Qingru Zhang, Chen Liang, Pengcheng He, Weizhu Chen, Tuo Zhao. 23     
 
+[consistent style in image generation] [Style Aligned Image Generation via Shared Attention](https://arxiv.org/pdf/2312.02133). Amir Hertz, Andrey Voynov, Shlomi Fruchter, Daniel Cohen-Or. 23
+
 [sparsity] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean. 24  
 
 [kv cache] [DéjàVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876). Foteini Strati, Sara Mcallister, Amar Phanishayee, Jakub Tarnawski, Ana Klimovic. 24       
@@ -680,6 +688,12 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [inference serving system] [MuxServe: Flexible Multiplexing for Efficient Multiple LLM Serving](https://arxiv.org/pdf/2404.02015). Jiangfei Duan, Runyu Lu, Haojie Duanmu, Xiuhong Li, Xingcheng Zhang, Dahua Lin, Ion Stoica, Hao Zhang. 24
 
 [kv cache] [Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient Generative Inference](https://arxiv.org/pdf/2403.09054). Muhammad Adnan, Akhil Arunkumar, Gaurav Jain, Prashant J. Nair, Ilya Soloveychik, Purushotham Kamath. 24
+
+[elastic sequence parallelism] [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526). Bingyang Wu, Shengyu Liu, Yinmin Zhong, Peng Sun, Xuanzhe Liu, Xin Jin. 24
+
+[video diffusion] [Latte: Latent Diffusion Transformer for Video Generation](https://arxiv.org/pdf/2401.03048). Xin Ma, Yaohui Wang, Gengyun Jia, Xinyuan Chen, Ziwei Liu, Yuan-Fang Li, Cunjian Chen, Yu Qiao. 24
+
+[image diffusion] [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206). Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach. 24
 
 ## License
 
