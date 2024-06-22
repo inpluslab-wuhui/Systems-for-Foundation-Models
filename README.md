@@ -202,7 +202,7 @@ UC Berkeley; Gregory R. Ganger and Phillip B. Gibbons, Carnegie Mellon Universit
 
 [DNN running time predict] [Daydream: Accurately Estimating the Efficacy of Optimizations for DNN Training](https://www.usenix.org/system/files/atc20-zhu-hongyu.pdf). Hongyu Zhu, University of Toronto & Vector Institute; Amar Phanishayee, Microsoft Research; Gennady Pekhimenko, University of Toronto & Vector Institute. ATC'20
 
-[DNN traning in GPU] [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/system/files/atc20-paper1132-slides-park.pdf). Jay H. Park, Gyeongchan Yun, Chang M. Yi, Nguyen T. Nguyen, and Seungmin Lee, UNIST; Jaesik Choi, KAIST; Sam H. Noh and Young-ri Choi, UNIST. ATC'20
+[DNN training in GPU] [HetPipe: Enabling Large DNN Training on (Whimpy) Heterogeneous GPU Clusters through Integration of Pipelined Model Parallelism and Data Parallelism](https://www.usenix.org/system/files/atc20-paper1132-slides-park.pdf). Jay H. Park, Gyeongchan Yun, Chang M. Yi, Nguyen T. Nguyen, and Seungmin Lee, UNIST; Jaesik Choi, KAIST; Sam H. Noh and Young-ri Choi, UNIST. ATC'20
 
 [multi DNN deployment platform] [NeuOS: A Latency-Predictable Multi-Dimensional Optimization Framework for DNN-driven Autonomous Systems](https://www.usenix.org/system/files/atc20-bateni.pdf). Soroush Bateni and Cong Liu, University of Texas at Dallas. ATC'20
 
