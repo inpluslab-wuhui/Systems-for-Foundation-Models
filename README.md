@@ -287,6 +287,21 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [collective communication library] [TCCL: Discovering Better Communication Paths for PCIe GPU Clusters](https://dl.acm.org/doi/pdf/10.1145/3620666.3651362). Heehoon Kim, PictureJunyeol Ryu, PictureJaejin Lee. ASPLOS'24
 
+[gnn training system] [MaxK-GNN: Extremely Fast GPU Kernel Design for Accelerating Graph Neural Networks Training](https://arxiv.org/pdf/2312.08656). Hongwu Peng, Xi Xie, Kaustubh Shivdikar, MD Amit Hasan, Jiahui Zhao, Shaoyi Huang, Omer Khan, David Kaeli, Caiwen Ding. ASPLOS'24
+
+[private information retrieval] [GPU-based Private Information Retrieval for On-Device Machine Learning Inference](https://arxiv.org/pdf/2301.10904). Maximilian Lam, Jeff Johnson, Wenjie Xiong, Kiwan Maeng, Udit Gupta, Yang Li, Liangzhen Lai, Ilias Leontiadis, Minsoo Rhu, Hsien-Hsin S. Lee, Vijay Janapa Reddi, Gu-Yeon Wei, David Brooks, G. Edward Suh. ASPLOS'24
+
+[model pruning] [Fractal: Joint Multi-Level Sparse Pattern Tuning of Accuracy and Performance for DNN Pruning](https://dl.acm.org/doi/pdf/10.1145/3620666.3651351). Yue Guan, Changming Yu, Yangjie Zhou, Jingwen Leng, Chao Li, and Minyi Guo. ASPLOS'24
+
+[SpMM acceleration] [DTC-SpMM: Bridging the Gap in Accelerating General Sparse Matrix Multiplication with Tensor Cores](https://dl.acm.org/doi/pdf/10.1145/3620666.3651378). Ruibo Fan, Wei Wang, and Xiaowen Chu. ASPLOS'24
+
+[elastic training] [Heet: Accelerating Elastic Training in Heterogeneous Deep Learning Clusters](https://dl.acm.org/doi/pdf/10.1145/3620665.3640375). Zizhao Mo, Huanle Xu, and Chengzhong Xu. APLOS'24
+
+[training compiler] [EVT: Accelerating Deep Learning Training with
+Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhaodong Chen, Andrew Kerr, Richard Cai, Jack Kosaian, Haicheng Wu, Yufei Ding, and Yuan Xie. ASPLOS'24
+
+[communication partitioning] [Centauri: Enabling Efficient Scheduling for Communication-Computation Overlap in Large Model Training via Communication Partitioning](https://dl.acm.org/doi/pdf/10.1145/3620666.3651379). Chang Chen, Xiuhong Li, Qianchao Zhu, Jiangfei Duan, Peng Sun, Xingcheng Zhang, and Chao Yang. ASPLOS'24
+
 ## NAACL-HLT
 
 [language representation model] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf). Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. NAACL-HLT'19
@@ -472,6 +487,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 [transformer block] [Brainformers Trading Simplicity for Efficiency](https://openreview.net/pdf?id=w5q6tHO1dl1). Yanqi Zhou, Nan Du, Yanping Huang, Daiyi Peng, Chang Lan, Da Huang, Siamak Shakeri, David So, Andrew Dai, Yifeng Lu, Zhifeng Chen, Quoc Le, Claire Cui, James Laundon, Jeff Dean. ICLR'23 
 
 [rlhf] [SAFE RLHF: SAFE REINFORCEMENT LEARNING FROM HUMAN FEEDBACK](https://openreview.net/pdf?id=TyFrPOKYXw). Josef Dai, Xuehai Pan, Ruiyang Sun, Jiaming Ji, Xinbo Xu, Mickel Liu, Yizhou Wang, Yaodong Yang. ICLR'24
+
+[llm for control] [DILU: A Knowledge-Driven Approach to Autonomous Driving with Large Language Models](https://arxiv.org/pdf/2309.16292). Licheng Wen, Daocheng Fu, Xin Li, Xinyu Cai, Tao Ma, Pinlong Cai, Min Dou, Botian Shi, Liang He, Yu Qiao. ICLR'24
 
 ## VLDB
 
@@ -682,6 +699,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [consistent style in image generation] [Style Aligned Image Generation via Shared Attention](https://arxiv.org/pdf/2312.02133). Amir Hertz, Andrey Voynov, Shlomi Fruchter, Daniel Cohen-Or. 23
 
+[agent simulation framework] [SurrealDriver: Designing Generative Driver Agent Simulation Framework in Urban Contexts based on Large Language Model](https://arxiv.org/pdf/2309.13193). Ye Jin, Xiaoxi Shen, Huiling Peng, Xiaoan Liu, Jingli Qin, Jiayang Li, Jintao Xie, Peizhong Gao, Guyue Zhou, Jiangtao Gong. 23
+
+[llm for control] [LANGUAGEMPC: LARGE LANGUAGE MODELS AS DECISION MAKERS FOR AUTONOMOUS DRIVING](https://arxiv.org/pdf/2310.03026). Hao Sha, Yao Mu, Yuxuan Jiang, Li Chen, Chenfeng Xu, Ping Luo, Shengbo Eben Li, Masayoshi Tomizuka, Wei Zhan, Mingyu Ding. 23
+
 [sparsity] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean. 24  
 
 [kv cache] [DéjàVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876). Foteini Strati, Sara Mcallister, Amar Phanishayee, Jakub Tarnawski, Ana Klimovic. 24       
@@ -729,6 +750,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [image diffusion] [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206). Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach. 24
 
 [stealing private information] [Teach LLMs to Phish: Stealing Private Information from Language Models](https://arxiv.org/pdf/2403.00871). Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, Prateek Mittal. 24
+
+[accelerator for edge devices] [FlexNN: A Dataflow-aware Flexible Deep Learning Accelerator for Energy-Efficient Edge Devices](https://arxiv.org/pdf/2403.09026). Arnab Raha, Deepak A. Mathaikutty, Soumendu K. Ghosh, Shamik Kundu. 24
 
 ## License
 
