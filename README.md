@@ -267,6 +267,8 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [tensor fusion] [FLAT: An Optimized Dataflow forMitigating Attention Bottlenecks](https://dl.acm.org/doi/pdf/10.1145/3575693.3575747). Sheng-Chun Kao, Suvinay Subramanian, Gaurav Agrawal, Amir Yazdanbakhsh, Tushar Krishna. ASPLOS'23
 
+[pipelining on edge] [STI: Turbocharge NLP Inference at the Edge via Elastic Pipelining](https://dl.acm.org/doi/pdf/10.1145/3575693.3575698). Liwei Guo, Wonkyo Choe, Felix Xiaozhu Lin. ASPLOS'23
+
 [communication overlap] [T3: Transparent Tracking & Triggering for Fine-grained Overlap of Compute & Collectives](https://arxiv.org/pdf/2401.16677). Suchita Pati, Shaizeen Aga, Mahzabeen Islam, Nuwan Jayasena, Matthew D. Sinclair. ASPLOS'24
 
 [speculative inference] [SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. ASPLOS'24
@@ -423,6 +425,10 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 [inference latency] [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310). Amey Agrawal, Nitin Kedia, Ashish Panwar, Jayashree Mohan, Nipun Kwatra, Bhargav S. Gulavani, Alexey Tumanov, Ramachandran Ramjee. osdi'24
 
 [fair inference] [Fairness in Serving Large Language Models](https://arxiv.org/pdf/2401.00588). Ying Sheng, Shiyi Cao, Dacheng Li, Banghua Zhu, Zhuohan Li, Danyang Zhuo, Joseph E. Gonzalez, Ion Stoica. osdi'24
+
+[schedule training workload on datacenter] [MAST: Global Scheduling of ML Training across Geo-Distributed Datacenters at Hyperscale](https://www.usenix.org/system/files/osdi24-choudhury.pdf). Arnab Choudhury, Meta Platforms; Yang Wang, Meta Platforms and The Ohio State University; Tuomas Pelkonen, Meta Platforms; Kutta Srinivasan, LinkedIn; Abha Jain, Shenghao Lin, Delia David, Siavash Soleimanifard, Michael Chen, Abhishek Yadav, Ritesh Tijoriwala, Denis Samoylov, and Chunqiang Tang, Meta Platforms. osdi'24
+
+[runtime rescheduling across multiple model instances] [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://arxiv.org/pdf/2406.03243). Biao Sun, Ziming Huang, Hanyu Zhao, Wencong Xiao, Xinyi Zhang, Yong Li, Wei Lin. osdi'24
 
 ## SOSP
 
@@ -756,6 +762,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [stealing private information] [Teach LLMs to Phish: Stealing Private Information from Language Models](https://arxiv.org/pdf/2403.00871). Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, Prateek Mittal. 24
 
 [accelerator for edge devices] [FlexNN: A Dataflow-aware Flexible Deep Learning Accelerator for Energy-Efficient Edge Devices](https://arxiv.org/pdf/2403.09026). Arnab Raha, Deepak A. Mathaikutty, Soumendu K. Ghosh, Shamik Kundu. 24
+
+[llm for control] [DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models](https://arxiv.org/pdf/2312.09245). Wenhai Wang, Jiangwei Xie, ChuanYang Hu, Haoming Zou, Jianan Fan, Wenwen Tong, Yang Wen, Silei Wu, Hanming Deng, Zhiqi Li, Hao Tian, Lewei Lu, Xizhou Zhu, Xiaogang Wang, Yu Qiao, Jifeng Dai. 24
+
+[multiple LLM serving using spatial-temporal multiplexing] [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://arxiv.org/pdf/2404.02015). Jiangfei Duan, Runyu Lu, Haojie Duanmu, Xiuhong Li, Xingcheng Zhang, Dahua Lin, Ion Stoica, Hao Zhang. 24
 
 ## License
 
