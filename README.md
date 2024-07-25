@@ -368,6 +368,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [moe training system] [ScheMoE: An Extensible Mixture-of-Experts Distributed Training System with Tasks Scheduling](https://dl.acm.org/doi/pdf/10.1145/3627703.3650083). Shaohuai Shi, Xinglin Pan, Qiang Wang, Chengjian Liu, Xiaozhe Ren, Zhongzhe Hu, Yu Yang, Bo Li, Xiaowen Chu. EUROSYS'24
 
+[considering inter-arrival patterns] [Model Selection for Latency-Critical Inference Serving](https://dl.acm.org/doi/pdf/10.1145/3627703.3629565). Daniel Mendoza, Francisco Romero, and Caroline Trippel. EUROSYS'24
+
 ## KDD
 
 [large model training] [DeepSpeed: System Optimizations Enable Training Deep Learning Models with Over 100 Billion Parameters](https://dl.acm.org/doi/pdf/10.1145/3394486.3406703). Jeff Rasley, Samyam Rajbhandari, Olatunji Ruwase, Yuxiong He. KDD'20
@@ -429,6 +431,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 [schedule training workload on datacenter] [MAST: Global Scheduling of ML Training across Geo-Distributed Datacenters at Hyperscale](https://www.usenix.org/system/files/osdi24-choudhury.pdf). Arnab Choudhury, Meta Platforms; Yang Wang, Meta Platforms and The Ohio State University; Tuomas Pelkonen, Meta Platforms; Kutta Srinivasan, LinkedIn; Abha Jain, Shenghao Lin, Delia David, Siavash Soleimanifard, Michael Chen, Abhishek Yadav, Ritesh Tijoriwala, Denis Samoylov, and Chunqiang Tang, Meta Platforms. osdi'24
 
 [runtime rescheduling across multiple model instances] [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://arxiv.org/pdf/2406.03243). Biao Sun, Ziming Huang, Hanyu Zhao, Wencong Xiao, Xinyi Zhang, Yong Li, Wei Lin. osdi'24
+
+[considering correlation among multiple llm requests] [Parrot: Efficient Serving of LLM-based  Applications with Semantic Variable](https://www.usenix.org/system/files/osdi24-lin-chaofan.pdf). Chaofan Lin, Zhenhua Han, Chengruidong Zhang, Yuqing Yang, Fan Yang, Chen Chen, Lili Qiu. osdi'24
 
 ## SOSP
 
@@ -766,6 +770,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [llm for control] [DriveLLM: Charting the Path Toward Full Autonomous Driving With Large Language Models](https://arxiv.org/pdf/2312.09245). Wenhai Wang, Jiangwei Xie, ChuanYang Hu, Haoming Zou, Jianan Fan, Wenwen Tong, Yang Wen, Silei Wu, Hanming Deng, Zhiqi Li, Hao Tian, Lewei Lu, Xizhou Zhu, Xiaogang Wang, Yu Qiao, Jifeng Dai. 24
 
 [multiple LLM serving using spatial-temporal multiplexing] [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://arxiv.org/pdf/2404.02015). Jiangfei Duan, Runyu Lu, Haojie Duanmu, Xiuhong Li, Xingcheng Zhang, Dahua Lin, Ion Stoica, Hao Zhang. 24
+
+[heterogeneous computation in the level of neuron] [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/pdf/2406.06282). Zhenliang Xue, Yixin Song, Zeyu Mi, Le Chen, Yubin Xia, Haibo Chen. 24
 
 ## License
 
