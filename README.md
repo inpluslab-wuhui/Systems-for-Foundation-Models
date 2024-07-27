@@ -773,6 +773,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [heterogeneous computation in the level of neuron] [PowerInfer-2: Fast Large Language Model Inference on a Smartphone](https://arxiv.org/pdf/2406.06282). Zhenliang Xue, Yixin Song, Zeyu Mi, Le Chen, Yubin Xia, Haibo Chen. 24
 
+[INT4 quantization on diverse edge devices] [An Empirical Analysis and Resource Footprint Study of Deploying Large Language Models on Edge Devices](https://dl.acm.org/doi/pdf/10.1145/3603287.3651205). Nobel Dhar, Bobin Deng, Dan Lo, Xiaofeng Wu, Liang Zhao, and Kun Suo. 24
+
+[1-bit LLM] [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764). Shuming Ma, Hongyu Wang, Lingxiao Ma, Lei Wang, Wenhui Wang, Shaohan Huang, Li Dong, Ruiping Wang, Jilong Xue, Furu Wei. 24
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
