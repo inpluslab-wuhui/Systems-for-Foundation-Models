@@ -777,6 +777,12 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [1-bit LLM] [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764). Shuming Ma, Hongyu Wang, Lingxiao Ma, Lei Wang, Wenhui Wang, Shaohan Huang, Li Dong, Ruiping Wang, Jilong Xue, Furu Wei. 24
 
+[kv cache eviction policy] [CORM: Cache Optimization with Recent Message for Large Language Model Inference](https://arxiv.org/pdf/2404.15949). Jincheng Dai, Zhuowei Huang, Haiyun Jiang, Chen Chen, Deng Cai, Wei Bi, Shuming Shi. 24
+
+[kv cache merging approach] [Model Tells You Where to Merge: Adaptive KV Cache Merging for LLMs on Long-Context Tasks](https://arxiv.org/pdf/2407.08454). Zheng Wang, Boxiao Jin, Zhongzhi Yu, Minjia Zhang. 24
+
+[reuse of kv caches across conversations] [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention](https://arxiv.org/pdf/2403.19708). Bin Gao, Zhuomin He, Puru Sharma, Qingxuan Kang, Djordje Jevdjic, Junbo Deng, Xingkun Yang, Zhou Yu, Pengfei Zuo. 24
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
