@@ -793,6 +793,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [chunk attention on heterogeneous resources] [Empowering 1000 tokens/second on-device LLM prefilling with mllm-NPU](https://arxiv.org/pdf/2407.05858v1). Daliang Xu, Hao Zhang, Liming Yang, Ruiqi Liu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
 
+[gpu virtual memory management] [vTensor: Flexible Virtual Tensor Management for Efficient LLM Serving](https://arxiv.org/pdf/2407.15309). Jiale Xu, Rui Zhang, Cong Guo, Weiming Hu, Zihan Liu, Feiyang Wu, Yu Feng, Shixuan Sun, Changxu Shao, Yuhong Guo, Junping Zhao, Ke Zhang, Minyi Guo, Jingwen Leng. 24
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
