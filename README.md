@@ -338,6 +338,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [privacy-preserving] [Are Diffusion Models Vulnerable to Membership Inference Attacks?](https://arxiv.org/pdf/2302.01316). Jinhao Duan, Fei Kong, Shiqi Wang, Xiaoshuang Shi, Kaidi Xu. ICML'23
 
+[accelerate speculative decoding] [GliDe with a CaPE: A Low-Hassle Method to Accelerate Speculative Decoding](https://arxiv.org/pdf/2402.02082). Cunxiao Du, Jing Jiang, Xu Yuanchen, Jiawei Wu, Sicheng Yu, Yongqi Li, Shenggui Li, Kai Xu, Liqiang Nie, Zhaopeng Tu, Yang You. ICML'24
+
 ## EUROSYS
 
 [graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
@@ -794,6 +796,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [chunk attention on heterogeneous resources] [Empowering 1000 tokens/second on-device LLM prefilling with mllm-NPU](https://arxiv.org/pdf/2407.05858v1). Daliang Xu, Hao Zhang, Liming Yang, Ruiqi Liu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
 
 [gpu virtual memory management] [vTensor: Flexible Virtual Tensor Management for Efficient LLM Serving](https://arxiv.org/pdf/2407.15309). Jiale Xu, Rui Zhang, Cong Guo, Weiming Hu, Zihan Liu, Feiyang Wu, Yu Feng, Shixuan Sun, Changxu Shao, Yuhong Guo, Junping Zhao, Ke Zhang, Minyi Guo, Jingwen Leng. 24
+
+[improve slm quality] [Hybrid SLM and LLM for Edge-Cloud Collaborative Inference](https://dl.acm.org/doi/pdf/10.1145/3662006.3662067). Zixu Hao, Huiqiang Jiang, Shiqi Jiang, Ju Ren, Ting Cao. 24
+
+[pipeline] [NanoFlow: Towards Optimal Large Language Model Serving Throughput](https://arxiv.org/pdf/2408.12757). Kan Zhu, Yilong Zhao, Liangyu Zhao, Gefei Zuo, Yile Gu, Dedong Xie, Yufei Gao, Qinyu Xu, Tian Tang, Zihao Ye, Keisuke Kamahori, Chien-Yu Lin, Stephanie Wang, Arvind Krishnamurthy, Baris Kasikci. 24
 
 ## License
 
