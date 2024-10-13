@@ -271,7 +271,7 @@ Science and Department of Electrical Engineering, Technion - Israel Institute of
 
 [communication overlap] [T3: Transparent Tracking & Triggering for Fine-grained Overlap of Compute & Collectives](https://arxiv.org/pdf/2401.16677). Suchita Pati, Shaizeen Aga, Mahzabeen Islam, Nuwan Jayasena, Matthew D. Sinclair. ASPLOS'24
 
-[speculative inference] [SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. ASPLOS'24
+[speculative inference] [SpecInfer: Accelerating Generative Large Language Model Serving with Traee-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. ASPLOS'24
 
 [inference system] [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://arxiv.org/pdf/2404.07947). Hyungjun Oh, Kihong Kim, Jaemin Kim, Sungkyun Kim, Junyeol Lee, Du-seong Chang, Jiwon Seo. ASPLOS'24
 
@@ -800,6 +800,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [improve slm quality] [Hybrid SLM and LLM for Edge-Cloud Collaborative Inference](https://dl.acm.org/doi/pdf/10.1145/3662006.3662067). Zixu Hao, Huiqiang Jiang, Shiqi Jiang, Ju Ren, Ting Cao. 24
 
 [pipeline] [NanoFlow: Towards Optimal Large Language Model Serving Throughput](https://arxiv.org/pdf/2408.12757). Kan Zhu, Yilong Zhao, Liangyu Zhao, Gefei Zuo, Yile Gu, Dedong Xie, Yufei Gao, Qinyu Xu, Tian Tang, Zihao Ye, Keisuke Kamahori, Chien-Yu Lin, Stephanie Wang, Arvind Krishnamurthy, Baris Kasikci. 24
+
+[kv offload] [LayerKV: Optimizing Large Language Model Serving with Layer-wise KV Cache Management](https://arxiv.org/pdf/2410.00428). Yi Xiong, Hao Wu, Changxu Shao, Ziqing Wang, Rui Zhang, Yuhong Guo, Junping Zhao, Ke Zhang, Zhenxuan Pan. 24
+
+[token tree] [LLMCad: Fast and Scalable On-device Large Language Model Inference](https://arxiv.org/pdf/2309.04255). Daliang Xu, Wangsong Yin, Xin Jin, Ying Zhang, Shiyun Wei, Mengwei Xu, Xuanzhe Liu. 24
 
 ## License
 
