@@ -582,6 +582,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [adaptive parallelism and pipelining] [Tutel: Adaptive Mixture-of-Experts at Scale](https://arxiv.org/pdf/2206.03382). Changho Hwang, Wei Cui, Yifan Xiong, Ziyue Yang, Ze Liu, Han Hu, Zilong Wang, Rafael Salas, Jithin Jose, Prabhat Ram, Joe Chau, Peng Cheng, Fan Yang, Mao Yang, Yongqiang Xiong. MLSys'23
 
+[parallel computing using CPUs and GPUs] [HeteGen: Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices](https://arxiv.org/pdf/2403.01164). Xuanlei Zhao, Bin Jia, Haotian Zhou, Ziming Liu, Shenggan Cheng, Yang You. MLSys'24
+
 ## SIGCOMM
 
 [moe all2all] [Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models](https://dl.acm.org/doi/pdf/10.1145/3603269.3604869). Juncai Liu, Jessie Hui Wang, Yimin Jiang. SIGCOMM'23
@@ -804,6 +806,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [kv offload] [LayerKV: Optimizing Large Language Model Serving with Layer-wise KV Cache Management](https://arxiv.org/pdf/2410.00428). Yi Xiong, Hao Wu, Changxu Shao, Ziqing Wang, Rui Zhang, Yuhong Guo, Junping Zhao, Ke Zhang, Zhenxuan Pan. 24
 
 [token tree] [LLMCad: Fast and Scalable On-device Large Language Model Inference](https://arxiv.org/pdf/2309.04255). Daliang Xu, Wangsong Yin, Xin Jin, Ying Zhang, Shiyun Wei, Mengwei Xu, Xuanzhe Liu. 24
+
+[sparse kv] [Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference](https://arxiv.org/pdf/2406.10774). Jiaming Tang, Yilong Zhao, Kan Zhu, Guangxuan Xiao, Baris Kasikci, Song Han. 24
 
 ## License
 
