@@ -340,6 +340,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [accelerate speculative decoding] [GliDe with a CaPE: A Low-Hassle Method to Accelerate Speculative Decoding](https://arxiv.org/pdf/2402.02082). Cunxiao Du, Jing Jiang, Xu Yuanchen, Jiawei Wu, Sicheng Yu, Yongqi Li, Shenggui Li, Kai Xu, Liqiang Nie, Zhaopeng Tu, Yang You. ICML'24
 
+[overlap all2all] [Scaling Beyond the GPU Memory Limit for Large Mixture-of-Experts Model Training](https://proceedings.mlr.press/v235/kim24w.html). Yechan Kim, Hwijoon Lim, and Dongsu Han. ICML'24
+
 ## EUROSYS
 
 [graph sampling on GPUs] [Accelerating Graph Sampling for Graph Machine Learning using GPUs](https://dl.acm.org/doi/pdf/10.1145/3447786.3456244). Abhinav Jangda, Sandeep Polisetty, Arjun Guha, Marco Serafini. EUROSYS'21
@@ -721,6 +723,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [reuse kv cache] [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934). In Gim, Guojun Chen, Seung-seob Lee, Nikhil Sarda, Anurag Khandelwal, Lin Zhong. 23
 
+[pre-gate] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/pdf/2308.12066). Ranggi Hwang, Jianyu Wei, Shijie Cao, Changho Hwang, Xiaohu Tang, Ting Cao, Mao Yang. 23
+
 [sparsity] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean. 24  
 
 [kv cache] [DéjàVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876). Foteini Strati, Sara Mcallister, Amar Phanishayee, Jakub Tarnawski, Ana Klimovic. 24       
@@ -812,6 +816,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [graph pipeline parallelism for multimodal model] [GraphPipe: Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism](https://arxiv.org/pdf/2406.17145). Byungsoo Jeon, Mengdi Wu, Shiyi Cao, Sunghyun Kim, Sunghyun Park, Neeraj Aggarwal, Colin Unger, Daiyaan Arfeen, Peiyuan Liao, Xupeng Miao, Mohammad Alizadeh, Gregory R. Ganger, Tianqi Chen, Zhihao Jia. 24
 
 [kv cache pruning] [DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads](https://arxiv.org/pdf/2410.10819). Guangxuan Xiao, Jiaming Tang, Jingwei Zuo, Junxian Guo, Shang Yang, Haotian Tang, Yao Fu, Song Han. 24
+
+[overlap all-to-all] [Lancet: Accelerating Mixture-of-Experts Training via Whole Graph Computation-Communication Overlapping](https://arxiv.org/pdf/2404.19429). Chenyu Jiang, Ye Tian, Zhen Jia, Shuai Zheng, Chuan Wu, Yida Wang. 24
+
+[overlap all-to-all] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/pdf/2404.05019). Weilin Cai, Juyong Jiang, Le Qin, Junwei Cui, Sunghun Kim, Jiayi Huang. 24
 
 ## License
 
