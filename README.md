@@ -821,6 +821,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [overlap all-to-all] [Shortcut-connected Expert Parallelism for Accelerating Mixture-of-Experts](https://arxiv.org/pdf/2404.05019). Weilin Cai, Juyong Jiang, Le Qin, Junwei Cui, Sunghun Kim, Jiayi Huang. 24
 
+[compute and load kv cache] [Compute Or Load KV Cache? Why Not Both?](https://arxiv.org/pdf/2410.03065). Shuowei Jin, Xueshen Liu, Qingzhao Zhang, Z. Morley Mao. 24
+
+[quantization-aware training and knowledge distillation] [BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation](https://arxiv.org/pdf/2402.10631). Dayou Du, Yijia Zhang, Shijie Cao, Jiaqi Guo, Ting Cao, Xiaowen Chu, Ningyi Xu. 24
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
