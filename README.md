@@ -306,6 +306,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [8-bit inference and fine-tuning] [8-bit Transformer Inference and Fine-tuning for Edge Accelerators](https://dl.acm.org/doi/pdf/10.1145/3620666.3651368). Jeffrey Yu, Kartik Prabhu, Yonatan Urman, Robert M. Radway, Eric Han, and Priyanka Raina. ASPLOS'24
 
+[pim] [PIM-DL: Expanding the Applicability of Commodity DRAM-PIMs for Deep Learning via Algorithm-System Co-Optimization](https://dl.acm.org/doi/pdf/10.1145/3620665.3640376). Cong Li, Zhe Zhou, Yang Wang, Fan Yang, Ting Cao, Mao Yang, Yun Liang, Guangyu Sun. ASPLOS'24
+
 ## NAACL-HLT
 
 [language representation model] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf). Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. NAACL-HLT'19
@@ -824,6 +826,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [compute and load kv cache] [Compute Or Load KV Cache? Why Not Both?](https://arxiv.org/pdf/2410.03065). Shuowei Jin, Xueshen Liu, Qingzhao Zhang, Z. Morley Mao. 24
 
 [quantization-aware training and knowledge distillation] [BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation](https://arxiv.org/pdf/2402.10631). Dayou Du, Yijia Zhang, Shijie Cao, Jiaqi Guo, Ting Cao, Xiaowen Chu, Ningyi Xu. 24
+
+[npu+pim] [NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing](https://arxiv.org/pdf/2403.00579). Guseul Heo, Sangyeop Lee, Jaehong Cho, Hyunmin Choi, Sanghyeon Lee, Hyungkyu Ham, Gwangsun Kim, Divya Mahajan, Jongse Park. 24
 
 ## License
 
