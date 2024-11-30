@@ -598,6 +598,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [computation reuse in diffusion] [DeepCache: Accelerating Diffusion Models for Free](https://arxiv.org/pdf/2312.00858). Xinyin Ma, Gongfan Fang, Xinchao Wang. CVPR'24
 
+[cloud-device collaboration for mllm] [Cloud-Device Collaborative Learning for Multimodal Large Language Models](https://arxiv.org/pdf/2312.16279v1). Guanqun Wang, Jiaming Liu, Chenxuan Li, Junpeng Ma, Yuan Zhang, Xinyu Wei, Kevin Zhang, Maurice Chong, Ray Zhang, Yijiang Liu, Shanghang Zhang. CVPR'24
+
 ## Journals
 
 ## TPDS
@@ -828,6 +830,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [quantization-aware training and knowledge distillation] [BitDistiller: Unleashing the Potential of Sub-4-Bit LLMs via Self-Distillation](https://arxiv.org/pdf/2402.10631). Dayou Du, Yijia Zhang, Shijie Cao, Jiaqi Guo, Ting Cao, Xiaowen Chu, Ningyi Xu. 24
 
 [npu+pim] [NeuPIMs: NPU-PIM Heterogeneous Acceleration for Batched LLM Inferencing](https://arxiv.org/pdf/2403.00579). Guseul Heo, Sangyeop Lee, Jaehong Cho, Hyunmin Choi, Sanghyeon Lee, Hyungkyu Ham, Gwangsun Kim, Divya Mahajan, Jongse Park. 24
+
+[chunk-level prefill for NPU] [Empowering 1000 tokens/second on-device LLM prefilling with mllm-NPU](https://arxiv.org/pdf/2407.05858). Daliang Xu, Hao Zhang, Liming Yang, Ruiqi Liu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
 
 ## License
 
