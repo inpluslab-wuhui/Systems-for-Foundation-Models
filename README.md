@@ -833,6 +833,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [chunk-level prefill for NPU] [Empowering 1000 tokens/second on-device LLM prefilling with mllm-NPU](https://arxiv.org/pdf/2407.05858). Daliang Xu, Hao Zhang, Liming Yang, Ruiqi Liu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
 
+[cloud-edge collaboration] [EdgeShard: Efficient LLM Inference via Collaborative Edge Computing](https://arxiv.org/pdf/2405.14371). Mingjin Zhang, Jiannong Cao, Xiaoming Shen, Zeyang Cui. 24
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
