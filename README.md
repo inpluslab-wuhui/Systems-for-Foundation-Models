@@ -486,6 +486,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [large language model] [What Language Model to Train if You Have One Million GPU Hours?](https://aclanthology.org/2022.findings-emnlp.54.pdf). Teven Le Scao, Thomas Wang, Daniel Hesslow, Stas Bekman, M Saiful Bari, Stella Biderman, Hady Elsahar, Niklas Muennighoff, Jason Phang, Ofir Press, Colin Raffel, Victor Sanh, Sheng Shen, Lintang Sutawika, Jaesung Tae, Zheng Xin Yong, Julien Launay, Iz Beltagy. ACL'22
 
+[kv cache eviction] [NACL: A General and Effective KV Cache Eviction Framework for LLM at Inference Time](https://aclanthology.org/2024.acl-long.428.pdf).Yilong Chen, Guoxia Wang, Junyuan Shang, Shiyao Cui, Zhenyu Zhang, Tingwen Liu, Shuohuan Wang, Yu Sun, Dianhai Yu, Hua Wu. ACL'24
+
 ## ICLR
 
 [moe model] [Learning Factored Representations in a Deep Mixture of Experts](https://arxiv.org/abs/1312.4314). David Eigen, Marc'Aurelio Ranzato, Ilya Sutskever. ICLR'14
