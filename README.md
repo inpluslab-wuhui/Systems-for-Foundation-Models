@@ -450,6 +450,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [checkpoint] [GEMINI: Fast Failure Recovery in Distributed Training with In-Memory Checkpoints](https://dl.acm.org/doi/pdf/10.1145/3600006.3613145). Zhuang Wang, Zhen Jia, Shuai Zheng, Zhen Zhang, Xinwei Fu, T. S. Eugene Ng, Yida Wang. SOSP'23
 
+[dynamic parallelism strategy] [Enabling Parallelism Hot Switching for Efficient Training of Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3694715.3695969). Hao Ge, Fangcheng Fu, Haoyang Li, Xuanyu Wang, Sheng Lin, Yujie Wang, Xiaonan Nie, Hailin Zhang, Xupeng Miao, Bin Cui. SOSP'24
+
 ## ICPP
 
 [tensor parallelism] [Tesseract: Parallelize the Tensor Parallelism Efficiently](https://arxiv.org/pdf/2105.14500.pdf). Boxiang Wang, Qifan Xu, Zhengda Bian, Yang You. ICPP'22
@@ -836,6 +838,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [chunk-level prefill for NPU] [Empowering 1000 tokens/second on-device LLM prefilling with mllm-NPU](https://arxiv.org/pdf/2407.05858). Daliang Xu, Hao Zhang, Liming Yang, Ruiqi Liu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
 
 [cloud-edge collaboration] [EdgeShard: Efficient LLM Inference via Collaborative Edge Computing](https://arxiv.org/pdf/2405.14371). Mingjin Zhang, Jiannong Cao, Xiaoming Shen, Zeyang Cui. 24
+
+[request reordering and prefix sharing] [BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching](https://arxiv.org/pdf/2411.16102). Yilong Zhao, Shuo Yang, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yang Zhou, Jiarong Xing, Ion Stoica. 24
 
 ## License
 
