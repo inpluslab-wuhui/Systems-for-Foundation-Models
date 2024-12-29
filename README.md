@@ -512,6 +512,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [llm for control] [DILU: A Knowledge-Driven Approach to Autonomous Driving with Large Language Models](https://arxiv.org/pdf/2309.16292). Licheng Wen, Daocheng Fu, Xin Li, Xinyu Cai, Tao Ma, Pinlong Cai, Min Dou, Botian Shi, Liang He, Yu Qiao. ICLR'24
 
+[infinite sequence length inference] [EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS](https://arxiv.org/pdf/2309.17453). Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, Mike Lewis. ICLR'24
+
 ## VLDB
 
 [data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
@@ -733,7 +735,15 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [pre-gate] [Pre-gated MoE: An Algorithm-System Co-Design for Fast and Scalable Mixture-of-Expert Inference](https://arxiv.org/pdf/2308.12066). Ranggi Hwang, Jianyu Wei, Shijie Cao, Changho Hwang, Xiaohu Tang, Ting Cao, Mao Yang. 23
 
-[sparsity] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean. 24  
+[moe on device] [EdgeMoE: Fast On-Device Inference of MoE-based Large Language Models](https://arxiv.org/pdf/2308.14352). Rongjie Yi, Liwei Guo, Shiyun Wei, Ao Zhou, Shangguang Wang, Mengwei Xu. 23
+
+[inference using cpu and gpu] [FASTDECODE: High-Throughput GPU-Efficient LLM Serving using Heterogeneous Pipelines](https://arxiv.org/pdf/2403.11421). Jiaao He, Jidong Zhai. 24
+
+[llm within npu] [Fast On-device LLM Inference with NPUs](https://arxiv.org/pdf/2407.05858). Daliang Xu, Hao Zhang, Liming Yang, Ruiqi Liu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
+
+[efficient llm switching] [ELMS: Elasticized Large Language Models OnMobile Devices](https://arxiv.org/pdf/2409.09071). Wangsong Yin, Rongjie Yi, Daliang Xu, Gang Huang, Mengwei Xu, Xuanzhe Liu. 24
+
+[sparse attention] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Homer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean. 24  
 
 [kv cache] [DéjàVu: KV-cache Streaming for Fast, Fault-tolerant Generative LLM Serving](https://arxiv.org/pdf/2403.01876). Foteini Strati, Sara Mcallister, Amar Phanishayee, Jakub Tarnawski, Ana Klimovic. 24       
 
@@ -778,6 +788,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [video diffusion] [Latte: Latent Diffusion Transformer for Video Generation](https://arxiv.org/pdf/2401.03048). Xin Ma, Yaohui Wang, Gengyun Jia, Xinyuan Chen, Ziwei Liu, Yuan-Fang Li, Cunjian Chen, Yu Qiao. 24
 
 [image diffusion] [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/pdf/2403.03206). Patrick Esser, Sumith Kulal, Andreas Blattmann, Rahim Entezari, Jonas Müller, Harry Saini, Yam Levi, Dominik Lorenz, Axel Sauer, Frederic Boesel, Dustin Podell, Tim Dockhorn, Zion English, Kyle Lacey, Alex Goodwin, Yannik Marek, Robin Rombach. 24
+
+[kv cache compression] [Get More with LESS: Synthesizing Recurrence with KV Cache Compression for Efficient LLM Inference](https://arxiv.org/pdf/2402.09398). Harry Dong, Xinyu Yang, Zhenyu Zhang, Zhangyang Wang, Yuejie Chi, Beidi Chen. 24
 
 [stealing private information] [Teach LLMs to Phish: Stealing Private Information from Language Models](https://arxiv.org/pdf/2403.00871). Ashwinee Panda, Christopher A. Choquette-Choo, Zhengming Zhang, Yaoqing Yang, Prateek Mittal. 24
 
@@ -840,6 +852,22 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [cloud-edge collaboration] [EdgeShard: Efficient LLM Inference via Collaborative Edge Computing](https://arxiv.org/pdf/2405.14371). Mingjin Zhang, Jiannong Cao, Xiaoming Shen, Zeyang Cui. 24
 
 [request reordering and prefix sharing] [BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching](https://arxiv.org/pdf/2411.16102). Yilong Zhao, Shuo Yang, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yang Zhou, Jiarong Xing, Ion Stoica. 24
+
+[kv cache compression] [ASimple and Effective L2 Norm-Based Strategy for KV Cache Compression](https://arxiv.org/pdf/2406.11430). Alessio Devoto, Yu Zhao, Simone Scardapane, Pasquale Minervini. 24
+
+[kv cache reduction] [Attention Score is not All You Need for Token Importance Indicator in KV Cache Reduction: Value Also Matters](https://arxiv.org/pdf/2406.12335). Zhiyu Guo, Hidetaka Kamigaito, Taro Watanabe. 24
+
+[llm on device] [AutoDroid: LLM-powered Task Automation in Android](https://arxiv.org/pdf/2308.15272). Hao Wen, Yuanchun Li, Guohong Liu, Shanhui Zhao, Tao Yu, Toby Jia-Jun Li, Shiqi Jiang, Yunhao Liu, Yaqin Zhang, Yunxin Liu. 24
+
+[weight quantization] [AWQ: ACTIVATION-AWARE WEIGHT QUANTIZATION FOR ON-DEVICE LLM COMPRESSION AND ACCELERATION](https://arxiv.org/pdf/2306.00978). Ji Lin, Jiaming Tang, Haotian Tang, Shang Yang, Wei-Ming Chen, Wei-Chen Wang, Guangxuan Xiao, Xingyu Dang, Chuang Gan, Song Han. 24
+
+[llm within npu and flash] [Cambricon-LLM: A Chiplet-Based Hybrid Architecture for On-Device Inference of 70B LLM](https://arxiv.org/pdf/2409.15654). Zhongkai Yu, Shengwen Liang, Tianyun Ma, Yunke Cai, Ziyuan Nan, Di Huang, Xinkai Song, Yifan Hao, Jie Zhang, Tian Zhi, Yongwei Zhao, Zidong Du, Xing Hu, Qi Guo, Tianshi Chen. 24
+
+[reduce attention overhead] [CHAI: Clustered Head Attention for Efficient LLM Inference](https://arxiv.org/pdf/2403.08058). Saurabh Agarwal, Bilge Acun, Basil Hosmer, Mostafa Elhoushi, Yejin Lee, Shivaram Venkataraman, Dimitris Papailiopoulos, Carole-Jean Wu. 24
+
+[contextual sparsity] [Deja Vu: Contextual Sparsity for Efficient LLMs at Inference Time](https://arxiv.org/pdf/2310.17157). Zichang Liu, Jue Wang, Tri Dao, Tianyi Zhou, Binhang Yuan, Zhao Song, Anshumali Shrivastava, Ce Zhang, Yuandong Tian, Christopher Re, Beidi Chen. 24
+
+[key-value cache compression] [Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference](https://arxiv.org/pdf/2403.09636). Piotr Nawrot, Adrian Łańcucki, Marcin Chochowski, David Tarjan, Edoardo M. Ponti. 24
 
 ## License
 
