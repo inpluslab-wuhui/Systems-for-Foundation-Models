@@ -440,6 +440,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [considering correlation among multiple llm requests] [Parrot: Efficient Serving of LLM-based  Applications with Semantic Variable](https://www.usenix.org/system/files/osdi24-lin-chaofan.pdf). Chaofan Lin, Zhenhua Han, Chengruidong Zhang, Yuqing Yang, Fan Yang, Chen Chen, Lili Qiu. osdi'24
 
+[prefetch kv cache] [InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management](https://arxiv.org/pdf/2406.19707). Wonbeom Lee, Jungi Lee, Junghwan Seo, Jaewoong Sim. osdi'24
+
 ## SOSP
 
 [pipeline parallelism] [PipeDream: generalized pipeline parallelism for DNN training](https://dl.acm.org/doi/pdf/10.1145/3341301.3359646). Deepak Narayanan, Aaron Harlap, Amar Phanishayee, Vivek Seshadri, Nikhil R. Devanur, Gregory R. Ganger, Phillip B. Gibbons, Matei Zaharia. SOSP'19
@@ -489,6 +491,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 [large language model] [What Language Model to Train if You Have One Million GPU Hours?](https://aclanthology.org/2022.findings-emnlp.54.pdf). Teven Le Scao, Thomas Wang, Daniel Hesslow, Stas Bekman, M Saiful Bari, Stella Biderman, Hady Elsahar, Niklas Muennighoff, Jason Phang, Ofir Press, Colin Raffel, Victor Sanh, Sheng Shen, Lintang Sutawika, Jaesung Tae, Zheng Xin Yong, Julien Launay, Iz Beltagy. ACL'22
 
 [kv cache eviction] [NACL: A General and Effective KV Cache Eviction Framework for LLM at Inference Time](https://aclanthology.org/2024.acl-long.428.pdf).Yilong Chen, Guoxia Wang, Junyuan Shang, Shiyao Cui, Zhenyu Zhang, Tingwen Liu, Shuohuan Wang, Yu Sun, Dianhai Yu, Hua Wu. ACL'24
+
+[kv cache compression] [PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference](https://arxiv.org/pdf/2405.12532). Dongjie Yang, XiaoDong Han, Yan Gao, Yao Hu, Shilin Zhang, Hai Zhao. ACL'24
 
 ## ICLR
 
@@ -753,7 +757,15 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [speculative decoding] [SpecInfer: Accelerating Generative Large Language Model Serving with Tree-based Speculative Inference and Verification](https://arxiv.org/pdf/2305.09781.pdf). Xupeng Miao, Gabriele Oliaro, Zhihao Zhang, Xinhao Cheng, Zeyu Wang, Zhengxin Zhang, Rae Ying Yee Wong, Alan Zhu, Lijie Yang, Xiaoxiang Shi, Chunan Shi, Zhuoming Chen, Daiyaan Arfeen, Reyna Abhyankar, Zhihao Jia. 24
 
+[small language model] [TinyLlama: An Open-Source Small Language Model](https://arxiv.org/pdf/2401.02385). Peiyuan Zhang, Guangtao Zeng, Tianduo Wang, Wei Lu. 24
+
+[long context, energy-efficient] [Squid: Long Context as a New Modality for Energy-Efficient On-Device Language Models](https://arxiv.org/pdf/2408.15518). Wei Chen, Zhiyuan Li, Shuo Xin, Yihao Wang. 24
+
 [moe model] [Mixtral of Experts](https://arxiv.org/pdf/2401.04088.pdf). Albert Q. Jiang, Alexandre Sablayrolles, Antoine Roux, Arthur Mensch, Blanche Savary, Chris Bamford, Devendra Singh Chaplot, Diego de las Casas, Emma Bou Hanna, Florian Bressand, Gianna Lengyel, Guillaume Bour, Guillaume Lample, Lélio Renard Lavaud, Lucile Saulnier, Marie-Anne Lachaux, Pierre Stock, Sandeep Subramanian, Sophia Yang, Szymon Antoniak, Teven Le Scao, Théophile Gervet, Thibaut Lavril, Thomas Wang, Timothée Lacroix, William El Sayed.  24 
+
+[llm on mobile device] [MobileLLM: Optimizing Sub-billion Parameter Language Models for On-Device Use Cases](https://arxiv.org/pdf/2402.14905). Zechun Liu, Changsheng Zhao, Forrest Iandola, Chen Lai, Yuandong Tian, Igor Fedorov, Yunyang Xiong, Ernie Chang, Yangyang Shi, Raghuraman Krishnamoorthi, Liangzhen Lai, Vikas Chandra. 24
+
+[small language model] [MobiLlama: Towards Accurate and Lightweight Fully Transparent GPT](https://arxiv.org/pdf/2402.16840). Omkar Thawakar, Ashmal Vayani, Salman Khan, Hisham Cholakal, Rao M. Anwer, Michael Felsberg, Tim Baldwin, Eric P. Xing, Fahad Shahbaz Khan. 24
 
 [distributed kv cache] [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/pdf/2401.02669.pdf). Bin Lin, Tao Peng, Chen Zhang, Minmin Sun, Lanbo Li, Hanyu Zhao, Wencong Xiao, Qi Xu, Xiafei Qiu, Shen Li, Zhigang Ji, Yong Li, Wei Lin. 24
 
@@ -826,6 +838,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [improve slm quality] [Hybrid SLM and LLM for Edge-Cloud Collaborative Inference](https://dl.acm.org/doi/pdf/10.1145/3662006.3662067). Zixu Hao, Huiqiang Jiang, Shiqi Jiang, Ju Ren, Ting Cao. 24
 
 [pipeline] [NanoFlow: Towards Optimal Large Language Model Serving Throughput](https://arxiv.org/pdf/2408.12757). Kan Zhu, Yilong Zhao, Liangyu Zhao, Gefei Zuo, Yile Gu, Dedong Xie, Yufei Gao, Qinyu Xu, Tian Tang, Zihao Ye, Keisuke Kamahori, Chien-Yu Lin, Stephanie Wang, Arvind Krishnamurthy, Baris Kasikci. 24
+
+[kv cache compression] [Layer-Condensed KV Cache for Efficient Inference of Large Language Models](https://arxiv.org/pdf/2405.10637). Haoyi Wu, Kewei Tu. 24
 
 [kv offload] [LayerKV: Optimizing Large Language Model Serving with Layer-wise KV Cache Management](https://arxiv.org/pdf/2410.00428). Yi Xiong, Hao Wu, Changxu Shao, Ziqing Wang, Rui Zhang, Yuhong Guo, Junping Zhao, Ke Zhang, Zhenxuan Pan. 24
 
