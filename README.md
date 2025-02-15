@@ -883,6 +883,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [key-value cache compression] [Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference](https://arxiv.org/pdf/2403.09636). Piotr Nawrot, Adrian Łańcucki, Marcin Chochowski, David Tarjan, Edoardo M. Ponti. 24
 
+[dynamic token pruning] [LazyLLM: Dynamic Token Pruning for Efficient Long Context LLM Inference](https://arxiv.org/pdf/2407.14057v1). Qichen Fu, Minsik Cho, Thomas Merth, Sachin Mehta, Mohammad Rastegari, Mahyar Najibi. 24
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
