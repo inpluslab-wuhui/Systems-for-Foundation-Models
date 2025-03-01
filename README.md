@@ -68,6 +68,7 @@ Key Words: foundation model, large-scale models, model training, model inference
 - [ACMComputingSurveys](#ACMComputingSurveys)
 - [JournalofMachineLearningResearch](#JournalofMachineLearningResearch)
 - [Transactions on Machine Learning Research(TMLR)](#TMLR)
+- [IEEE Transactions on Mobile Computing(TMC)](#TMC)
 
 ## Conferences
 
@@ -630,6 +631,10 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [rlhf] [RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment](https://arxiv.org/pdf/2304.06767.pdf). Hanze Dong, Wei Xiong, Deepanshu Goyal, Yihan Zhang, Winnie Chow, Rui Pan, Shizhe Diao, Jipeng Zhang, Kashun Shum, Tong Zhang. TMLR'23
 
+## TMC
+
+[speculative decoding on edge] [EdgeLLM: Fast On-device LLM Inference with Speculative Decoding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10812936). Daliang Xu; Wangsong Yin; Hao Zhang; Xin Jin; Ying Zhang; Shiyun Wei. TMC'24
+
 ## arxiv
 
 [inference on edge device] [Once-for-All: Train One Network and Specialize it for Efficient Deployment](https://arxiv.org/pdf/1908.09791). Han Cai, Chuang Gan, Tianzhe Wang, Zhekai Zhang, Song Han. 19
@@ -888,6 +893,18 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [sparse attention in training] [Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention](https://arxiv.org/pdf/2502.11089). Jingyang Yuan, Huazuo Gao, Damai Dai, Junyu Luo, Liang Zhao, Zhengyan Zhang, Zhenda Xie, Y. X. Wei, Lean Wang, Zhiping Xiao, Yuqing Wang, Chong Ruan, Ming Zhang, Wenfeng Liang, Wangding Zeng. 24
 
 [adaptive sparse weight] [CoreInfer: Accelerating Large Language Model Inference with Semantics-Inspired Adaptive Sparse Activation](https://arxiv.org/pdf/2410.18311v1). Qinsi Wang, Saeed Vahidian, Hancheng Ye, Jianyang Gu, Jianyi Zhang, Yiran Chen. 24
+
+[adaptive sparse weight] [Ripple: Accelerating LLM Inference on Smartphones with Correlation-Aware Neuron Management](https://arxiv.org/pdf/2410.19274). Tuowei Wang, Ruwen Fan, Minxing Huang, Zixu Hao, Kun Li, Ting Cao, Youyou Lu, Yaoxue Zhang, Ju Ren. 24
+
+[sparse kv cache] [Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference](https://arxiv.org/pdf/2406.10774). Jiaming Tang, Yilong Zhao, Kan Zhu, Guangxuan Xiao, Baris Kasikci, Song Han. 24
+
+[sparse kv cache] [ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference](https://arxiv.org/pdf/2410.21465). Hanshi Sun, Li-Wen Chang, Wenlei Bao, Size Zheng, Ningxin Zheng, Xin Liu, Harry Dong, Yuejie Chi, Beidi Chen. 24
+
+[sparse kv cache] [ClusterKV: Manipulating LLM KV Cache in Semantic Space for Recallable Compression](https://arxiv.org/pdf/2412.03213). Guangda Liu, Chengwei Li, Jieru Zhao, Chenqi Zhang, Minyi Guo. 24
+
+[inference on heterogeneous accelerators] [HeteroLLM: Accelerating Large Language Model Inference on Mobile SoCs platform with Heterogeneous AI Accelerators](https://arxiv.org/pdf/2501.14794). Le Chen, Dahu Feng, Erhu Feng, Rong Zhao, Yingrui Wang, Yubin Xia, Haibo Chen, Pinjie Xu. 24
+
+[cache-aware routing] [Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference](https://arxiv.org/pdf/2412.00099). Andrii Skliar, Ties van Rozendaal, Romain Lepert, Todor Boinovski, Mart van Baalen, Markus Nagel, Paul Whatmough, Babak Ehteshami Bejnordi. 24
 
 ## License
 
