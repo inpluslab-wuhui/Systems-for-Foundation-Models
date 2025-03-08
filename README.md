@@ -906,6 +906,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 
 [cache-aware routing] [Mixture of Cache-Conditional Experts for Efficient Mobile Device Inference](https://arxiv.org/pdf/2412.00099). Andrii Skliar, Ties van Rozendaal, Romain Lepert, Todor Boinovski, Mart van Baalen, Markus Nagel, Paul Whatmough, Babak Ehteshami Bejnordi. 24
 
+[kv cache offload] [HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading](https://www.arxiv.org/pdf/2502.12574). Cheng Luo, Zefan Cai, Hanshi Sun, Jinqi Xiao, Bo Yuan, Wen Xiao, Junjie Hu, Jiawei Zhao, Beidi Chen, Anima Anandkumar. 24
+
+[weight compression] [When Compression Meets Model Compression: Memory-Efficient Double Compression for Large Language Models](https://arxiv.org/pdf/2502.15443). Weilan Wang, Yu Mao, Dongdong Tang, Hongchao Du, Nan Guan, Chun Jason Xue. 25
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
