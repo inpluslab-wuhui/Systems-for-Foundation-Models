@@ -599,6 +599,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [parallel computing using CPUs and GPUs] [HeteGen: Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices](https://arxiv.org/pdf/2403.01164). Xuanlei Zhao, Bin Jia, Haotian Zhou, Ziming Liu, Shenggan Cheng, Yang You. MLSys'24
 
+[accelerate all2all] [Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts](https://arxiv.org/pdf/2502.19811). Shulai Zhang, Ningxin Zheng, Haibin Lin, Ziheng Jiang, Wenlei Bao, Chengquan Jiang, Qi Hou, Weihao Cui, Size Zheng, Li-Wen Chang, Quan Chen, Xin Liu. MLSys'25
+
 ## SIGCOMM
 
 [moe all2all] [Janus: A Unified Distributed Training Framework for Sparse Mixture-of-Experts Models](https://dl.acm.org/doi/pdf/10.1145/3603269.3604869). Juncai Liu, Jessie Hui Wang, Yimin Jiang. SIGCOMM'23
