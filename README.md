@@ -495,6 +495,8 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [kv cache compression] [PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference](https://arxiv.org/pdf/2405.12532). Dongjie Yang, XiaoDong Han, Yan Gao, Yao Hu, Shilin Zhang, Hai Zhao. ACL'24
 
+[trainable parallel context encoding] [Long-Context Language Modeling with Parallel Context Encoding](https://arxiv.org/pdf/2402.16617). Howard Yen, Tianyu Gao, Danqi Chen. ACL'24
+
 ## ICLR
 
 [moe model] [Learning Factored Representations in a Deep Mixture of Experts](https://arxiv.org/abs/1312.4314). David Eigen, Marc'Aurelio Ranzato, Ilya Sutskever. ICLR'14
@@ -911,6 +913,10 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [kv cache offload] [HeadInfer: Memory-Efficient LLM Inference by Head-wise Offloading](https://www.arxiv.org/pdf/2502.12574). Cheng Luo, Zefan Cai, Hanshi Sun, Jinqi Xiao, Bo Yuan, Wen Xiao, Junjie Hu, Jiawei Zhao, Beidi Chen, Anima Anandkumar. 24
 
 [weight compression] [When Compression Meets Model Compression: Memory-Efficient Double Compression for Large Language Models](https://arxiv.org/pdf/2502.15443). Weilan Wang, Yu Mao, Dongdong Tang, Hongchao Du, Nan Guan, Chun Jason Xue. 25
+
+[parallel context encoding] [APE: Faster and Longer Context-Augmented Generation via Adaptive Parallel Encoding](https://arxiv.org/pdf/2502.05431). Xinyu Yang, Tianqi Chen, Beidi Chen. 25
+
+[sparce attention] [HashAttention: Semantic Sparsity for Faster Inference](https://arxiv.org/pdf/2412.14468v1). Aditya Desai, Shuo Yang, Alejandro Cuadron, Ana Klimovic, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica. 25
 
 ## License
 
