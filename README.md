@@ -521,6 +521,12 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [infinite sequence length inference] [EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS](https://arxiv.org/pdf/2309.17453). Guangxuan Xiao, Yuandong Tian, Beidi Chen, Song Han, Mike Lewis. ICLR'24
 
+[agent] [Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/pdf/2406.04692). Junlin Wang, Jue Wang, Ben Athiwaratkun, Ce Zhang, James Zou. ICLR'25
+
+[agent] [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/pdf/2410.10762). Jiayi Zhang, Jinyu Xiang, Zhaoyang Yu, Fengwei Teng, Xionghui Chen, Jiaqi Chen, Mingchen Zhuge, Xin Cheng, Sirui Hong, Jinlin Wang, Bingnan Zheng, Bang Liu, Yuyu Luo, Chenglin Wu. ICLR'25
+
+[agent] [MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering](https://arxiv.org/pdf/2410.07095). Jun Shern Chan, Neil Chowdhury, Oliver Jaffe, James Aung, Dane Sherburn, Evan Mays, Giulio Starace, Kevin Liu, Leon Maksin, Tejal Patwardhan, Lilian Weng, Aleksander Mądry. ICLR'25
+
 ## VLDB
 
 [data parallelism] [PyTorch distributed: experiences on accelerating data parallel training](https://arxiv.org/pdf/2006.15704.pdf). Shen Li, Yanli Zhao, Rohan Varma, Omkar Salpekar, Pieter Noordhuis, Teng Li, Adam Paszke, Jeff Smith, Brian Vaughan, Pritam Damania, Soumith Chintala. VLDB'20
@@ -917,6 +923,8 @@ Inference Service for Model Privacy at the Edge](https://ieeexplore.ieee.org/sta
 [parallel context encoding] [APE: Faster and Longer Context-Augmented Generation via Adaptive Parallel Encoding](https://arxiv.org/pdf/2502.05431). Xinyu Yang, Tianqi Chen, Beidi Chen. 25
 
 [sparce attention] [HashAttention: Semantic Sparsity for Faster Inference](https://arxiv.org/pdf/2412.14468v1). Aditya Desai, Shuo Yang, Alejandro Cuadron, Ana Klimovic, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica. 25
+
+[agent] [AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/pdf/2502.13138). Zhengyao Jiang, Dominik Schmidt, Dhruv Srikanth, Dixing Xu, Ian Kaplan, Deniss Jacenko, Yuxiang Wu. 25
 
 ## License
 
