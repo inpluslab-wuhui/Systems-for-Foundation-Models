@@ -88,6 +88,14 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 [computation and communication overlap] [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/pdf/10.1145/3627535.3638466). Jiangsu Du, PictureJinhui Wei, PictureJiazhi Jiang, PictureShenggan Cheng, PictureDan Huang, PictureZhiguang Chen, PictureYutong Lu. PPoPP'24
 
+[moe all2all] [Harnessing Inter-GPU Shared Memory for Seamless MoE Communication-Computation Fusion](https://dl.acm.org/doi/pdf/10.1145/3710848.3710868). Hulin Wang, Yaqi Xia, Donglin Yang, Xiaobo Zhou, Dazhao Cheng. PPoPP'25
+
+[activation checkpointing in pipeline parallelism] [Mario: Near Zero-cost Activation Checkpointing in Pipeline Parallelism](https://dl.acm.org/doi/pdf/10.1145/3710848.3710878). Weijian Liu, Mingzhen Li, Guangming Tan, Weile Jia. PPoPP'25
+
+[weight-passing pipeline] [WeiPipe: Weight Pipeline Parallelism for Communication-Effective Long-Context Large Model Training](https://dl.acm.org/doi/pdf/10.1145/3710848.3710869). Junfeng Lin, Ziming Liu, Yang You, Jun Wang, Weihao Zhang, Rong Zhao. PPoPP'25
+
+[weight quantization] [MARLIN: Mixed-Precision Auto-Regressive Parallel Inference on Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3710848.3710871). Elias Frantar, Roberto L. Castro, Jiale Chen, Torsten Hoefler, Dan Alistarh. PPoPP'25
+
 ## NIPS
 
 [network architecture] [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf). Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin. NIPS'17
@@ -129,6 +137,12 @@ Key Words: foundation model, large-scale models, model training, model inference
 [parallel sampling] [Parallel Sampling of Diffusion Models](https://arxiv.org/pdf/2305.16317). Andy Shih, Suneel Belkhale, Stefano Ermon, Dorsa Sadigh, Nima Anari. NIPS'23
 
 [diffusion on mobile] [SnapFusion: Text-to-Image Diffusion Model on Mobile Devices within Two Seconds](https://arxiv.org/pdf/2306.00980). Yanyu Li, Huan Wang, Qing Jin, Ju Hu, Pavlo Chemerys, Yun Fu, Yanzhi Wang, Sergey Tulyakov, Jian Ren. NIPS'23
+
+[dynamic sparse attention] [MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention](https://openreview.net/pdf?id=fPBACAbqSN). Huiqiang Jiang, YUCHENG LI, Chengruidong Zhang, Qianhui Wu, Xufang Luo, Surin Ahn, Zhenhua Han, Amir H. Abdi, Dongsheng Li, Chin-Yew Lin, Yuqing Yang, Lili Qiu. NIPS'24
+
+[operator] [FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision](https://openreview.net/pdf?id=tVConYid20). Jay Shah, Ganesh Bikshandi, Ying Zhang, Vijay Thakkar, Pradeep Ramani, Tri Dao. NIPS'24
+
+[speculative decoding] [Sequoia: Scalable and Robust Speculative Decoding](https://openreview.net/pdf?id=rk2L9YGDi2). Zhuoming Chen, Avner May, Ruslan Svirschevski, Yu-Hsun Huang, Max Ryabinin, Zhihao Jia, Beidi Chen. NIPS'24
 
 ## SC
 
