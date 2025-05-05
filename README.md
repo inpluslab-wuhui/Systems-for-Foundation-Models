@@ -178,6 +178,12 @@ Key Words: foundation model, large-scale models, model training, model inference
 
 [elastic training system] [EasyScale: Accuracy-consistent Elastic Training for Deep Learning](https://arxiv.org/pdf/2208.14228). Mingzhen Li, Wencong Xiao, Biao Sun, Hanyu Zhao, Hailong Yang, Shiru Ren, Zhongzhi Luan, Xianyan Jia, Yi Liu, Yong Li, Wei Lin, Depei Qian. SC'23
 
+[gpu configuration] [LLM-Pilot: Characterize and Optimize Performance of your LLM Inference Services](https://ieeexplore.ieee.org/document/10793215 ). Malgorzata Lazuka, Andreea Anghel, Thomas Parnell. SC'24
+
+[pipeline acceleration] [PipeInfer: Accelerating LLM Inference using Asynchronous Pipelined Speculation](https://ieeexplore.ieee.org/document/10793190 ). Branden Butler, Sixing Yu, Arya Mazaheri, Ali Jannesari. SC'24
+
+[large-scale training] [Democratizing AI: Open-source Scalable LLM Training on GPU-based Supercomputers](https://ieeexplore.ieee.org/document/10793182 ). Siddharth Singh, Prajwal Singhania, Aditya Ranjan. SC'24
+
 ## ATC
 
 [fine tuning] [Cavs: An Efficient Runtime System for Dynamic Neural Networks](https://www.usenix.org/system/files/conference/atc18/atc18-xu-shizhen.pdf). Shizhen Xu, Carnegie Mellon University, Tsinghua University; Hao Zhang, Graham Neubig, and Wei Dai, Carnegie Mellon University, Petuum Inc.; Jin Kyu Kim, Carnegie Mellon University; Zhijie Deng, Tsinghua University; Qirong Ho, Petuum Inc.; Guangwen Yang, Tsinghua University; Eric P. Xing, Petuum Inc. ATC'18
