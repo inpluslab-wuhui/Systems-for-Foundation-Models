@@ -329,6 +329,72 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [pim] [PIM-DL: Expanding the Applicability of Commodity DRAM-PIMs for Deep Learning via Algorithm-System Co-Optimization](https://dl.acm.org/doi/pdf/10.1145/3620665.3640376). Cong Li, Zhe Zhou, Yang Wang, Fan Yang, Ting Cao, Mao Yang, Yun Liang, Guangyu Sun. ASPLOS'24
 
+[parallel approach in AI compiler] [Concerto: Automatic Communication Optimization and Scheduling for Large-Scale Deep Learning](https://dl.acm.org/doi/pdf/10.1145/3669940.3707223). Cheng Shenggan, Lin Shengjie, Diao Lansong, Wu Hao, Wang Siyu, Si Chang, Liu Ziming, Zhao Xuanlei, Du Jiangsu, Lin Wei, You Yang. ASPLOS'25
+
+[Serverless DL Serving] [Dilu: Enabling GPU Resourcing-on-Demand for Serverless DL Serving via Introspective Elasticity](https://dl.acm.org/doi/pdf/10.1145/3669940.3707251). Lv Cunchi, Shi Xiao, Lei Zhengyu, Huang Jinyue, Tan Wenting, Zheng Xiaohui, Zhao Xiaofang. ASPLOS'25
+
+[npu hybrid inference] [Fast On-device LLM Inference with NPUs](https://dl.acm.org/doi/pdf/10.1145/3669940.3707239). Xu Daliang, Zhang Hao, Yang Liming, Liu Ruiqi, Huang Gang, Xu Mengwei, Liu Xuanzhe. ASPLOS'25
+
+[performance prediction] [Forecasting GPU Performance for Deep Learning Training and Inference](https://dl.acm.org/doi/pdf/10.1145/3669940.3707265). Lee Seonho, Phanishayee Amar, Mahajan Divya. ASPLOS'25
+
+[embedding model training] [Efficient and Economic Embedding Model Training with Commodity GPUs](https://dl.acm.org/doi/pdf/10.1145/3669940.3707245). Xie Minhui, Zeng Shaoxun, Guo Hao, Gao Shiwei, Lu Youyou. ASPLOS'25
+
+[moe training] [FSMoE: A Flexible and Scalable Training System for Sparse Mixture-of-Experts Models](https://dl.acm.org/doi/pdf/10.1145/3669940.3707272). Pan Xinglin, Lin Wenxiang, Zhang Lin, Shi Shaohuai, Tang Zhenheng, Wang Rui, Li Bo, Chu Xiaowen. ASPLOS'25
+
+[DNN Training, Graph Pipeline Parallelism] [Improving Performance and Scalability of DNN Training with Graph Pipeline Parallelism](https://dl.acm.org/doi/pdf/10.1145/3669940.3707220). Jeon Byungsoo, Wu Mengdi, Cao Shiyi, Kim Sunghyun, Park Sunghyun, Aggarwal Neeraj, Unger Colin, Arfeen Daiyaan, Liao Peiyuan, Miao Xupeng, Alizadeh Mohammad, Ganger Gregory R., Chen Tianqi, Jia Zhihao. ASPLOS'25
+
+[DNN serving, Heterogeneous GPUs and Network] [Helix: Serving Large Language Models over Heterogeneous GPUs and Network via Max-Flow](https://dl.acm.org/doi/pdf/10.1145/3669940.3707215). Mei Yixuan, Zhuang Yonghao, Miao Xupeng, Yang Juncheng, Jia Zhihao, Vinayak Rashmi. ASPLOS'25
+
+[Serverless DL Serving] [Medusa: Accelerating Serverless LLM Inference with Materialization](https://dl.acm.org/doi/pdf/10.1145/3669940.3707285). Zeng Shaoxun, Xie Minhui, Gao Shiwei, Chen Youmin, Lu Youyou. ASPLOS'25
+
+[MoE Inference, on-device] [MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs](https://dl.acm.org/doi/pdf/10.1145/3669940.3707267). Cao Shiyi, Liu Shu, Griggs Tyler, Schafhalter Peter, Liu Xiaoxuan, Sheng Ying, Gonzalez Joseph E., Zaharia Matei, Stoica Ion. ASPLOS'25
+
+[DNN Compression] [MVQ: Towards Efficient DNN Compression and Acceleration with Masked Vector Quantization](https://dl.acm.org/doi/pdf/10.1145/3669940.3707268). Li Shuaiting, Wang Chengxuan, Deng Juncan, Wang Zeyu, Ye Zewen, Wang Zongsheng, Shen Haibin, Huang Kejie. ASPLOS'25
+
+[parallel checkpoint saving, DNN training] [PCcheck: Persistent Concurrent Checkpointing for ML](https://dl.acm.org/doi/pdf/10.1145/3669940.3707255). Strati Foteini, Friedman Michal, Klimovic Ana. ASPLOS'25
+
+[Confidential computing LLM] [PipeLLM: Fast and Confidential Large Language Model Services with Speculative Pipelined Encryption](https://dl.acm.org/doi/pdf/10.1145/3669940.3707224). Tan Yifan, Tan Cheng, Mi Zeyu, Chen Haibo. ASPLOS'25
+
+[kv-cache Management] [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://dl.acm.org/doi/pdf/10.1145/3669940.3707256). Prabhu Ramya, Nayak Ajay, Mohan Jayashree, Ramjee Ramachandran, Panwar Ashish. ASPLOS'25
+
+[Energy Efficiency] [Using Analytical Performance/Power Model and Fine-Grained DVFS to Enhance AI Accelerator Energy Efficiency](https://dl.acm.org/doi/pdf/10.1145/3669940.3707231). Wang Zibo, Zhang Yijia, Wei Fuchun, Wang Bingqiang, Liu Yanlin, Hu Zhiheng, Zhang Jingyi, Xu Xiaoxin, He Jian, Wang Xiaoliang, Dou Wanchun, Chen Guihai, Tian Chen. ASPLOS'25
+
+[multi-level KV cache, LLM Serving, Multi-turn Dialogues] [Accelerating LLM Serving for Multi-turn Dialogues with Efficient Resource Management](https://dl.acm.org/doi/pdf/10.1145/3676641.3716245). Jeong Jinwoo, Ahn Jeongseob. ASPLOS'25
+
+[LLM serving, preemptive scheduling] [Aqua: Network-Accelerated Memory Offloading for LLMs in Scale-Up GPU Domains](https://dl.acm.org/doi/pdf/10.1145/3676641.3715983). Vijaya Kumar Abhishek, Antichi Gianni, Singh Rachee. ASPLOS'25
+
+[Collaboration-of-Experts, llm serving] [CoServe: Efficient Collaboration-of-Experts (CoE) Model Inference with Limited Memory](https://dl.acm.org/doi/pdf/10.1145/3676641.3715986). Suo Jiashun, Liao Xiaojian, Xiao Limin, Ruan Li, Wang Jinquan, Su Xiao, Huo Zhisheng. ASPLOS'25
+
+[LLM Serving, Quantization] [COMET: Towards Practical W4A4KV4 LLMs Serving](https://dl.acm.org/doi/pdf/10.1145/3676641.3716252). Liu Lian, Cheng Long, Ren Haimeng, Xu Zhaohui, Pan Yudong, Wang Mengdi, Li Xiaowei, Han Yinhe, Wang Ying. ASPLOS'25
+
+[Sparse Attention, long-sequence] [DynaX: Sparse Attention Acceleration with Dynamic X:M Fine-Grained Structured Pruning](https://dl.acm.org/doi/pdf/10.1145/3676641.3715991). Xiong Xiao, Chen Zhaorui, Liang Yue, Tian Minghao, Shang Jiaxing, Zhong Jiang, Liu Dajiang. ASPLOS'25
+
+[LLM Training, sequence parallelism] [FlexSP: Accelerating Large Language Model Training via Flexible Sequence Parallelism](https://dl.acm.org/doi/pdf/10.1145/3676641.3715998). Wang Yujie, Wang Shiju, Zhu Shenhan, Fu Fangcheng, Liu Xinyi, Xiao Xuefeng, Li Huixia, Li Jiashi, Wu Faming, Cui Bin. ASPLOS'25
+
+[MOE Inference, Multi-Batch Pipeline] [Klotski: Efficient Mixture-of-Expert Inference via Expert-Aware Multi-Batch Pipeline](https://dl.acm.org/doi/pdf/10.1145/3676641.3716261). Fang Zhiyuan, Huang Yuegui, Hong Zicong, Lyu Yufeng, Chen Wuhui, Yu Yue, Yu Fan, Zheng Zibin. ASPLOS'25
+
+[MoE training] [MoC-System: Efficient Fault Tolerance for Sparse Mixture-of-Experts Model Training](https://dl.acm.org/doi/pdf/10.1145/3676641.3716006). Cai Weilin, Qin Le, Huang Jiayi. ASPLOS'25
+
+[LLM serving, PIM] [PAPI: Exploiting Dynamic Parallelism in Large Language Model Decoding with a Processing-In-Memory-Enabled Computing System](https://dl.acm.org/doi/pdf/10.1145/3676641.3716009). He Yintao, Mao Haiyu, Giannoula Christina, Sadrosadati Mohammad, Gómez-Luna Juan, Li Huawei, Li Xiaowei, Wang Ying, Mutlu Onur. ASPLOS'25
+
+[DNN serving, deep learning recommendation model] [Load and MLP-Aware Thread Orchestration for Recommendation Systems Inference on CPUs](https://dl.acm.org/doi/pdf/10.1145/3676641.3716003). Jain Rishabh, Chou Teyuh, Kayiran Onur, Kalamatianos John, Loh Gabriel H., Kandemir Mahmut T., Das Chita R.. ASPLOS'25
+
+[LLM serving, Operations optimization, AI compiler] [PICACHU: Plug-In CGRA Handling Upcoming Nonlinear Operations in LLMs](https://dl.acm.org/doi/pdf/10.1145/3676641.3716013). Qin Jiajun, Xia Tianhua, Tan Cheng, Zhang Jeff, Zhang Sai Qian. ASPLOS'25
+
+[LLM inference, GPU kernel, hybrid batching] [POD-Attention: Unlocking Full Prefill-Decode Overlap for Faster LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3676641.3715996). Kamath Aditya K., Prabhu Ramya, Mohan Jayashree, Peter Simon, Ramjee Ramachandran, Panwar Ashish. ASPLOS'25
+
+[LLM training, cloud-native system, data center] [Vela: A Virtualized LLM Training System with GPU Direct RoCE](https://dl.acm.org/doi/pdf/10.1145/3676641.3716280). Mohan Apoorve, Walkup Robert, Karacali Bengi, Chen Ming-hung, Kayi Abdullah, Schour Liran, Salaria Shweta, Wen Sophia, Chung I-hsin, Alim Abdul, Evangelinos Constantinos, Luo Lixiang, Dombrowa Marc, Schares Laurent, Sydney Ali, Maniotis Pavlos, Koteshwara Sandhya, Tang Brent, Belog Joel, Odaira Rei, Tarasov Vasily, Gampel Eran, Thorstensen Drew, Gershon Talia, Seelam Seetharami. ASPLOS'25
+
+[LLM serving, end-to-end optimization] [Towards End-to-End Optimization of LLM-based Applications with Ayo](https://dl.acm.org/doi/pdf/10.1145/3676641.3716278). Tan Xin, Jiang Yimin, Yang Yitao, Xu Hong. ASPLOS'25
+
+[LLM Inference, data center, energy efficient] [TAPAS: Thermal- and Power-Aware Scheduling for LLM Inference in Cloud Platforms](https://dl.acm.org/doi/pdf/10.1145/3676641.3716025). Stojkovic Jovan, Zhang Chaojie, Goiri Íñigo, Choukse Esha, Qiu Haoran, Fonseca Rodrigo, Torrellas Josep, Bianchini Ricardo. ASPLOS'25
+
+[LLM inference, PIM with CXL] [PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference](https://dl.acm.org/doi/pdf/10.1145/3676641.3716267). Gu Yufeng, Khadem Alireza, Umesh Sumanth, Liang Ning, Servot Xavier, Mutlu Onur, Iyer Ravi, Das Reetuparna. ASPLOS'25
+
+[LLM serving, Scheduler] [Past-Future Scheduler for LLM Serving under SLA Guarantees](https://dl.acm.org/doi/pdf/10.1145/3676641.3716011). Gong Ruihao, Bai Shihao, Wu Siyu, Fan Yunqian, Wang Zaijun, Li Xiuhong, Yang Hailong, Liu Xianglong. ASPLOS'25
+
+[DNN training, multi-modal, multi-task] [Spindle: Efficient Distributed Training of Multi-Task Large Models via Wavefront Scheduling](https://dl.acm.org/doi/pdf/10.1145/3676641.3715992). Wang Yujie, Zhu Shenhan, Fu Fangcheng, Miao Xupeng, Zhang Jie, Zhu Juan, Hong Fan, Li Yong, Cui Bin. ASPLOS'25
+
 ## NAACL-HLT
 
 [language representation model] [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423.pdf). Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova. NAACL-HLT'19
@@ -607,6 +673,34 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 
 [accelerate MoE training] [MPipeMoE: Memory Efficient MoE for Pre-trained Models with Adaptive Pipeline Parallelism](https://liamding.cc/slides/MPipeMoE_IPDPS23.pdf). Zheng Zhang, Donglin Yang, Yaqi Xia, Liang Ding, Dacheng Tao, Xiaobo Zhou, Dazhao Cheng. IPDPS'23
 
+[flash caching compression] [CDCache: Space-Efficient Flash Caching via Compression-before-Deduplication])(https://ieeexplore.ieee.org/abstract/document/10621089). Hengying Xiao, Jingwei Li, Yanjing Ren, Ruijin Wang, and Xiaosong Zhang. INFOCOM'24
+
+[Edge-Cloud system request scheduling] [Cur-CoEdge: Curiosity-Driven Collaborative Request Scheduling in Edge-Cloud Systems](https://ieeexplore.ieee.org/abstract/document/10621190). Yunfeng Zhao, Chao Qiu, Xiaoyun Shi, Xiaofei Wang, Dusit Niyato, Victor C. M. Leung. INFOCOM'24
+
+[Collaborative Edge Computing] [Exploiting Storage for Computing: Computation Reuse in Collaborative Edge Computing](https://ieeexplore.ieee.org/abstract/document/10621100). Xingqiu He, Chaoqun You, Tony Q. S. Quek. INFOCOM'24
+
+[edge collaborative inference] [Galaxy: A Resource-Efficient Collaborative Edge AI System for In-situ Transformer Inference](https://ieeexplore.ieee.org/abstract/document/10621342). Shengyuan Ye, Jiangsu Du, Liekang Zeng, Wenzhong Ou, Xiaowen Chu, Yutong Lu, Xu Chen. INFOCOM'24
+
+[CPU-only Mutil-DNN inference] [Minimizing Latency for Multi-DNN Inference on Resource-Limited CPU-Only Edge Devices](https://ieeexplore.ieee.org/abstract/document/10621120). Tao Wang, Tuo Shi, Xiulong Liu, Jianping Wang, Bin Liu, Yingshu Li, Yechao She. INFOCOM'24
+
+[lightweight token management] [OTAS: An Elastic Transformer Serving System via Token Adaptation](https://ieeexplore.ieee.org/abstract/document/10621087). Jinyu Chen, Wenchao Xu, Zicong Hong, Song Guo, Haozhao Wang, Jie Zhang, and Deze Zeng. INFOCOM'24
+
+[MoE training] [Parm: Efficient Training of Large Sparsely-Activated Models with Dedicated Schedules](https://ieeexplore.ieee.org/abstract/document/10621327). Xinglin Pan, Wenxiang Lin, Shaohuai Shi, Xiaowen Chu, Weinong Sun, Bo Li. INFOCOM'24
+
+[End-Cloud Collaborative Inference] [Accelerating End-Cloud Collaborative Inference via Near Bubble-free Pipeline Optimization](https://arxiv.org/pdf/2501.12388). Luyao Gao, Jianchun Liu, Hongli Xu, Sun Xu, Qianpiao Ma, Liusheng Huang. INFOCOM'25
+
+[MoE Inference in Serverless Computing] [Optimizing Distributed Deployment of Mixture-of-Experts Model Inference in Serverless Computing](https://arxiv.org/pdf/2501.05313). Mengfan Liu, Wei Wang, and Chuan Wu. INFOCOM'25
+
+[Cost-Efficient Large Model Training] [Espresso: Cost-Efficient Large Model Training by Exploiting GPU Heterogeneity in the Cloud](https://fangmingliu.github.io/files/infocom25-train.pdf). Qiannan Zhou, Fei Xu†∗, Lingxuan Weng, Ruixing Li, Xudong Wu, Li Chen, Zhi Zhou, Fangming Liu. INFOCOM'25
+
+[KV Cache] [Mell: Memory-Efficient Large Language Model Serving via Multi-GPU KV Cache Management](https://arxiv.org/pdf/2501.06709). Qianli Liu, Zicong Hong1, Peng Li, Fahao Chen and Song Guo. INFOCOM'25
+
+[speculative decoding] [SPIN: Accelerating Large Language Model Inference with Heterogeneous Speculative Models](https://arxiv.org/pdf/2503.15921). Fahao Chen, Peng Li, Tom H. Luan, Zhou Su, and Jing Deng. INFOCOM'25
+
+[Offload Training] [MemFerry: A Fast and Memory Efficient Offload Training Framework with Hybrid GPU Computation](http://iir.ruc.edu.cn/~litong/papers/MemFerry_A%20Fast%20and%20Memory%20Efficient%20Offload%20Training%20Framework%20with%20Hybrid%20GPU%20Computation.pdf). Zhiyi Yao, Zuning Liang, Yuedong Xu, Jin Zhao, Jessie Hui Wang, Tong Li. INFOCOM'25
+
+[Resource-Efficient Collaborative Inference] [Jupiter: Fast and Resource-Efficient Collaborative Inference of Generative LLMs on Edge Devices](https://arxiv.org/pdf/2504.08242). Shengyuan Ye, Bei Ouyang, Liekang Zeng, Tianyi Qian, Xiaowen Chu, Jian Tang, Xu Chen. INFOCOM'25
+
 ## MLSys
 
 [memory reuse] [SAFE OPTIMIZED STATIC MEMORY ALLOCATION FOR PARALLEL DEEP LEARNING](https://proceedings.mlsys.org/paper_files/paper/2023/file/0c8abcf158ed12d0dd94480681186fda-Paper-mlsys2023.pdf). Ioannis Lamprou, Zhen Zhang, Javier de Juan, Hang Yang, Yongqiang Lai, Etienne Filhol, Cedric Bastoul. MLSys'23
@@ -628,6 +722,77 @@ Epilogue Visitor Tree](https://dl.acm.org/doi/pdf/10.1145/3620666.3651369). Zhao
 [parallel computing using CPUs and GPUs] [HeteGen: Heterogeneous Parallel Inference for Large Language Models on Resource-Constrained Devices](https://arxiv.org/pdf/2403.01164). Xuanlei Zhao, Bin Jia, Haotian Zhou, Ziming Liu, Shenggan Cheng, Yang You. MLSys'24
 
 [accelerate all2all] [Comet: Fine-grained Computation-communication Overlapping for Mixture-of-Experts](https://arxiv.org/pdf/2502.19811). Shulai Zhang, Ningxin Zheng, Haibin Lin, Ziheng Jiang, Wenlei Bao, Chengquan Jiang, Qi Hou, Weihao Cui, Size Zheng, Li-Wen Chang, Quan Chen, Xin Liu. MLSys'25
+
+[sparse gradient for faster training] [Radius: Range-based Gradient Sparsity for Large Foundation Model Pre-training](https://mlsys.org/virtual/2025/poster/3256). Mingkai Zheng, Zhao Zhang. MLSys'25
+
+[a simulation engine that improves the efficiency of LLM agent simulations] [AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution](https://arxiv.org/pdf/2411.03519). Zhiqiang Xie, Hao Kang, Ying Sheng, Tushar Krishna, Kayvon Fatahalian, Christos Kozyrakis. MLSys'25
+
+[sparse metrix operations for training] [SparseTransX: Efficient Training of Translation-Based Knowledge Graph Embeddings Using Sparse Matrix Operations](https://arxiv.org/pdf/2502.16949). Md Saidul Hoque Anik, Ariful Azad. MLSys'25
+
+[heterogeneous attention compute on edge] [MAS-ATTENTION: MEMORY-AWARE STREAM PROCESSING FOR ATTENTION ACCELERATION ON RESOURCE-CONSTRAINED EDGE DEVICES](https://arxiv.org/pdf/2411.17720). Mohammadali Shakerdargah, Shan Lu, Chao Gao, Di Niu. MLSys'25
+
+[new variants of attention compute] [SampleAttention: Near-Lossless Acceleration of Long Context LLM Inference with Adaptive Structured Sparse Attention](https://arxiv.org/pdf/2406.15486). Qianchao Zhu, Jiangfei Duan, Chang Chen, Siran Liu,  Xiuhong Li, Guanyu Feng, Xin Lv, Xiao Chuanfu, Dahua Lin, Chao Yang. MLSys'25
+
+[context parallelism for long-context LLM inference] [Context Parallelism for Scalable Million-Token Inference](https://arxiv.org/pdf/2411.01783). Amy Yang, Jingyi Yang, Aya Ibrahim, Xinfeng Xie, Bangsheng Tang, Grigory Sizov, Jongsoo Park, Jianyu Huang. MLSys'25
+
+[fills pipeline bubbles with execution of other pending jobs] [PipeFill: Using GPUs During Bubbles in Pipeline-parallel LLM Training](https://arxiv.org/pdf/2410.07192). Daiyaan Arfeen · Zhen Zhang · Xinwei Fu · Gregory R. Ganger · Yida Wang. MLSys'25
+
+[speed up LLM-application by reuse kv] [Optimizing LLM Queries in Relational Data Analytics Workloads](https://arxiv.org/pdf/2403.05821). Shu Liu · Asim Biswal · Audrey Cheng · Amog Kamsetty · Luis Gaspar Schroeder · Liana Patel · Shiyi Cao · Xiangxi Mo · Ion Stoica · Joseph. MLSys'25
+
+[compress activation in LoRA training] [HyC-LoRA: Memory Efficient LoRA Fine-tuning with Hybrid Activation Compression](https://mlsys.org/virtual/2025/poster/3254). Yujin Wang · Shunan Dong · Zongle Huang · Yichen You · Liu He · Huazhong Yang · Yongpan Liu · Hongyang Jia. MLSys'25
+
+[evaluate kv compression tech] [Rethinking Key-Value Cache Compression Techniques for Large Language Model Serving](https://arxiv.org/pdf/2503.24000). Wei Gao · Xinyu Zhou · Peng Sun · Tianwei Zhang · Yonggang Wen. MLSys'25
+
+[new sparse attention for faster prefill] [LServe: Efficient Long-sequence LLM Serving with Unified Sparse Attention](https://arxiv.org/pdf/2502.14866). Shang Yang · Junxian Guo · Haotian Tang · Qinghao Hu · Guangxuan Xiao · Jiaming Tang · Yujun Lin · Zhijian Liu · Yao Lu · Song Han. MLSys'25
+
+[attention kernel for tree-structued kv reuse] [FastTree: Optimizing Attention Kernel and Runtime for Tree-Structured LLM Inference](https://mlsys.org/virtual/2025/poster/3278). Zaifeng Pan · Yitong Ding · Yue Guan · Zheng Wang · Zhongkai Yu · Xulong Tang · Yida Wang · Yufei Ding. MLSys'25
+
+[offload kv storage+compute to cpu] [FlexInfer: Flexible LLM Inference with CPU Computations](https://arxiv.org/html/2503.03777). Seonjin Na · Geonhwa Jeong · Byung Hoon Ahn · Aaron Jezghani · Jeffrey Young · Christopher Hughes · Tushar Krishna · Hyesoon Kim. MLSys'25
+
+[using different parallelism in PD] [Seesaw: High-throughput LLM Inference via Model Re-sharding](https://arxiv.org/pdf/2503.06433). Qidong Su · Wei Zhao · Xin Li · Muralidhar Andoorveedu · Chenhao Jiang · Zhanda Zhu · Kevin Song · Christina Giannoula · Gennady Pekhimenko. MLSys'25
+
+[consider vocabulary layers(embd+lmhead) in PP] [Balancing Pipeline Parallelism with Vocabulary Parallelism](https://arxiv.org/pdf/2411.05288). Man Tsung Yeung · Penghui Qi · Min Lin · Xinyi Wan. MLSys'25
+
+[state schedule for SLO optimization] [SOLA: Optimizing SLO Attainment for Large Language Model Serving with State-Aware Scheduling](https://nicsefc.ee.tsinghua.edu.cn/%2Fnics_file%2Fpdf%2Fce55a1f2-ff0d-45f6-8985-f4f251b2a0d4.pdf). Ke Hong · Xiuhong Li · Lufang Chen · Qiuli Mao · Guohao Dai · Xuefei Ning · Shengen Yan · Yun Liang · Yu Wang. MLSys'25
+
+[serving in heterogeneous cloud environments] [ThunderServe: High-performance and Cost-efficient LLM Serving in Cloud Environments](https://arxiv.org/pdf/2502.09334). YOUHE JIANG · Fangcheng Fu · Xiaozhe Yao · Taiyi Wang · Bin CUI · Ana Klimovic · Eiko Yoneki. MLSys'25
+
+[comp. comm. overlap in MoE] [COMET: Fine-grained Computation-communication Overlapping for Mixture-of-Experts](https://arxiv.org/pdf/2502.19811). Shulai Zhang · Ningxin Zheng · Haibin Lin · Ziheng Jiang · Wenlei Bao · Chengquan Jiang · Qi Hou · Weihao Cui · Size Zheng · Li-Wen Chang · Quan Chen · Xin Liu. MLSys'25
+
+[offload kv storage+compute to cpu] [NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference](https://arxiv.org/pdf/2411.01142). Xuanlin Jiang · Yang Zhou · Shiyi Cao · Ion Stoica · Minlan Yu. MLSys'25
+
+[long context training method] [Training Ultra Long Context Language Model with Fully Pipelined Distributed Transformer](https://arxiv.org/pdf/2408.16978). Jinghan Yao · Sam Jacobs · Masahiro Tanaka · Olatunji Ruwase · Hari Subramoni · Dhabaleswar Panda. MLSys'25
+
+[new variants of attention compute] [LeanAttention: Hardware-Aware Scalable Attention Mechanism for the Decode-Phase of Transformers](https://arxiv.org/pdf/2405.10480). Rya Sanovar · Srikant Bharadwaj · Renée St. Amant · Victor Ruehle · Saravan Rajmohan. MLSys'25
+
+[new type of training] [APOLLO: SGD-like Memory, AdamW-level Performance](https://arxiv.org/pdf/2412.05270). Hanqing Zhu · Zhenyu Zhang · Wenyan Cong · Xi Liu · Sem Park · Vikas Chandra · Bo Long · David Pan · Atlas Wang · Jinwon Lee. MLSys'25
+
+[optimize off-chip memory access communication on Edge] [MEADOW: Memory-efficient Dataflow and Data Packing for Low Power Edge LLMs](https://arxiv.org/pdf/2503.11663). Hanqing Zhu · Zhenyu Zhang · Wenyan Cong · Xi Liu · Sem Park · Vikas Chandra · Bo Long · David Pan · Atlas Wang · Jinwon Lee. MLSys'25
+
+[improves hardware utilization of pp] [Scaling Deep Learning Training with MPMD Pipeline Parallelism](https://arxiv.org/pdf/2412.14374). Anxhelo Xhebraj · Sean Lee · Hanfeng Chen · Vinod Grover. MLSys'25
+
+
+[on device training with fwd] [Efficient On-Device Machine Learning with a Biologically-Plausible Forward-Only Algorithm](https://mlsys.org/virtual/2025/poster/3264). Baichuan Huang · Amir Aminifar. MLSys'25
+
+[sparse inference] [Efficient LLM Inference using Dynamic Input Pruning and Cache-Aware Masking](https://arxiv.org/pdf/2412.01380). Marco Federici · Davide Belli · Mart van Baalen · Amir Jalalirad · Andrii Skliar · Bence Major · Markus Nagel · Paul Whatmough. MLSys'25
+
+[quantization + system design] [QServe:W4A8KV4 Quantization and System Co-design for Efficient LLM Serving](https://arxiv.org/pdf/2405.04532). Yujun Lin · Haotian Tang · Shang Yang · Zhekai Zhang · Guangxuan Xiao · Chuang Gan · Song Han. MLSys'25
+
+[a compiler auto implement attention variants kernel] [FlexAttention: A Programming Model for Generating Fused Attention Variants.](https://arxiv.org/pdf/2412.05496). Juechu Dong · BOYUAN FENG · Driss Guessous · Yanbo Liang · Horace He. MLSys'25
+
+[efficient prefix kv storage] [Marconi: Prefix Caching for the Era of Hybrid LLMs](https://arxiv.org/pdf/2411.19379). Rui Pan · Zhuang Wang · Zhen Jia · Can Karakus · Luca Zancato · Tri Dao · Yida Wang · Ravi Netravali. MLSys'25
+
+[efficient attention kernel] [FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving](https://arxiv.org/pdf/2501.01005). Zihao Ye · Lequn Chen · Ruihang Lai · Wuwei Lin · Yineng Zhang · Stephanie Wang · Tianqi Chen · Baris Kasikci · Vinod Grover · Arvind Krishnamurthy · Luis Ceze. MLSys'25
+
+[quantized MoEs with a mixture of low-rank compensators] [MiLo: Efficient Quantized MoE Inference with Mixture of Low-Rank Compensators](https://arxiv.org/pdf/2504.02658). Beichen Huang · Yueming Yuan · ZELEI SHAO · Minjia Zhang. MLSys'25
+
+[compilation and generation of overlapped compute-communication kernels] [TileLink: Generating Efficient Compute-Communication Overlapping Kernels using Tile-Centric Primitives](https://arxiv.org/pdf/2503.20313). Beichen Huang · Yueming Yuan · ZELEI SHAO · Minjia Zhang. MLSys'25
+
+[speed up sparse DNNs] [Enabling Unstructured Sparse Acceleration on Structured Sparse Accelerators](https://mlsys.org/virtual/2025/poster/3262). Geonhwa Jeong · Po-An Tsai · Abhimanyu Rajeshkumar Bambhaniya · Stephen Keckler · Tushar Krishna. MLSys'25
+
+[new variants of attention compute] [TurboAttention: Efficient attention approximation for high throughputs llm](https://arxiv.org/pdf/2412.08585). Hao Kang · Srikant Bharadwaj · James Hensman · Tushar Krishna · Victor Ruehle · Saravan Rajmohan. MLSys'25
+
+[agent grammar] [XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models](https://arxiv.org/pdf/2411.15100). Yixin Dong · Charlie Ruan · Yaxing Cai · Ziyi Xu · Yilong Zhao · Ruihang Lai · Tianqi Chen. MLSys'25
 
 ## SIGCOMM
 
